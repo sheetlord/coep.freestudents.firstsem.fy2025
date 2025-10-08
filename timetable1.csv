@@ -1,0 +1,462 @@
+Subject,Division,Day,Time,Room
+MAC,Division 1,Monday,01:30-02:30,NC01
+MAC,Division 1,Tuesday,03:30-04:30,NC01
+MAC,Division 2,Monday,01:30-02:30,NC02
+MAC,Division 2,Tuesday,03:30-04:30,NC02
+MAC,Division 3,Monday,01:30-02:30,NC03
+MAC,Division 3,Tuesday,03:30-04:30,NC03
+MAC,Division 4,Monday,01:30-02:30,NC04
+MAC,Division 4,Tuesday,03:30-04:30,NC04
+MAC,Division 5,Friday,02:30-03:30,NC14
+MAC,Division 5,Wednesday,10:30-11:30,NC01
+MAC,Division 6,Tuesday,02:30-03:30,NC02
+MAC,Division 6,Wednesday,10:30-11:30,NC02
+MAC,Division 7,Tuesday,02:30-03:30,NC03
+MAC,Division 7,Wednesday,10:30-11:30,NC03
+MAC,Division 8,Tuesday,02:30-03:30,NC04
+MAC,Division 8,Wednesday,10:30-11:30,NC04
+MAC,Division 9,Tuesday,02:30-03:30,NC08
+MAC,Division 9,Wednesday,10:30-11:30,NC08
+Linear Algebra,Division 1,Tuesday,08:30-09:30,NC12
+Linear Algebra,Division 1,Friday,08:30-09:30,NC12
+Linear Algebra,Division 2,Monday,01:30-02:30,NC08
+Linear Algebra,Division 2,Tuesday,03:30-04:30,NC08
+Linear Algebra,Division 3,Monday,01:30-02:30,NC11
+Linear Algebra,Division 3,Tuesday,03:30-04:30,NC11
+Linear Algebra,Division 4,Tuesday,02:30-03:30,NC14
+Linear Algebra,Division 4,Wednesday,10:30-11:30,NC14
+Linear Algebra,Division 5,Tuesday,02:30-03:30,NC11
+Linear Algebra,Division 5,Wednesday,10:30-11:30,NC11
+Linear Algebra,Division 6,Tuesday,02:30-03:30,NC12
+Linear Algebra,Division 6,Wednesday,10:30-11:30,NC12
+Linear Algebra,Division 7,Tuesday,02:30-03:30,NC13
+Linear Algebra,Division 7,Wednesday,10:30-11:30,NC13
+Engg  Physics,Division 1,Thursday,09:30-10:30,NC01
+Engg  Physics,Division 1,Monday,02:30-03:30,NC01
+Engg  Physics,Division 2,Thursday,09:30-10:30,NC02
+Engg  Physics,Division 2,Monday,02:30-03:30,NC02
+Engg  Physics,Division 3,Thursday,09:30-10:30,NC04
+Engg  Physics,Division 3,Monday,02:30-03:30,NC04
+Engg  Physics,Division 4,Thursday,09:30-10:30,NC08
+Engg  Physics,Division 4,Monday,02:30-03:30,NC08
+Engg  Physics,Division 5,Wednesday,11:30-12:30,NC01
+Engg  Physics,Division 5,Monday,11:30-12:30,NC01
+Engg  Physics,Division 6,Wednesday,11:30-12:30,NC02
+Engg  Physics,Division 6,Monday,11:30-12:30,NC02
+Engg  Physics,Division 7,Wednesday,11:30-12:30,NC03
+Engg  Physics,Division 7,Monday,11:30-12:30,NC03
+Engg  Physics,Division 8,Wednesday,11:30-12:30,NC04
+Engg  Physics,Division 8,Monday,11:30-12:30,NC04
+Engg Chem,Division 1,Thursday,09:30-10:30,NC11
+Engg Chem,Division 1,Monday,02:30-03:30,NC11
+Engg Chem,Division 2,Thursday,09:30-10:30,NC12
+Engg Chem,Division 2,Monday,02:30-03:30,NC12
+Engg Chem,Division 3,Thursday,09:30-10:30,NC13
+Engg Chem,Division 3,Monday,02:30-03:30,NC13
+Engg Chem,Division 4,Thursday,09:30-10:30,NC14
+Engg Chem,Division 4,Monday,02:30-03:30,NC14
+Engg Chem,Division 5,Wednesday,11:30-12:30,NC11
+Engg Chem,Division 5,Monday,11:30-12:30,NC11
+Engg Chem,Division 6,Wednesday,11:30-12:30,NC12
+Engg Chem,Division 6,Monday,11:30-12:30,NC12
+Engg Chem,Division 7,Wednesday,11:30-12:30,NC13
+Engg Chem,Division 7,Monday,11:30-12:30,NC13
+Engg Chem,Division 8,Wednesday,11:30-12:30,NC14
+Engg Chem,Division 8,Monday,11:30-12:30,NC14
+Electromagnetism,Division 1,Monday,08:30-09:30,NC01
+Electromagnetism,Division 1,Thursday,04:30-05:30,NC01
+Electromagnetism,Division 2,Wednesday,02:30-03:30,NC01
+Electromagnetism,Division 2,Wednesday,05:30-06:30,NC01
+Electromagnetism,Division 3,Wednesday,02:30-03:30,NC02
+Electromagnetism,Division 3,Wednesday,05:30-06:30,NC02
+Solid State Physics,Division 1,Monday,08:30-09:30,NC04
+Solid State Physics,Division 1,Thursday,04:30-05:30,NC04
+Solid State Physics,Division 2,Wednesday,02:30-03:30,NC03
+Solid State Physics,Division 2,Wednesday,05:30-06:30,NC03
+Statistical Thermo,Division 1,Monday,08:30-09:30,NC08
+Statistical Thermo,Division 1,Thursday,04:30-05:30,NC08
+Statistical Thermo,Division 2,Wednesday,02:30-03:30,NC04
+Statistical Thermo,Division 2,Wednesday,05:30-06:30,NC04
+Bio For Engineers,Division 1,Monday,08:30-09:30,NC11
+Bio For Engineers,Division 1,Thursday,04:30-05:30,NC02
+Bio For Engineers,Division 2,Wednesday,02:30-03:30,NC08
+Bio For Engineers,Division 2,Wednesday,05:30-06:30,NC08
+Emerging Tech in Energy Storage,Division 1,Monday,08:30-09:30,NC12
+Emerging Tech in Energy Storage,Division 1,Thursday,04:30-05:30,NC12
+Emerging Tech in Energy Storage,Division 2,Wednesday,02:30-03:30,NC11
+Emerging Tech in Energy Storage,Division 2,Wednesday,05:30-06:30,NC11
+Nanomaterials,Division 1,Monday,08:30-09:30,NC14
+Nanomaterials,Division 1,Thursday,04:30-05:30,NC03
+Nanomaterials,Division 2,Wednesday,02:30-03:30,NC12
+Nanomaterials,Division 2,Wednesday,05:30-06:30,NC12
+Fundamentals Of Quantum Physics,Division 1,Monday,08:30-09:30,NC09
+Fundamentals Of Quantum Physics,Division 1,Thursday,04:30-05:30,NC07
+Fundamentals Of Quantum Physics,Division 2,Monday,08:30-09:30,NC10
+Fundamentals Of Quantum Physics,Division 2,Thursday,04:30-05:30,NC13
+Fundamentals Of Quantum Physics,Division 3,Wednesday,02:30-03:30,NC14
+Fundamentals Of Quantum Physics,Division 3,Wednesday,05:30-06:30,NC14
+Fundamentals Of Quantum Physics,Division 4,Wednesday,02:30-03:30,NC09
+Fundamentals Of Quantum Physics,Division 4,Wednesday,05:30-06:30,NC09
+ECE-Essentials of Civil Engineering,Division 1,Monday,09:30-10:30,NC01
+ECE-Essentials of Civil Engineering,Division 1,Thursday,02:30-03:30,NC01
+ECE-Essentials of Civil Engineering,Division 2,Monday,10:30-11:30,NC01
+ECE-Essentials of Civil Engineering,Division 2,Tuesday,11:30-12:30,NC01
+BCE- Basics Of Civil Engineering,Division 1,Thursday,12:30-01:30,NC01
+BCE- Basics Of Civil Engineering,Division 1,Friday,01:30-02:30,NC01
+BCE- Basics Of Civil Engineering,Division 1,Friday,03:30-04:30,NC01
+AM- Applied Mech,Division 1,Wednesday,09:30-10:30,NC01
+AM- Applied Mech,Division 1,Thursday,08:30-09:30,NC01
+AM- Applied Mech,Division 2,Tuesday,01:30-02:30,NC01
+AM- Applied Mech,Division 2,Wednesday,01:30-02:30,NC01
+FAI- Fundamentals of Ai,Division 1,Monday,09:30-10:30,NC02
+FAI- Fundamentals of Ai,Division 1,Thursday,02:30-03:30,NC02
+FAI- Fundamentals of Ai,Division 2,Monday,09:30-10:30,NC03
+FAI- Fundamentals of Ai,Division 2,Thursday,02:30-03:30,NC03
+FAI- Fundamentals of Ai,Division 3,Monday,10:30-11:30,NC09
+FAI- Fundamentals of Ai,Division 3,Tuesday,11:30-12:30,NC09
+FAI- Fundamentals of Ai,Division 4,Monday,10:30-11:30,NC10
+FAI- Fundamentals of Ai,Division 4,Tuesday,11:30-12:30,NC10
+AIMA- AI for Multi. Application,Division 1,Wednesday,08:30-09:30,NC01
+AIMA- AI for Multi. Application,Division 1,Friday,09:30-10:30,NC01
+AIMA- AI for Multi. Application,Division 1,Wednesday,03:30-04:30,NC01
+AIMA- AI for Multi. Application,Division 2,Tuesday,10:30-11:30,NC11
+AIMA- AI for Multi. Application,Division 2,Monday,05:30-06:30,NC11
+AIMA- AI for Multi. Application,Division 2,Friday,04:30-05:30,NC11
+AIMA- AI for Multi. Application,Division 3,Tuesday,10:30-11:30,NC08
+AIMA- AI for Multi. Application,Division 3,Monday,05:30-06:30,NC10
+AIMA- AI for Multi. Application,Division 3,Friday,04:30-05:30,NC08
+FCS- Fundamentals of Cyber Security,Division 1,Wednesday,09:30-10:30,NC02
+FCS- Fundamentals of Cyber Security,Division 1,Thursday,08:30-09:30,NC02
+FCS- Fundamentals of Cyber Security,Division 2,Tuesday,01:30-02:30,NC09
+FCS- Fundamentals of Cyber Security,Division 2,Wednesday,01:30-02:30,NC09
+FEE- fundamentals OF Electrical Engineering,Division 1,Monday,09:30-10:30,NC04
+FEE- fundamentals OF Electrical Engineering,Division 1,Thursday,02:30-03:30,NC04
+FEE- fundamentals OF Electrical Engineering,Division 2,Tuesday,11:30-12:30,NC04
+FEE- fundamentals OF Electrical Engineering,Division 2,Monday,10:30-11:30,NC04
+EEU- Electrical Energy Untilization ,Division 1,Thursday,12:30-01:30,NC02
+EEU- Electrical Energy Untilization ,Division 1,Friday,01:30-02:30,NC02
+EEU- Electrical Energy Untilization ,Division 1,Friday,03:30-04:30,NC02
+BEE- Basic Electrical Engg,Division 1,Wednesday,09:30-10:30,NC04
+BEE- Basic Electrical Engg,Division 1,Thursday,08:30-09:30,NC04
+BEE- Basic Electrical Engg,Division 2,Tuesday,01:30-02:30,NC04
+BEE- Basic Electrical Engg,Division 2,Wednesday,01:30-02:30,NC04
+EEE- Elements of Electronics Engg,Division 1,Tuesday,11:30-12:30,NC08
+EEE- Elements of Electronics Engg,Division 1,Monday,10:30-11:30,NC08
+EEE- Elements of Electronics Engg,Division 2,Tuesday,11:30-12:30,NC11
+EEE- Elements of Electronics Engg,Division 2,Monday,10:30-11:30,NC11
+AEIoT- Applied Electronics And IoT,Division 1,Wednesday,08:30-09:30,NC02
+AEIoT- Applied Electronics And IoT,Division 1,Friday,09:30-10:30,NC02
+AEIoT- Applied Electronics And IoT,Division 1,Wednesday,03:30-04:30,NC02
+AEIoT- Applied Electronics And IoT,Division 2,Wednesday,08:30-09:30,NC04
+AEIoT- Applied Electronics And IoT,Division 2,Friday,09:30-10:30,NC04
+AEIoT- Applied Electronics And IoT,Division 2,Wednesday,03:30-04:30,NC04
+AEIoT- Applied Electronics And IoT,Division 3,Tuesday,10:30-11:30,NC12
+AEIoT- Applied Electronics And IoT,Division 3,Monday,05:30-06:30,NC12
+AEIoT- Applied Electronics And IoT,Division 3,Friday,04:30-05:30,NC12
+AEIoT- Applied Electronics And IoT,Division 4,Tuesday,10:30-11:30,NC13
+AEIoT- Applied Electronics And IoT,Division 4,Monday,05:30-06:30,NC13
+AEIoT- Applied Electronics And IoT,Division 4,Friday,04:30-05:30,NC13
+AEIoT- Applied Electronics And IoT,Division 5,Tuesday,10:30-11:30,NC14
+AEIoT- Applied Electronics And IoT,Division 5,Monday,05:30-06:30,NC14
+AEIoT- Applied Electronics And IoT,Division 5,Friday,04:30-05:30,NC14
+DLD- Digital Logic Design,Division 1,Wednesday,09:30-10:30,NC12
+DLD- Digital Logic Design,Division 1,Thursday,08:30-09:30,NC12
+DLD- Digital Logic Design,Division 2,Wednesday,09:30-10:30,NC14
+DLD- Digital Logic Design,Division 2,Thursday,08:30-09:30,NC14
+DLD- Digital Logic Design,Division 3,Tuesday,01:30-02:30,NC08
+DLD- Digital Logic Design,Division 3,Wednesday,01:30-02:30,NC08
+DLD- Digital Logic Design,Division 4,Tuesday,01:30-02:30,NC11
+DLD- Digital Logic Design,Division 4,Wednesday,01:30-02:30,NC11
+DLD- Digital Logic Design,Division 5,Tuesday,01:30-02:30,NC12
+DLD- Digital Logic Design,Division 5,Wednesday,01:30-02:30,NC12
+FMATSIM- Funda. of MATLAB,Division 1,Tuesday,11:30-12:30,NC12
+FMATSIM- Funda. of MATLAB,Division 1,Monday,10:30-11:30,NC12
+FMS- Funda. Of measurement and sensor,Division 1,Thursday,12:30-01:30,NC03
+FMS- Funda. Of measurement and sensor,Division 1,Friday,01:30-02:30,NC03
+FMS- Funda. Of measurement and sensor,Division 1,Friday,03:30-04:30,NC03
+SME- System in Mech Engg,Division 1,Thursday,02:30-03:30,NC08
+SME- System in Mech Engg,Division 1,Monday,09:30-10:30,NC08
+SME- System in Mech Engg,Division 2,Tuesday,11:30-12:30,NC13
+SME- System in Mech Engg,Division 2,Monday,10:30-11:30,NC13
+FME- Foundations in Mech Engg,Division 1,Wednesday,08:30-09:30,NC13
+FME- Foundations in Mech Engg,Division 1,Friday,09:30-10:30,NC13
+FME- Foundations in Mech Engg,Division 1,Wednesday,03:30-04:30,NC13
+FME- Foundations in Mech Engg,Division 2,Tuesday,10:30-11:30,NC09
+FME- Foundations in Mech Engg,Division 2,Monday,05:30-06:30,NC09
+FME- Foundations in Mech Engg,Division 2,Friday,03:30-04:30,NC14
+EG- Engineering Graphics,Division 1,Wednesday,09:30-10:30,NC08
+EG- Engineering Graphics,Division 1,Thursday,08:30-09:30,
+EG- Engineering Graphics,Division 2,Tuesday,01:30-02:30,NC03
+EG- Engineering Graphics,Division 2,Wednesday,01:30-02:30,NC03
+SPM- Structure amd Properties of Materials,Division 1,Thursday,02:30-03:30,NC11
+SPM- Structure amd Properties of Materials,Division 1,Monday,09:30-10:30,NC11
+NM- Nano Materials,Division 1,Thursday,12:30-01:30,NC04
+NM- Nano Materials,Division 1,Friday,01:30-02:30,NC04
+NM- Nano Materials,Division 1,Friday,03:30-04:30,NC04
+FCE- Funda. Of Corrosion Engg,Division 1,Wednesday,09:30-10:30,NC11
+FCE- Funda. Of Corrosion Engg,Division 1,Thursday,09:30-10:30,NC09
+FCE- Funda. Of Corrosion Engg,Division 2,Tuesday,01:30-02:30,NC13
+FCE- Funda. Of Corrosion Engg,Division 2,Wednesday,01:30-02:30,NC13
+DTIL- Design Thunking and Idea Lab,Division 1,Thursday,02:30-03:30,NC12
+DTIL- Design Thunking and Idea Lab,Division 1,Monday,09:30-10:30,NC12
+BMT- Basics of Manu. Tech,Division 1,Thursday,12:30-01:30,NC08
+BMT- Basics of Manu. Tech,Division 1,Friday,01:30-02:30,NC08
+BMT- Basics of Manu. Tech,Division 1,Friday,03:30-04:30,NC08
+PPP- Product Proto. Practices,Division 1,Wednesday,09:30-10:30,NC13
+PPP- Product Proto. Practices,Division 1,Thursday,08:30-09:30,NC10
+PPP- Product Proto. Practices,Division 2,Tuesday,01:30-02:30,NC14
+PPP- Product Proto. Practices,Division 2,Wednesday,01:30-02:30,NC14
+GE- Geomatic Engg,Division 1,Thursday,05:30-06:30,NC01
+FCP- Funda. Of Constructive Practices,Division 1,Thursday,05:30-06:30,NC02
+PPS- Programming For Problem Solving,Division 1,Thursday,05:30-06:30,NC09
+PPS- Programming For Problem Solving,Division 2,Thursday,05:30-06:30,NC09
+PPS- Programming For Problem Solving,Division 3,Thursday,05:30-06:30,NC03
+WD- Web Designing,Division 1,Thursday,05:30-06:30,NC04
+PP- Python Programming,Division 1,Thursday,05:30-06:30,NC10
+PP- Python Programming,Division 2,Thursday,05:30-06:30,NC10
+PP- Python Programming,Division 3,Thursday,05:30-06:30,NC08
+EMS- Electrical Maintainance and Safety,Division 1,Thursday,05:30-06:30,NC11
+FPLC- Funda. Of PLC,Division 1,Thursday,05:30-06:30,NC12
+CAD- Computer Aided Drafting,Division 1,Thursday,05:30-06:30,NC13
+EVA- EV Archi.,Division 1,Thursday,05:30-06:30,NC07
+MPFL- Manufacturing Practices and Fab Lab,Division 1,Thursday,05:30-06:30,NC14
+"RDOS- Robotics, Drone",Division 1,Thursday,05:30-06:30,NC06
+LAB Batch 1-ECE-Essentials of Civil Engineering,Division 1,Friday,10:30-11:30,Civil Drawing Hall 1 (CDH 1)
+LAB Batch 1-ECE-Essentials of Civil Engineering,Division 1,Friday,11:30-12:30,Civil Drawing Hall 1 (CDH 1)
+LAB Batch 2-ECE-Essentials of Civil Engineering,Division 1,Friday,10:30-11:30,NT01 (Fluid Mechanics Lab Classroom)
+LAB Batch 2-ECE-Essentials of Civil Engineering,Division 1,Friday,11:30-12:30,NT01 (Fluid Mechanics Lab Classroom)
+LAB Batch 3-ECE-Essentials of Civil Engineering,Division 1,Tuesday,04:30-05:30,Civil Drawing Hall 1 (CDH 1)
+LAB Batch 3-ECE-Essentials of Civil Engineering,Division 1,Tuesday,05:30-06:30,Civil Drawing Hall 1 (CDH 1)
+LAB Batch 4-ECE-Essentials of Civil Engineering,Division 1,Tuesday,04:30-05:30,NT01 (Fluid Mechanics Lab Classroom)
+LAB Batch 4-ECE-Essentials of Civil Engineering,Division 1,Tuesday,05:30-06:30,NT01 (Fluid Mechanics Lab Classroom)
+LAB Batch 1-ECE-Essentials of Civil Engineering,Division 2,Tuesday,08:30-09:30,ST01 ( M Tech-Construction Management Classroom)
+LAB Batch 1-ECE-Essentials of Civil Engineering,Division 2,Tuesday,09:30-10:30,ST01 ( M Tech-Construction Management Classroom)
+LAB Batch 2-ECE-Essentials of Civil Engineering,Division 2,Tuesday,08:30-09:30,NT 03 ( M Tech Transportation Engineering Classroom)
+LAB Batch 2-ECE-Essentials of Civil Engineering,Division 2,Tuesday,09:30-10:30,NT 03 ( M Tech Transportation Engineering Classroom)
+LAB Batch 3-ECE-Essentials of Civil Engineering,Division 2,Monday,08:30-09:30,ST01 ( M Tech-Construction Management Classroom)
+LAB Batch 3-ECE-Essentials of Civil Engineering,Division 2,Monday,09:30-10:30,ST01 ( M Tech-Construction Management Classroom)
+LAB Batch 4-ECE-Essentials of Civil Engineering,Division 2,Monday,08:30-09:30,NT 03 ( M Tech Transportation Engineering Classroom)
+LAB Batch 4-ECE-Essentials of Civil Engineering,Division 2,Monday,09:30-10:30,NT 03 ( M Tech Transportation Engineering Classroom)
+LAB Batch 1-FEE- fundamentals OF Electrical Engineering,Division 1,Wednesday,04:30-05:30,TBD
+LAB Batch 1-FEE- fundamentals OF Electrical Engineering,Division 1,Wednesday,05:30-06:30,TBD
+LAB Batch 2-FEE- fundamentals OF Electrical Engineering,Division 1,Wednesday,04:30-05:30,TBD
+LAB Batch 2-FEE- fundamentals OF Electrical Engineering,Division 1,Wednesday,05:30-06:30,TBD
+LAB Batch 3-FEE- fundamentals OF Electrical Engineering,Division 1,Thursday,10:30-11:30,TBD
+LAB Batch 3-FEE- fundamentals OF Electrical Engineering,Division 1,Thursday,11:30-12:30,TBD
+LAB Batch 4-FEE- fundamentals OF Electrical Engineering,Division 1,Thursday,10:30-11:30,TBD
+LAB Batch 4-FEE- fundamentals OF Electrical Engineering,Division 1,Thursday,11:30-12:30,TBD
+LAB Batch 1-FEE- fundamentals OF Electrical Engineering,Division 2,Thursday,08:30-09:30,TBD
+LAB Batch 1-FEE- fundamentals OF Electrical Engineering,Division 2,Thursday,09:30-10:30,TBD
+LAB Batch 2-FEE- fundamentals OF Electrical Engineering,Division 2,Thursday,08:30-09:30,TBD
+LAB Batch 2-FEE- fundamentals OF Electrical Engineering,Division 2,Thursday,09:30-10:30,TBD
+LAB Batch 3-FEE- fundamentals OF Electrical Engineering,Division 2,Tuesday,03:30-04:30,TBD
+LAB Batch 3-FEE- fundamentals OF Electrical Engineering,Division 2,Tuesday,04:30-05:30,TBD
+LAB Batch 4-FEE- fundamentals OF Electrical Engineering,Division 2,Tuesday,03:30-04:30,TBD
+LAB Batch 4-FEE- fundamentals OF Electrical Engineering,Division 2,Tuesday,04:30-05:30,TBD
+Civil 1-CS- Communication Skills Dr.Neha Shroff,Division 1,Thursday,10:30-11:30,Lang Lab
+Civil 1-CS- Communication Skills Dr.Neha Shroff,Division 1,Thursday,11:30-12:30,Lang Lab
+Civil 2-CS- Communication Skills Dr. Amol Jadhav,Division 1,Thursday,10:30-11:30,NC10
+Civil 2-CS- Communication Skills Dr. Amol Jadhav,Division 1,Thursday,11:30-12:30,NC10
+Comp 3-CS- Communication Skills Dr.Avinash K,Division 1,Wednesday,01:30-02:30,Lang Lab
+Comp 3-CS- Communication Skills Dr.Avinash K,Division 1,Wednesday,02:30-03:30,Lang Lab
+Comp 3-CS- Communication Skills Dr.Avinash K,Division 2,Wednesday,01:30-02:30,Lang Lab
+Comp 3-CS- Communication Skills Dr.Avinash K,Division 2,Wednesday,02:30-03:30,Lang Lab
+Comp 4-CS-Communication Skills Dr. Amol Jadhav,Division 2,Wednesday,01:30-02:30,NC07
+Comp 4-CS-Communication Skills Dr. Amol Jadhav,Division 2,Wednesday,02:30-03:30,NC07
+Comp 5-CS- Communication Skills Dr. Neha Shroff,Division 2,Wednesday,01:30-02:30,NC10
+Comp 5-CS- Communication Skills Dr. Neha Shroff,Division 2,Wednesday,02:30-03:30,NC10
+Elec 6-CS- Communication Skills Dr. Avinash K,Division 2,Wednesday,10:30-11:30,Lang Lab
+Elec 6-CS- Communication Skills Dr. Avinash K,Division 2,Wednesday,11:30-12:30,Lang Lab
+Elec 6-CS- Communication Skills Dr. Avinash K,Division 3,Wednesday,10:30-11:30,Lang Lab
+Elec 6-CS- Communication Skills Dr. Avinash K,Division 3,Wednesday,11:30-12:30,Lang Lab
+Manu 7-CS- Communication Skills Dr. Amol Jadhav ,Division 3,Tuesday,10:30-11:30,Lang Lab
+Manu 7-CS- Communication Skills Dr. Amol Jadhav ,Division 3,Tuesday,11:30-12:30,Lang Lab
+Mech 8-CS- Communication Skills Dr. Neha Shroff,Division 3,Wednesday,10:30-11:30,NC09
+Mech 8-CS- Communication Skills Dr. Neha Shroff,Division 3,Wednesday,11:30-12:30,NC09
+Mech 8-CS- Communication Skills Dr. Neha Shroff,Division 4,Wednesday,10:30-11:30,NC09
+Mech 8-CS- Communication Skills Dr. Neha Shroff,Division 4,Wednesday,11:30-12:30,NC09
+Mech 9-CS- Communication Skills Dr. Amol Jadhav,Division 4,Wednesday,10:30-11:30,NC10
+Mech 9-CS- Communication Skills Dr. Amol Jadhav,Division 4,Wednesday,11:30-12:30,NC10
+Meta 10-CS- Communication Skills Dr. Neha Shroff,Division 4,Tuesday,10:30-11:30,NC03
+Meta 10-CS- Communication Skills Dr. Neha Shroff,Division 4,Tuesday,11:30-12:30,NC03
+AIML 11-CS- Communication Skills Dr. Amol Jadhav ,Division 5,Tuesday,03:30-04:30,NC07
+AIML 11-CS- Communication Skills Dr. Amol Jadhav ,Division 5,Tuesday,04:30-05:30,NC07
+AIML 12-CS-Communication Skills Dr. Avinash K,Division 5,Tuesday,03:30-04:30,NC14
+AIML 12-CS-Communication Skills Dr. Avinash K,Division 5,Tuesday,04:30-05:30,NC14
+Civil 13-CS- Communication Skills Dr. Meghna Mane,Division 5,Wednesday,03:30-04:30,NC10
+Civil 13-CS- Communication Skills Dr. Meghna Mane,Division 5,Wednesday,04:30-05:30,NC10
+Comp 14-CS- Communication Skills Dr. Amol Jadhav,Division 5,Monday,03:30-04:30,Lang Lab
+Comp 14-CS- Communication Skills Dr. Amol Jadhav,Division 5,Monday,04:30-05:30,Lang Lab
+Comp 15-CS- Communication Skills Dr. Neha Shroff,Division 6,Monday,03:30-04:30,NC07
+Comp 15-CS- Communication Skills Dr. Neha Shroff,Division 6,Monday,04:30-05:30,NC07
+Comp 16-CS- Communication Skills Dr. Meghna Mane,Division 6,Monday,03:30-04:30,NC14
+Comp 16-CS- Communication Skills Dr. Meghna Mane,Division 6,Monday,04:30-05:30,NC14
+Elec 17-CS- Communication Skills Dr. Avinash K,Division 6,Wednesday,03:30-04:30,Lang Lab
+Elec 17-CS- Communication Skills Dr. Avinash K,Division 6,Wednesday,04:30-05:30,Lang Lab
+Elec 17-CS- Communication Skills Dr. Avinash K,Division 7,Wednesday,03:30-04:30,Lang Lab
+Elec 17-CS- Communication Skills Dr. Avinash K,Division 7,Wednesday,04:30-05:30,Lang Lab
+E&TC 18-CS- Communication Skills Dr. Amol Jadhav,Division 7,Thursday,03:30-04:30,NC11
+E&TC 18-CS- Communication Skills Dr. Amol Jadhav,Division 7,Thursday,04:30-05:30,NC11
+E&TC 19-CS- Communication Skills Dr. Avinash K,Division 7,Thursday,03:30-04:30,NC14
+E&TC 19-CS- Communication Skills Dr. Avinash K,Division 7,Thursday,04:30-05:30,NC14
+E&TC 20-CS- Communication Skills Dr. Meghna Mane,Division 8,Thursday,03:30-04:30,Lang Lab
+E&TC 20-CS- Communication Skills Dr. Meghna Mane,Division 8,Thursday,04:30-05:30,Lang Lab
+Instru 21-CS- Communication Skills Dr. Amol Jadhav,Division 8,Monday,03:30-04:30,Lang Lab
+Instru 21-CS- Communication Skills Dr. Amol Jadhav,Division 8,Monday,04:30-05:30,Lang Lab
+Mech 22-CS- Communication Skills Dr. Neha Shroff,Division 8,Tuesday,03:30-04:30,Lang Lab
+Mech 22-CS- Communication Skills Dr. Neha Shroff,Division 8,Tuesday,04:30-05:30,Lang Lab
+1st and 3rd Sat-PD- Personality Development,Division 1,Saturday,09:30-10:30,AC101
+1st and 3rd Sat-PD- Personality Development,Division 1,Saturday,10:30-11:30,AC101
+1st and 3rd Sat-PD- Personality Development,Division 2,Saturday,09:30-10:30,AC102
+1st and 3rd Sat-PD- Personality Development,Division 2,Saturday,10:30-11:30,AC102
+1st and 3rd Sat-PD- Personality Development,Division 3,Saturday,09:30-10:30,AC103
+1st and 3rd Sat-PD- Personality Development,Division 3,Saturday,10:30-11:30,AC103
+1st and 3rd Sat-PD- Personality Development,Division 4,Saturday,09:30-10:30,AC104
+1st and 3rd Sat-PD- Personality Development,Division 4,Saturday,10:30-11:30,AC104
+PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5,Saturday,10:30-11:30,AC101
+PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5,Saturday,11:30-12:30,AC101
+PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6,Saturday,10:30-11:30,AC102
+PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6,Saturday,11:30-12:30,AC102
+PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7,Saturday,10:30-11:30,AC103
+PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7,Saturday,11:30-12:30,AC103
+PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 8,Saturday,10:30-11:30,AC104
+PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 8,Saturday,11:30-12:30,AC104
+2nd & 4th Sat-PD- Personality Development (Till 10:30),Division 1,Saturday,08:30-09:30,AC101
+2nd & 4th Sat-PD- Personality Development (Till 10:30),Division 2,Saturday,08:30-09:30,AC102
+2nd & 4th Sat-PD- Personality Development (Till 10:30),Division 3,Saturday,08:30-09:30,AC103
+2nd & 4th Sat-PD- Personality Development (Till 10:30),Division 4,Saturday,08:30-09:30,AC104
+Tut Batch 1-MAC,Division 1,Tuesday,09:30-10:30,NC01
+Tut Batch 2-MAC,Division 1,Friday,02:30-03:30,NC01
+Tut Batch 3-MAC,Division 1,Saturday,03:30-04:30,NC01
+Tut Batch 4-MAC,Division 1,Thursday,03:30-04:30,NC01
+Tut Batch 1-MAC,Division 2,Tuesday,09:30-10:30,NC02
+Tut Batch 2-MAC,Division 2,Friday,08:30-09:30,NC02
+Tut Batch 3-MAC,Division 2,Monday,03:30-04:30,NC02
+Tut Batch 4-MAC,Division 2,Thursday,03:30-04:30,NC02
+Tut Batch 1-MAC,Division 5,Thursday,10:30-11:30,NC01
+Tut Batch 2-MAC,Division 5,Friday,10:30-11:30,NC01
+Tut Batch 3-MAC,Division 5,Saturday,12:30-01:30,NC01
+Tut Batch 3-MAC,Division 5,Saturday,01:30-02:30,NC01
+Tut Batch 4-MAC,Division 5,Friday,11:30-12:30,NC01
+LAB Batch 1-SME- System in Mech Engg,Division 1,Wednesday,04:30-05:30,TBD
+LAB Batch 1-SME- System in Mech Engg,Division 1,Wednesday,05:30-06:30,TBD
+LAB Batch 2-SME- System in Mech Engg,Division 1,Wednesday,04:30-05:30,TBD
+LAB Batch 2-SME- System in Mech Engg,Division 1,Wednesday,05:30-06:30,TBD
+LAB Batch 3-SME- System in Mech Engg,Division 1,Tuesday,10:30-11:30,TBD
+LAB Batch 3-SME- System in Mech Engg,Division 1,Tuesday,12:30-01:30,TBD
+LAB Batch 4-SME- System in Mech Engg,Division 1,Tuesday,10:30-11:30,TBD
+LAB Batch 4-SME- System in Mech Engg,Division 1,Tuesday,11:30-12:30,TBD
+LAB Batch 1-SME- System in Mech Engg,Division 2,Wednesday,08:30-09:30,TBD
+LAB Batch 1-SME- System in Mech Engg,Division 2,Wednesday,09:30-10:30,TBD
+LAB Batch 2-SME- System in Mech Engg,Division 2,Monday,01:30-02:30,TBD
+LAB Batch 2-SME- System in Mech Engg,Division 2,Monday,02:30-03:30,TBD
+LAB Batch 3-SME- System in Mech Engg,Division 2,Wednesday,08:30-09:30,TBD
+LAB Batch 3-SME- System in Mech Engg,Division 2,Wednesday,09:30-10:30,TBD
+LAB Batch 4-SME- System in Mech Engg,Division 2,Monday,01:30-02:30,TBD
+LAB Batch 4-SME- System in Mech Engg,Division 2,Monday,02:30-03:30,TBD
+Tut Batch 1-MAC,Division 6,Thursday,10:30-11:30,NC02
+Tut Batch 2-MAC,Division 6,Friday,10:30-11:30,NC02
+Tut Batch 3-MAC,Division 6,Saturday,12:30-01:30,NC02
+Tut Batch 3-MAC,Division 6,Saturday,01:30-02:30,NC02
+Tut Batch 4-MAC,Division 6,Friday,11:30-12:30,NC02
+Tut Batch 1-MAC,Division 7,Thursday,10:30-11:30,NC03
+Tut Batch 2-MAC,Division 7,Friday,10:30-11:30,NC03
+Tut Batch 3-MAC,Division 7,Saturday,12:30-01:30,NC03
+Tut Batch 3-MAC,Division 7,Saturday,01:30-02:30,NC03
+Tut Batch 4-MAC,Division 7,Friday,11:30-12:30,NC03
+Tut Batch 1-Linear Algebra,Division 4,Tuesday,09:30-10:30,NC13
+Tut Batch 2-Linear Algebra,Division 4,Friday,02:30-03:30,NC13
+Tut Batch 3-Linear Algebra,Division 4,Monday,03:30-04:30,NC13
+Tut Batch 4-Linear Algebra,Division 4,Saturday,03:30-04:30,NC13
+Tut Batch 1-Linear Algebra,Division 6,Wednesday,08:30-09:30,NC12
+Tut Batch 2-Linear Algebra,Division 6,Wednesday,08:30-09:30,NC11
+Tut Batch 3-Linear Algebra,Division 6,Saturday,12:30-01:30,NC12
+Tut Batch 3-Linear Algebra,Division 6,Saturday,01:30-02:30,NC12
+Tut Batch 4-Linear Algebra,Division 6,Friday,11:30-12:30,NC12
+Tut Batch 1-MAC,Division 8,Thursday,10:30-11:30,NC04
+Tut Batch 2-MAC,Division 8,Friday,10:30-11:30,NC04
+Tut Batch 3-MAC,Division 8,Saturday,12:30-01:30,NC04
+Tut Batch 3-MAC,Division 8,Saturday,01:30-02:30,NC04
+Tut Batch 4-MAC,Division 8,Friday,11:30-12:30,NC04
+LAB Batch 1-Engg  Physics,Division 1,Monday,10:30-11:30,TBD
+LAB Batch 1-Engg  Physics,Division 1,Monday,11:30-12:30,TBD
+LAB Batch 2-Engg  Physics,Division 1,Wednesday,04:30-05:30,TBD
+LAB Batch 2-Engg  Physics,Division 1,Wednesday,05:30-06:30,TBD
+LAB Batch 3-Engg  Physics,Division 1,Tuesday,01:30-02:30,TBD
+LAB Batch 3-Engg  Physics,Division 1,Tuesday,02:30-03:30,TBD
+LAB Batch 4-Engg  Physics,Division 1,Friday,10:30-11:30,TBD
+LAB Batch 4-Engg  Physics,Division 1,Friday,11:30-12:30,TBD
+Tut Batch 1-MAC,Division 3,Wednesday,09:30-10:30,NC03
+Tut Batch 2-MAC,Division 3,Friday,02:30-03:30,NC03
+Tut Batch 3-MAC,Division 3,Monday,03:30-04:30,NC03
+Tut Batch 4-MAC,Division 3,Thursday,03:30-04:30,NC03
+Tut Batch 1-MAC,Division 4,Tuesday,09:30-10:30,NC04
+Tut Batch 2-MAC,Division 4,Friday,02:30-03:30,NC04
+Tut Batch 3-MAC,Division 4,Monday,03:30-04:30,NC04
+Tut Batch 4-MAC,Division 4,Thursday,03:30-04:30,NC04
+Tut Batch 1-MAC,Division 8,Thursday,10:30-11:30,NC04
+Tut Batch 2-MAC,Division 8,Friday,10:30-11:30,NC04
+Tut Batch 3-MAC,Division 8,Saturday,12:30-01:30,NC04
+Tut Batch 3-MAC,Division 8,Saturday,01:30-02:30,NC04
+Tut Batch 4-MAC,Division 8,Friday,11:30-12:30,NC04
+Tut Batch 1-MAC,Division 9,Thursday,10:30-11:30,NC08
+Tut Batch 2-MAC,Division 9,Friday,10:30-11:30,NC08
+Tut Batch 3-MAC,Division 9,Saturday,12:30-01:30,NC08
+Tut Batch 3-MAC,Division 9,Saturday,01:30-02:30,NC08
+Tut Batch 4-MAC,Division 9,Friday,11:30-12:30,NC08
+LAB Batch 1-Engg  Physics,Division 2,Monday,10:30-11:30,TBD
+LAB Batch 1-Engg  Physics,Division 2,Monday,11:30-12:30,TBD
+LAB Batch 2-Engg  Physics,Division 2,Wednesday,04:30-05:30,TBD
+LAB Batch 2-Engg  Physics,Division 2,Wednesday,05:30-06:30,TBD
+LAB Batch 3-Engg  Physics,Division 2,Tuesday,01:30-02:30,TBD
+LAB Batch 3-Engg  Physics,Division 2,Tuesday,02:30-03:30,TBD
+LAB Batch 4-Engg  Physics,Division 2,Friday,10:30-11:30,TBD
+LAB Batch 4-Engg  Physics,Division 2,Friday,11:30-12:30,TBD
+LAB Batch 1-Engg  Physics,Division 3,Monday,04:30-05:30,TBD
+LAB Batch 1-Engg  Physics,Division 3,Monday,05:30-06:30,TBD
+LAB Batch 2-Engg  Physics,Division 3,Friday,04:30-05:30,TBD
+LAB Batch 2-Engg  Physics,Division 3,Friday,05:30-06:30,TBD
+LAB Batch 3-Engg  Physics,Division 3,Tuesday,08:30-09:30,TBD
+LAB Batch 3-Engg  Physics,Division 3,Tuesday,09:30-10:30,TBD
+LAB Batch 4-Engg  Physics,Division 3,Tuesday,04:30-05:30,TBD
+LAB Batch 4-Engg  Physics,Division 3,Tuesday,05:30-06:30,TBD
+LAB Batch 1-Engg  Physics,Division 4,Monday,04:30-05:30,TBD
+LAB Batch 1-Engg  Physics,Division 4,Monday,05:30-06:30,TBD
+LAB Batch 2-Engg  Physics,Division 4,Friday,04:30-05:30,TBD
+LAB Batch 2-Engg  Physics,Division 4,Friday,05:30-06:30,TBD
+LAB Batch 3-Engg  Physics,Division 4,Tuesday,08:30-09:30,TBD
+LAB Batch 3-Engg  Physics,Division 4,Tuesday,09:30-10:30,TBD
+LAB Batch 4-Engg  Physics,Division 4,Tuesday,04:30-05:30,TBD
+LAB Batch 4-Engg  Physics,Division 4,Tuesday,05:30-06:30,TBD
+LAB Batch 1-Engg  Physics,Division 5,Wednesday,08:30-09:30,TBD
+LAB Batch 1-Engg  Physics,Division 5,Wednesday,09:30-10:30,TBD
+LAB Batch 2-Engg  Physics,Division 5,Thursday,08:30-09:30,TBD
+LAB Batch 2-Engg  Physics,Division 5,Thursday,09:30-10:30,TBD
+LAB Batch 3-Engg  Physics,Division 5,Friday,08:30-09:30,TBD
+LAB Batch 3-Engg  Physics,Division 5,Friday,09:30-10:30,TBD
+LAB Batch 4-Engg  Physics,Division 5,Monday,08:30-09:30,TBD
+LAB Batch 4-Engg  Physics,Division 5,Monday,09:30-10:30,TBD
+LAB Batch 1-Engg  Physics,Division 6,Wednesday,08:30-09:30,TBD
+LAB Batch 1-Engg  Physics,Division 6,Wednesday,09:30-10:30,TBD
+LAB Batch 2-Engg  Physics,Division 6,Thursday,08:30-09:30,TBD
+LAB Batch 2-Engg  Physics,Division 6,Thursday,09:30-10:30,TBD
+LAB Batch 3-Engg  Physics,Division 6,Friday,08:30-09:30,TBD
+LAB Batch 3-Engg  Physics,Division 6,Friday,09:30-10:30,TBD
+LAB Batch 4-Engg  Physics,Division 6,Monday,08:30-09:30,TBD
+LAB Batch 4-Engg  Physics,Division 6,Monday,09:30-10:30,TBD
+LAB Batch 1-Engg  Physics,Division 7,Monday,01:30-02:30,TBD
+LAB Batch 1-Engg  Physics,Division 7,Monday,02:30-03:30,TBD
+LAB Batch 2-Engg  Physics,Division 7,Friday,01:30-02:30,TBD
+LAB Batch 2-Engg  Physics,Division 7,Friday,02:30-03:30,TBD
+LAB Batch 3-Engg  Physics,Division 7,Thursday,01:30-02:30,TBD
+LAB Batch 3-Engg  Physics,Division 7,Thursday,02:30-03:30,TBD
+LAB Batch 4-Engg  Physics,Division 7,Tuesday,08:30-09:30,TBD
+LAB Batch 4-Engg  Physics,Division 7,Tuesday,09:30-10:30,TBD
+LAB Batch 1-Engg  Physics,Division 8,Monday,01:30-02:30,TBD
+LAB Batch 1-Engg  Physics,Division 8,Monday,02:30-03:30,TBD
+LAB Batch 2-Engg  Physics,Division 8,Friday,01:30-02:30,TBD
+LAB Batch 2-Engg  Physics,Division 8,Friday,02:30-03:30,TBD
+LAB Batch 3-Engg  Physics,Division 8,Thursday,01:30-02:30,TBD
+LAB Batch 3-Engg  Physics,Division 8,Thursday,02:30-03:30,TBD
+LAB Batch 4-Engg  Physics,Division 8,Tuesday,08:30-09:30,TBD
+LAB Batch 4-Engg  Physics,Division 8,Tuesday,09:30-10:30,TBD
