@@ -380,14 +380,14 @@ Tut Batch 2-MAC,Division 8,Friday,10:30-11:30,NC04
 Tut Batch 3-MAC,Division 8,Saturday,12:30-01:30,NC04
 Tut Batch 3-MAC,Division 8,Saturday,01:30-02:30,NC04
 Tut Batch 4-MAC,Division 8,Friday,11:30-12:30,NC04
-LAB Batch 1-Engg  Physics,Division 1,Monday,10:30-11:30,TBD
-LAB Batch 1-Engg  Physics,Division 1,Monday,11:30-12:30,TBD
-LAB Batch 2-Engg  Physics,Division 1,Wednesday,04:30-05:30,TBD
-LAB Batch 2-Engg  Physics,Division 1,Wednesday,05:30-06:30,TBD
-LAB Batch 3-Engg  Physics,Division 1,Tuesday,01:30-02:30,TBD
-LAB Batch 3-Engg  Physics,Division 1,Tuesday,02:30-03:30,TBD
-LAB Batch 4-Engg  Physics,Division 1,Friday,10:30-11:30,TBD
-LAB Batch 4-Engg  Physics,Division 1,Friday,11:30-12:30,TBD
+LAB Batch 1-Engg  Physics,Division 1,Monday,10:30-11:30,Physics LAB
+LAB Batch 1-Engg  Physics,Division 1,Monday,11:30-12:30,Physics LAB
+LAB Batch 2-Engg  Physics,Division 1,Wednesday,04:30-05:30,Physics LAB
+LAB Batch 2-Engg  Physics,Division 1,Wednesday,05:30-06:30,Physics LAB
+LAB Batch 3-Engg  Physics,Division 1,Tuesday,01:30-02:30,Physics LAB
+LAB Batch 3-Engg  Physics,Division 1,Tuesday,02:30-03:30,Physics LAB
+LAB Batch 4-Engg  Physics,Division 1,Friday,10:30-11:30,Physics LAB
+LAB Batch 4-Engg  Physics,Division 1,Friday,11:30-12:30,Physics LAB
 Tut Batch 1-MAC,Division 3,Wednesday,09:30-10:30,NC03
 Tut Batch 2-MAC,Division 3,Friday,02:30-03:30,NC03
 Tut Batch 3-MAC,Division 3,Monday,03:30-04:30,NC03
@@ -406,94 +406,94 @@ Tut Batch 2-MAC,Division 9,Friday,10:30-11:30,NC08
 Tut Batch 3-MAC,Division 9,Saturday,12:30-01:30,NC08
 Tut Batch 3-MAC,Division 9,Saturday,01:30-02:30,NC08
 Tut Batch 4-MAC,Division 9,Friday,11:30-12:30,NC08
-LAB Batch 1-Engg  Physics,Division 2,Monday,10:30-11:30,TBD
-LAB Batch 1-Engg  Physics,Division 2,Monday,11:30-12:30,TBD
-LAB Batch 2-Engg  Physics,Division 2,Wednesday,04:30-05:30,TBD
-LAB Batch 2-Engg  Physics,Division 2,Wednesday,05:30-06:30,TBD
-LAB Batch 3-Engg  Physics,Division 2,Tuesday,01:30-02:30,TBD
-LAB Batch 3-Engg  Physics,Division 2,Tuesday,02:30-03:30,TBD
-LAB Batch 4-Engg  Physics,Division 2,Friday,10:30-11:30,TBD
-LAB Batch 4-Engg  Physics,Division 2,Friday,11:30-12:30,TBD
-LAB Batch 1-Engg  Physics,Division 3,Monday,04:30-05:30,TBD
-LAB Batch 1-Engg  Physics,Division 3,Monday,05:30-06:30,TBD
-LAB Batch 2-Engg  Physics,Division 3,Friday,04:30-05:30,TBD
-LAB Batch 2-Engg  Physics,Division 3,Friday,05:30-06:30,TBD
-LAB Batch 3-Engg  Physics,Division 3,Wednesday,10:30-11:30,TBD
-LAB Batch 3-Engg  Physics,Division 3,Wednesday,11:30-12:30,TBD
-LAB Batch 4-Engg  Physics,Division 3,Tuesday,04:30-05:30,TBD
-LAB Batch 4-Engg  Physics,Division 3,Tuesday,05:30-06:30,TBD
-LAB Batch 1-Engg  Physics,Division 4,Monday,04:30-05:30,TBD
-LAB Batch 1-Engg  Physics,Division 4,Monday,05:30-06:30,TBD
-LAB Batch 2-Engg  Physics,Division 4,Friday,04:30-05:30,TBD
-LAB Batch 2-Engg  Physics,Division 4,Friday,05:30-06:30,TBD
-LAB Batch 3-Engg  Physics,Division 4,Wednesday,10:30-11:30,TBD
-LAB Batch 3-Engg  Physics,Division 4,Wednesday,11:30-12:30,TBD
-LAB Batch 4-Engg  Physics,Division 4,Tuesday,04:30-05:30,TBD
-LAB Batch 4-Engg  Physics,Division 4,Tuesday,05:30-06:30,TBD
-LAB Batch 1-Engg  Physics,Division 5,Wednesday,08:30-09:30,TBD
-LAB Batch 1-Engg  Physics,Division 5,Wednesday,09:30-10:30,TBD
-LAB Batch 2-Engg  Physics,Division 5,Thursday,08:30-09:30,TBD
-LAB Batch 2-Engg  Physics,Division 5,Thursday,09:30-10:30,TBD
-LAB Batch 3-Engg  Physics,Division 5,Friday,08:30-09:30,TBD
-LAB Batch 3-Engg  Physics,Division 5,Friday,09:30-10:30,TBD
-LAB Batch 4-Engg  Physics,Division 5,Monday,08:30-09:30,TBD
-LAB Batch 4-Engg  Physics,Division 5,Monday,09:30-10:30,TBD
-LAB Batch 1-Engg  Physics,Division 6,Wednesday,08:30-09:30,TBD
-LAB Batch 1-Engg  Physics,Division 6,Wednesday,09:30-10:30,TBD
-LAB Batch 2-Engg  Physics,Division 6,Thursday,08:30-09:30,TBD
-LAB Batch 2-Engg  Physics,Division 6,Thursday,09:30-10:30,TBD
-LAB Batch 3-Engg  Physics,Division 6,Friday,08:30-09:30,TBD
-LAB Batch 3-Engg  Physics,Division 6,Friday,09:30-10:30,TBD
-LAB Batch 4-Engg  Physics,Division 6,Monday,08:30-09:30,TBD
-LAB Batch 4-Engg  Physics,Division 6,Monday,09:30-10:30,TBD
-LAB Batch 1-Engg  Physics,Division 7,Monday,01:30-02:30,TBD
-LAB Batch 1-Engg  Physics,Division 7,Monday,02:30-03:30,TBD
-LAB Batch 2-Engg  Physics,Division 7,Friday,01:30-02:30,TBD
-LAB Batch 2-Engg  Physics,Division 7,Friday,02:30-03:30,TBD
-LAB Batch 3-Engg  Physics,Division 7,Thursday,01:30-02:30,TBD
-LAB Batch 3-Engg  Physics,Division 7,Thursday,02:30-03:30,TBD
-LAB Batch 4-Engg  Physics,Division 7,Tuesday,08:30-09:30,TBD
-LAB Batch 4-Engg  Physics,Division 7,Tuesday,09:30-10:30,TBD
-LAB Batch 1-Engg  Physics,Division 8,Monday,01:30-02:30,TBD
-LAB Batch 1-Engg  Physics,Division 8,Monday,02:30-03:30,TBD
-LAB Batch 2-Engg  Physics,Division 8,Friday,01:30-02:30,TBD
-LAB Batch 2-Engg  Physics,Division 8,Friday,02:30-03:30,TBD
-LAB Batch 3-Engg  Physics,Division 8,Thursday,01:30-02:30,TBD
-LAB Batch 3-Engg  Physics,Division 8,Thursday,02:30-03:30,TBD
-LAB Batch 4-Engg  Physics,Division 8,Tuesday,08:30-09:30,TBD
-LAB Batch 4-Engg  Physics,Division 8,Tuesday,09:30-10:30,TBD
-LAB Batch 1-Engg Chem,Division 1,Monday,10:30-11:30,TBD
-LAB Batch 1-Engg Chem,Division 1,Monday,11:30-12:30,TBD
-LAB Batch 2-Engg Chem,Division 1,Wednesday,04:30-05:30,TBD
-LAB Batch 2-Engg Chem,Division 1,Wednesday,05:30-06:30,TBD
-LAB Batch 3-Engg Chem,Division 1,Tuesday,04:30-05:30,TBD
-LAB Batch 3-Engg Chem,Division 1,Tuesday,05:30-06:30,TBD
-LAB Batch 4-Engg Chem,Division 1,Friday,04:30-05:30,TBD
-LAB Batch 4-Engg Chem,Division 1,Friday,05:30-06:30,TBD
-LAB Batch 1-Engg Chem,Division 2,Monday,10:30-11:30,TBD
-LAB Batch 1-Engg Chem,Division 2,Monday,11:30-12:30,TBD
-LAB Batch 2-Engg Chem,Division 2,Wednesday,04:30-05:30,TBD
-LAB Batch 2-Engg Chem,Division 2,Wednesday,05:30-06:30,TBD
-LAB Batch 3-Engg Chem,Division 2,Tuesday,04:30-05:30,TBD
-LAB Batch 3-Engg Chem,Division 2,Tuesday,05:30-06:30,TBD
-LAB Batch 4-Engg Chem,Division 2,Friday,04:30-05:30,TBD
-LAB Batch 4-Engg Chem,Division 2,Friday,05:30-06:30,TBD
-LAB Batch 1-Engg Chem,Division 3,Monday,04:30-05:30,TBD
-LAB Batch 1-Engg Chem,Division 3,Monday,05:30-06:30,TBD
-LAB Batch 2-Engg Chem,Division 3,Friday,10:30-11:30,TBD
-LAB Batch 2-Engg Chem,Division 3,Friday,11:30-12:30,TBD
-LAB Batch 3-Engg Chem,Division 3,Thursday,10:30-11:30,TBD
-LAB Batch 3-Engg Chem,Division 3,Thursday,11:30-12:30,TBD
-LAB Batch 4-Engg Chem,Division 3,Tuesday,01:30-02:30,TBD
-LAB Batch 4-Engg Chem,Division 3,Tuesday,02:30-03:30,TBD
-LAB Batch 1-Engg Chem,Division 4,Monday,04:30-05:30,TBD
-LAB Batch 1-Engg Chem,Division 4,Monday,05:30-06:30,TBD
-LAB Batch 2-Engg Chem,Division 4,Friday,10:30-11:30,TBD
-LAB Batch 2-Engg Chem,Division 4,Friday,11:30-12:30,TBD
-LAB Batch 3-Engg Chem,Division 4,Thursday,10:30-11:30,TBD
-LAB Batch 3-Engg Chem,Division 4,Thursday,11:30-12:30,TBD
-LAB Batch 4-Engg Chem,Division 4,Tuesday,01:30-02:30,TBD
-LAB Batch 4-Engg Chem,Division 4,Tuesday,02:30-03:30,TBD
+LAB Batch 1-Engg  Physics,Division 2,Monday,10:30-11:30,Physics LAB
+LAB Batch 1-Engg  Physics,Division 2,Monday,11:30-12:30,Physics LAB
+LAB Batch 2-Engg  Physics,Division 2,Wednesday,04:30-05:30,Physics LAB
+LAB Batch 2-Engg  Physics,Division 2,Wednesday,05:30-06:30,Physics LAB
+LAB Batch 3-Engg  Physics,Division 2,Tuesday,01:30-02:30,Physics LAB
+LAB Batch 3-Engg  Physics,Division 2,Tuesday,02:30-03:30,Physics LAB
+LAB Batch 4-Engg  Physics,Division 2,Friday,10:30-11:30,Physics LAB
+LAB Batch 4-Engg  Physics,Division 2,Friday,11:30-12:30,Physics LAB
+LAB Batch 1-Engg  Physics,Division 3,Monday,04:30-05:30,Physics LAB
+LAB Batch 1-Engg  Physics,Division 3,Monday,05:30-06:30,Physics LAB
+LAB Batch 2-Engg  Physics,Division 3,Friday,04:30-05:30,Physics LAB
+LAB Batch 2-Engg  Physics,Division 3,Friday,05:30-06:30,Physics LAB
+LAB Batch 3-Engg  Physics,Division 3,Wednesday,10:30-11:30,Physics LAB
+LAB Batch 3-Engg  Physics,Division 3,Wednesday,11:30-12:30,Physics LAB
+LAB Batch 4-Engg  Physics,Division 3,Tuesday,04:30-05:30,Physics LAB
+LAB Batch 4-Engg  Physics,Division 3,Tuesday,05:30-06:30,Physics LAB
+LAB Batch 1-Engg  Physics,Division 4,Monday,04:30-05:30,Physics LAB
+LAB Batch 1-Engg  Physics,Division 4,Monday,05:30-06:30,Physics LAB
+LAB Batch 2-Engg  Physics,Division 4,Friday,04:30-05:30,Physics LAB
+LAB Batch 2-Engg  Physics,Division 4,Friday,05:30-06:30,Physics LAB
+LAB Batch 3-Engg  Physics,Division 4,Wednesday,10:30-11:30,Physics LAB
+LAB Batch 3-Engg  Physics,Division 4,Wednesday,11:30-12:30,Physics LAB
+LAB Batch 4-Engg  Physics,Division 4,Tuesday,04:30-05:30,Physics LAB
+LAB Batch 4-Engg  Physics,Division 4,Tuesday,05:30-06:30,Physics LAB
+LAB Batch 1-Engg  Physics,Division 5,Wednesday,08:30-09:30,Physics LAB
+LAB Batch 1-Engg  Physics,Division 5,Wednesday,09:30-10:30,Physics LAB
+LAB Batch 2-Engg  Physics,Division 5,Thursday,08:30-09:30,Physics LAB
+LAB Batch 2-Engg  Physics,Division 5,Thursday,09:30-10:30,Physics LAB
+LAB Batch 3-Engg  Physics,Division 5,Friday,08:30-09:30,Physics LAB
+LAB Batch 3-Engg  Physics,Division 5,Friday,09:30-10:30,Physics LAB
+LAB Batch 4-Engg  Physics,Division 5,Monday,08:30-09:30,Physics LAB
+LAB Batch 4-Engg  Physics,Division 5,Monday,09:30-10:30,Physics LAB
+LAB Batch 1-Engg  Physics,Division 6,Wednesday,08:30-09:30,Physics LAB
+LAB Batch 1-Engg  Physics,Division 6,Wednesday,09:30-10:30,Physics LAB
+LAB Batch 2-Engg  Physics,Division 6,Thursday,08:30-09:30,Physics LAB
+LAB Batch 2-Engg  Physics,Division 6,Thursday,09:30-10:30,Physics LAB
+LAB Batch 3-Engg  Physics,Division 6,Friday,08:30-09:30,Physics LAB
+LAB Batch 3-Engg  Physics,Division 6,Friday,09:30-10:30,Physics LAB
+LAB Batch 4-Engg  Physics,Division 6,Monday,08:30-09:30,Physics LAB
+LAB Batch 4-Engg  Physics,Division 6,Monday,09:30-10:30,Physics LAB
+LAB Batch 1-Engg  Physics,Division 7,Monday,01:30-02:30,Physics LAB
+LAB Batch 1-Engg  Physics,Division 7,Monday,02:30-03:30,Physics LAB
+LAB Batch 2-Engg  Physics,Division 7,Friday,01:30-02:30,Physics LAB
+LAB Batch 2-Engg  Physics,Division 7,Friday,02:30-03:30,Physics LAB
+LAB Batch 3-Engg  Physics,Division 7,Thursday,01:30-02:30,Physics LAB
+LAB Batch 3-Engg  Physics,Division 7,Thursday,02:30-03:30,Physics LAB
+LAB Batch 4-Engg  Physics,Division 7,Tuesday,08:30-09:30,Physics LAB
+LAB Batch 4-Engg  Physics,Division 7,Tuesday,09:30-10:30,Physics LAB
+LAB Batch 1-Engg  Physics,Division 8,Monday,01:30-02:30,Physics LAB
+LAB Batch 1-Engg  Physics,Division 8,Monday,02:30-03:30,Physics LAB
+LAB Batch 2-Engg  Physics,Division 8,Friday,01:30-02:30,Physics LAB
+LAB Batch 2-Engg  Physics,Division 8,Friday,02:30-03:30,Physics LAB
+LAB Batch 3-Engg  Physics,Division 8,Thursday,01:30-02:30,Physics LAB
+LAB Batch 3-Engg  Physics,Division 8,Thursday,02:30-03:30,Physics LAB
+LAB Batch 4-Engg  Physics,Division 8,Tuesday,08:30-09:30,Physics LAB
+LAB Batch 4-Engg  Physics,Division 8,Tuesday,09:30-10:30,Physics LAB
+LAB Batch 1-Engg Chem,Division 1,Monday,10:30-11:30,Chemistry LAB
+LAB Batch 1-Engg Chem,Division 1,Monday,11:30-12:30,Chemistry LAB
+LAB Batch 2-Engg Chem,Division 1,Wednesday,04:30-05:30,Chemistry LAB
+LAB Batch 2-Engg Chem,Division 1,Wednesday,05:30-06:30,Chemistry LAB
+LAB Batch 3-Engg Chem,Division 1,Tuesday,04:30-05:30,Chemistry LAB
+LAB Batch 3-Engg Chem,Division 1,Tuesday,05:30-06:30,Chemistry LAB
+LAB Batch 4-Engg Chem,Division 1,Friday,04:30-05:30,Chemistry LAB
+LAB Batch 4-Engg Chem,Division 1,Friday,05:30-06:30,Chemistry LAB
+LAB Batch 1-Engg Chem,Division 2,Monday,10:30-11:30,Chemistry LAB
+LAB Batch 1-Engg Chem,Division 2,Monday,11:30-12:30,Chemistry LAB
+LAB Batch 2-Engg Chem,Division 2,Wednesday,04:30-05:30,Chemistry LAB
+LAB Batch 2-Engg Chem,Division 2,Wednesday,05:30-06:30,Chemistry LAB
+LAB Batch 3-Engg Chem,Division 2,Tuesday,04:30-05:30,Chemistry LAB
+LAB Batch 3-Engg Chem,Division 2,Tuesday,05:30-06:30,Chemistry LAB
+LAB Batch 4-Engg Chem,Division 2,Friday,04:30-05:30,Chemistry LAB
+LAB Batch 4-Engg Chem,Division 2,Friday,05:30-06:30,Chemistry LAB
+LAB Batch 1-Engg Chem,Division 3,Monday,04:30-05:30,Chemistry LAB
+LAB Batch 1-Engg Chem,Division 3,Monday,05:30-06:30,Chemistry LAB
+LAB Batch 2-Engg Chem,Division 3,Friday,10:30-11:30,Chemistry LAB
+LAB Batch 2-Engg Chem,Division 3,Friday,11:30-12:30,Chemistry LAB
+LAB Batch 3-Engg Chem,Division 3,Thursday,10:30-11:30,Chemistry LAB
+LAB Batch 3-Engg Chem,Division 3,Thursday,11:30-12:30,Chemistry LAB
+LAB Batch 4-Engg Chem,Division 3,Tuesday,01:30-02:30,Chemistry LAB
+LAB Batch 4-Engg Chem,Division 3,Tuesday,02:30-03:30,Chemistry LAB
+LAB Batch 1-Engg Chem,Division 4,Monday,04:30-05:30,Chemistry LAB
+LAB Batch 1-Engg Chem,Division 4,Monday,05:30-06:30,Chemistry LAB
+LAB Batch 2-Engg Chem,Division 4,Friday,10:30-11:30,Chemistry LAB
+LAB Batch 2-Engg Chem,Division 4,Friday,11:30-12:30,Chemistry LAB
+LAB Batch 3-Engg Chem,Division 4,Thursday,10:30-11:30,Chemistry LAB
+LAB Batch 3-Engg Chem,Division 4,Thursday,11:30-12:30,Chemistry LAB
+LAB Batch 4-Engg Chem,Division 4,Tuesday,01:30-02:30,Chemistry LAB
+LAB Batch 4-Engg Chem,Division 4,Tuesday,02:30-03:30,Chemistry LAB
 Tut Batch 1-Linear Algebra,Division 1,Tuesday,09:30-10:30,NC08
 Tut Batch 2-Linear Algebra,Division 1,Friday,02:30-03:30,NC08
 Tut Batch 3-Linear Algebra,Division 1,Monday,03:30-04:30,NC08
@@ -516,3 +516,39 @@ Tut Batch 2-Linear Algebra,Division 7,Friday,10:30-11:30,NC13
 Tut Batch 3-Linear Algebra,Division 7,Saturday,12:30-01:30,NC12
 Tut Batch 3-Linear Algebra,Division 7,Saturday,01:30-02:30,NC12
 Tut Batch 4-Linear Algebra,Division 7,Friday,11:30-12:30,NC13
+LAB Batch 1A-Engg Chem(Instru+Comp),Division 5,Wednesday,08:30-09:30,Chemistry LAB
+LAB Batch 1A-Engg Chem(Instru+Comp),Division 5,Wednesday,09:30-10:30,Chemistry LAB
+LAB Batch 1A-Engg Chem(Instru+Comp),Division 6,Wednesday,08:30-09:30,Chemistry LAB
+LAB Batch 1A-Engg Chem(Instru+Comp),Division 6,Wednesday,09:30-10:30,Chemistry LAB
+LAB Batch 1A-Engg Chem(Instru+Comp),Division 7,Wednesday,08:30-09:30,Chemistry LAB
+LAB Batch 1A-Engg Chem(Instru+Comp),Division 7,Wednesday,09:30-10:30,Chemistry LAB
+LAB Batch 1B-Engg Chem(Instru+Comp),Division 5,Monday,01:30-02:30,Chemistry LAB
+LAB Batch 1B-Engg Chem(Instru+Comp),Division 5,Monday,02:30-03:30,Chemistry LAB
+LAB Batch 1B-Engg Chem(Instru+Comp),Division 6,Monday,01:30-02:30,Chemistry LAB
+LAB Batch 1B-Engg Chem(Instru+Comp),Division 6,Monday,02:30-03:30,Chemistry LAB
+LAB Batch 1B-Engg Chem(Instru+Comp),Division 7,Monday,01:30-02:30,Chemistry LAB
+LAB Batch 1B-Engg Chem(Instru+Comp),Division 7,Monday,02:30-03:30,Chemistry LAB
+LAB Batch 2-Engg Chem(ENTC),Division 5,Thursday,08:30-09:30,Chemistry LAB
+LAB Batch 2-Engg Chem(ENTC),Division 5,Thursday,09:30-10:30,Chemistry LAB
+LAB Batch 2-Engg Chem(ENTC),Division 6,Thursday,08:30-09:30,Chemistry LAB
+LAB Batch 2-Engg Chem(ENTC),Division 6,Thursday,09:30-10:30,Chemistry LAB
+LAB Batch 2-Engg Chem(ENTC),Division 7,Thursday,08:30-09:30,Chemistry LAB
+LAB Batch 2-Engg Chem(ENTC),Division 7,Thursday,09:30-10:30,Chemistry LAB
+LAB Batch 2-Engg Chem(ENTC),Division 8,Thursday,08:30-09:30,Chemistry LAB
+LAB Batch 2-Engg Chem(ENTC),Division 8,Thursday,09:30-10:30,Chemistry LAB
+LAB Batch 3A-Engg Chem(Elec+Civil),Division 5,Friday,08:30-09:30,Chemistry LAB
+LAB Batch 3A-Engg Chem(Elec+Civil),Division 5,Friday,09:30-10:30,Chemistry LAB
+LAB Batch 3A-Engg Chem(Elec+Civil),Division 6,Friday,08:30-09:30,Chemistry LAB
+LAB Batch 3A-Engg Chem(Elec+Civil),Division 6,Friday,09:30-10:30,Chemistry LAB
+LAB Batch 3B-Engg Chem(Elec+Civil),Division 7,Thursday,01:30-02:30,Chemistry LAB
+LAB Batch 3B-Engg Chem(Elec+Civil),Division 7,Thursday,02:30-03:30,Chemistry LAB
+LAB Batch 3B-Engg Chem(Elec+Civil),Division 8,Thursday,01:30-02:30,Chemistry LAB
+LAB Batch 3B-Engg Chem(Elec+Civil),Division 8,Thursday,02:30-03:30,Chemistry LAB
+LAB Batch 4A-Engg Chem(Ai+Mech+E&TC),Division 5,Monday,08:30-09:30,Chemistry LAB
+LAB Batch 4A-Engg Chem(Ai+Mech+E&TC),Division 5,Monday,09:30-10:30,Chemistry LAB
+LAB Batch 4A-Engg Chem(Ai+Mech+E&TC),Division 6,Monday,08:30-09:30,Chemistry LAB
+LAB Batch 4A-Engg Chem(Ai+Mech+E&TC),Division 6,Monday,09:30-10:30,Chemistry LAB
+LAB Batch 4B-Engg Chem(Ai+Mech+E&TC),Division 7,Tuesday,08:30-09:30,Chemistry LAB
+LAB Batch 4B-Engg Chem(Ai+Mech+E&TC),Division 7,Tuesday,09:30-10:30,Chemistry LAB
+LAB Batch 4B-Engg Chem(Ai+Mech+E&TC),Division 8,Tuesday,08:30-09:30,Chemistry LAB
+LAB Batch 4B-Engg Chem(Ai+Mech+E&TC),Division 8,Tuesday,09:30-10:30,Chemistry LAB
