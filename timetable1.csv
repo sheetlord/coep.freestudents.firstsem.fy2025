@@ -340,22 +340,22 @@ Tut Batch 2-MAC,Division 5,Friday,10:30-11:30,NC01
 Tut Batch 3-MAC,Division 5,Saturday,12:30-01:30,NC01
 Tut Batch 3-MAC,Division 5,Saturday,01:30-02:30,NC01
 Tut Batch 4-MAC,Division 5,Friday,11:30-12:30,NC01
-LAB Batch 1-SME- System in Mech Engg,Division 1,Wednesday,04:30-05:30,TBD
-LAB Batch 1-SME- System in Mech Engg,Division 1,Wednesday,05:30-06:30,TBD
-LAB Batch 2-SME- System in Mech Engg,Division 1,Wednesday,04:30-05:30,TBD
-LAB Batch 2-SME- System in Mech Engg,Division 1,Wednesday,05:30-06:30,TBD
-LAB Batch 3-SME- System in Mech Engg,Division 1,Tuesday,10:30-11:30,TBD
-LAB Batch 3-SME- System in Mech Engg,Division 1,Tuesday,12:30-01:30,TBD
-LAB Batch 4-SME- System in Mech Engg,Division 1,Tuesday,10:30-11:30,TBD
-LAB Batch 4-SME- System in Mech Engg,Division 1,Tuesday,11:30-12:30,TBD
-LAB Batch 1-SME- System in Mech Engg,Division 2,Wednesday,08:30-09:30,TBD
-LAB Batch 1-SME- System in Mech Engg,Division 2,Wednesday,09:30-10:30,TBD
-LAB Batch 2-SME- System in Mech Engg,Division 2,Monday,01:30-02:30,TBD
-LAB Batch 2-SME- System in Mech Engg,Division 2,Monday,02:30-03:30,TBD
-LAB Batch 3-SME- System in Mech Engg,Division 2,Wednesday,08:30-09:30,TBD
-LAB Batch 3-SME- System in Mech Engg,Division 2,Wednesday,09:30-10:30,TBD
-LAB Batch 4-SME- System in Mech Engg,Division 2,Monday,01:30-02:30,TBD
-LAB Batch 4-SME- System in Mech Engg,Division 2,Monday,02:30-03:30,TBD
+LAB Batch 1-SME- System in Mech Engg,Division 1,Wednesday,04:30-05:30,"NT06-3rd Floor, Mech Dept Old Bajaj Building"
+LAB Batch 1-SME- System in Mech Engg,Division 1,Wednesday,05:30-06:30,"NT06-3rd Floor, Mech Dept Old Bajaj Building"
+LAB Batch 2-SME- System in Mech Engg,Division 1,Wednesday,04:30-05:30,"NT06-3rd Floor, Mech Dept Old Bajaj Building"
+LAB Batch 2-SME- System in Mech Engg,Division 1,Wednesday,05:30-06:30,"NT06-3rd Floor, Mech Dept Old Bajaj Building"
+LAB Batch 3-SME- System in Mech Engg,Division 1,Tuesday,10:30-11:30,"NT06-3rd Floor, Mech Dept Old Bajaj Building"
+LAB Batch 3-SME- System in Mech Engg,Division 1,Tuesday,11:30-12:30,"NT06-3rd Floor, Mech Dept Old Bajaj Building"
+LAB Batch 4-SME- System in Mech Engg,Division 1,Tuesday,10:30-11:30,"NT06-3rd Floor, Mech Dept Old Bajaj Building"
+LAB Batch 4-SME- System in Mech Engg,Division 1,Tuesday,11:30-12:30,"NT06-3rd Floor, Mech Dept Old Bajaj Building"
+LAB Batch 1-SME- System in Mech Engg,Division 2,Wednesday,08:30-09:30,"NT06-3rd Floor, Mech Dept Old Bajaj Building"
+LAB Batch 1-SME- System in Mech Engg,Division 2,Wednesday,09:30-10:30,"NT06-3rd Floor, Mech Dept Old Bajaj Building"
+LAB Batch 2-SME- System in Mech Engg,Division 2,Monday,01:30-02:30,"NT06-3rd Floor, Mech Dept Old Bajaj Building"
+LAB Batch 2-SME- System in Mech Engg,Division 2,Monday,02:30-03:30,"NT06-3rd Floor, Mech Dept Old Bajaj Building"
+LAB Batch 3-SME- System in Mech Engg,Division 2,Wednesday,08:30-09:30,"NT06-3rd Floor, Mech Dept Old Bajaj Building"
+LAB Batch 3-SME- System in Mech Engg,Division 2,Wednesday,09:30-10:30,"NT06-3rd Floor, Mech Dept Old Bajaj Building"
+LAB Batch 4-SME- System in Mech Engg,Division 2,Monday,01:30-02:30,"NT06-3rd Floor, Mech Dept Old Bajaj Building"
+LAB Batch 4-SME- System in Mech Engg,Division 2,Monday,02:30-03:30,"NT06-3rd Floor, Mech Dept Old Bajaj Building"
 Tut Batch 1-MAC,Division 6,Thursday,10:30-11:30,NC02
 Tut Batch 2-MAC,Division 6,Friday,10:30-11:30,NC02
 Tut Batch 3-MAC,Division 6,Saturday,12:30-01:30,NC02
@@ -552,3 +552,43 @@ LAB Batch 4B-Engg Chem(Ai+Mech+E&TC),Division 7,Tuesday,08:30-09:30,Chemistry LA
 LAB Batch 4B-Engg Chem(Ai+Mech+E&TC),Division 7,Tuesday,09:30-10:30,Chemistry LAB
 LAB Batch 4B-Engg Chem(Ai+Mech+E&TC),Division 8,Tuesday,08:30-09:30,Chemistry LAB
 LAB Batch 4B-Engg Chem(Ai+Mech+E&TC),Division 8,Tuesday,09:30-10:30,Chemistry LAB
+LAB Batch 1-EEE- Elements of Electronics Engg,Division 1,Wednesday,03:30-04:30,ECW LAB
+LAB Batch 1-EEE- Elements of Electronics Engg,Division 1,Wednesday,04:30-05:30,ECW LAB
+LAB Batch 2-EEE- Elements of Electronics Engg,Division 1,Wednesday,03:30-04:30,POWER LAB
+LAB Batch 2-EEE- Elements of Electronics Engg,Division 1,Wednesday,04:30-05:30,POWER LAB
+LAB Batch 3-EEE- Elements of Electronics Engg,Division 1,Tuesday,03:30-04:30,POWER LAB
+LAB Batch 3-EEE- Elements of Electronics Engg,Division 1,Tuesday,04:30-05:30,POWER LAB
+LAB Batch 4-EEE- Elements of Electronics Engg,Division 1,Tuesday,03:30-04:30,ECW LAB
+LAB Batch 4-EEE- Elements of Electronics Engg,Division 1,Tuesday,04:30-05:30,ECW LAB
+LAB Batch 1-EEE- Elements of Electronics Engg,Division 2,Thursday,01:30-02:30,POWER LAB
+LAB Batch 1-EEE- Elements of Electronics Engg,Division 2,Thursday,02:30-03:30,POWER LAB
+LAB Batch 2-EEE- Elements of Electronics Engg,Division 2,Thursday,01:30-02:30,ECW LAB
+LAB Batch 2-EEE- Elements of Electronics Engg,Division 2,Thursday,02:30-03:30,ECW LAB
+LAB Batch 3-EEE- Elements of Electronics Engg,Division 2,Friday,08:30-09:30,POWER LAB
+LAB Batch 3-EEE- Elements of Electronics Engg,Division 2,Friday,09:30-10:30,POWER LAB
+LAB Batch 4-EEE- Elements of Electronics Engg,Division 2,Friday,08:30-09:30,ECW LAB
+LAB Batch 4-EEE- Elements of Electronics Engg,Division 2,Friday,09:30-10:30,ECW LAB
+LAB Batch 1-DTIL- Design Thunking and Idea Lab,Division 1,Monday,10:30-11:30,Product Design LAB and FABLAB
+LAB Batch 1-DTIL- Design Thunking and Idea Lab,Division 1,Monday,11:30-12:30,Product Design LAB and FABLAB
+LAB Batch 2-DTIL- Design Thunking and Idea Lab,Division 1,Monday,10:30-11:30,Product Design LAB and FABLAB
+LAB Batch 2-DTIL- Design Thunking and Idea Lab,Division 1,Monday,11:30-12:30,Product Design LAB and FABLAB
+LAB Batch 3-DTIL- Design Thunking and Idea Lab,Division 1,Monday,04:30-05:30,Product Design LAB and FABLAB
+LAB Batch 3-DTIL- Design Thunking and Idea Lab,Division 1,Monday,05:30-06:30,Product Design LAB and FABLAB
+LAB Batch 4-DTIL- Design Thunking and Idea Lab,Division 1,Monday,04:30-05:30,Product Design LAB and FABLAB
+LAB Batch 4-DTIL- Design Thunking and Idea Lab,Division 1,Monday,05:30-06:30,Product Design LAB and FABLAB
+LAB Batch 1-FMATSIM- Funda. of MATLAB,Division 1,Tuesday,08:30-09:30,TBD
+LAB Batch 1-FMATSIM- Funda. of MATLAB,Division 1,Tuesday,09:30-10:30,TBD
+LAB Batch 2-FMATSIM- Funda. of MATLAB,Division 1,Tuesday,08:30-09:30,TBD
+LAB Batch 2-FMATSIM- Funda. of MATLAB,Division 1,Tuesday,09:30-10:30,TBD
+LAB Batch 3-FMATSIM- Funda. of MATLAB,Division 1,Wednesday,03:30-04:30,TBD
+LAB Batch 3-FMATSIM- Funda. of MATLAB,Division 1,Wednesday,04:30-05:30,TBD
+LAB Batch 4-FMATSIM- Funda. of MATLAB,Division 1,Wednesday,03:30-04:30,TBD
+LAB Batch 4-FMATSIM- Funda. of MATLAB,Division 1,Wednesday,04:30-05:30,TBD
+LAB Batch 1-SPM- Structure amd Properties of Materials,Division 1,Monday,10:30-11:30,"SC14-Ground Floor, Meta Dept"
+LAB Batch 1-SPM- Structure amd Properties of Materials,Division 1,Monday,11:30-12:30,"SC14-Ground Floor, Meta Dept"
+LAB Batch 2-SPM- Structure amd Properties of Materials,Division 1,Monday,10:30-11:30,"SC14-Ground Floor, Meta Dept"
+LAB Batch 2-SPM- Structure amd Properties of Materials,Division 1,Monday,11:30-12:30,"SC14-Ground Floor, Meta Dept"
+LAB Batch 3-SPM- Structure amd Properties of Materials,Division 1,Monday,04:30-05:30,"SC14-Ground Floor, Meta Dept"
+LAB Batch 3-SPM- Structure amd Properties of Materials,Division 1,Monday,05:30-06:30,"SC14-Ground Floor, Meta Dept"
+LAB Batch 4-SPM- Structure amd Properties of Materials,Division 1,Monday,04:30-05:30,"SC14-Ground Floor, Meta Dept"
+LAB Batch 4-SPM- Structure amd Properties of Materials,Division 1,Monday,05:30-06:30,"SC14-Ground Floor, Meta Dept"

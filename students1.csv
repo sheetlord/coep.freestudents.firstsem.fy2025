@@ -13314,11 +13314,6 @@ MIS,FirstName,MiddleName,LastName,Branch,Subject,Division
 612510189,VIDHIKA,SANJAY,SHARMA,Mechanical Engineering,LAB Batch 4-SME- System in Mech Engg,Division  2
 612510190,YASHODHAN,DAYANAND,KAMATH,Mechanical Engineering,LAB Batch 4-SME- System in Mech Engg,Division  2
 612510191,PRANAV,DAVE,,Mechanical Engineering,LAB Batch 4-SME- System in Mech Engg,Division  2
-612507050,ISHAAN,SHRIKANT,MUDKHEDKAR,Electronics and Telecommunication Engineering,LAB batch 8-CAD- Computer Aided Drafting,Division  1
-612507057,KARTIK,DILIP,PATIL,Electronics and Telecommunication Engineering,LAB batch 8-CAD- Computer Aided Drafting,Division  1
-612507099,PRITHVIRAJ,SIDDHARTH,KAMBLE,Electronics and Telecommunication Engineering,LAB batch 8-CAD- Computer Aided Drafting,Division  1
-612507100,PRIYAANSH,PRATAP,TENDULKAR,Electronics and Telecommunication Engineering,LAB batch 8-CAD- Computer Aided Drafting,Division  1
-612507177,KASHVEE,,SHARMA,Electronics and Telecommunication Engineering,LAB batch 8-CAD- Computer Aided Drafting,Division  1
 612572001,AADITYA,RANJEET,SHAH,Artificial Intelligence and Machine Learning,Tut Batch 1-Linear Algebra,Division  4
 612572002,AARADHYA,,PANDEY,Artificial Intelligence and Machine Learning,Tut Batch 1-Linear Algebra,Division  4
 612572003,AARUSH,RAVINDRA,VARKUTE,Artificial Intelligence and Machine Learning,Tut Batch 1-Linear Algebra,Division  4
@@ -15818,3 +15813,427 @@ MIS,FirstName,MiddleName,LastName,Branch,Subject,Division
 612510182,PARTH,S,JAGADE,Mechanical Engineering,LAB Batch 4B-Engg Chem(Ai+Mech+E&TC),Division  8
 612510184,SIDDHARTH,NISHIT,RAVALIA,Mechanical Engineering,LAB Batch 4B-Engg Chem(Ai+Mech+E&TC),Division  8
 612510191,PRANAV,DAVE,,Mechanical Engineering,LAB Batch 4B-Engg Chem(Ai+Mech+E&TC),Division  8
+612507001,AADITYA,ANILKUMAR,BAGE,Electronics and Telecommunication Engineering,LAB Batch 1-EEE- Elements of Electronics Engg,Division  1
+612507002,AADITYA,MAHESH,NARKHEDKAR,Electronics and Telecommunication Engineering,LAB Batch 1-EEE- Elements of Electronics Engg,Division  1
+612507004,AASHISH,DHANAJI,KUDALE,Electronics and Telecommunication Engineering,LAB Batch 1-EEE- Elements of Electronics Engg,Division  1
+612507005,ABHIJIT,SHANTESHWAR,SWAMI,Electronics and Telecommunication Engineering,LAB Batch 1-EEE- Elements of Electronics Engg,Division  1
+612507006,ABHISHEK,DEEPAK,DANDEKAR,Electronics and Telecommunication Engineering,LAB Batch 1-EEE- Elements of Electronics Engg,Division  1
+612507007,ABHISHEK,RAJESHWAR,KOKATE,Electronics and Telecommunication Engineering,LAB Batch 1-EEE- Elements of Electronics Engg,Division  1
+612507008,ADITI,BAPU,GARUDKAR,Electronics and Telecommunication Engineering,LAB Batch 1-EEE- Elements of Electronics Engg,Division  1
+612507009,ADITYA,ANIL,KHAWALE,Electronics and Telecommunication Engineering,LAB Batch 1-EEE- Elements of Electronics Engg,Division  1
+612507010,ADITYA,BARANWAL,,Electronics and Telecommunication Engineering,LAB Batch 1-EEE- Elements of Electronics Engg,Division  1
+612507011,ADITYA,DNYANOBA,BORKAR,Electronics and Telecommunication Engineering,LAB Batch 1-EEE- Elements of Electronics Engg,Division  1
+612507012,ADITYA,GUPTA,,Electronics and Telecommunication Engineering,LAB Batch 1-EEE- Elements of Electronics Engg,Division  1
+612507013,ADITYA,SATYANARAYAN,SONI,Electronics and Telecommunication Engineering,LAB Batch 1-EEE- Elements of Electronics Engg,Division  1
+612507014,AISHI,ROY,CHOUDHURY,Electronics and Telecommunication Engineering,LAB Batch 1-EEE- Elements of Electronics Engg,Division  1
+612507015,AJINKYA,ARVIND,MAGADUM,Electronics and Telecommunication Engineering,LAB Batch 1-EEE- Elements of Electronics Engg,Division  1
+612507016,AKSHAT,ATUL,KOTHARI,Electronics and Telecommunication Engineering,LAB Batch 1-EEE- Elements of Electronics Engg,Division  1
+612507017,AMANKUMAR,SUNILKUMAR,SINHA,Electronics and Telecommunication Engineering,LAB Batch 1-EEE- Elements of Electronics Engg,Division  1
+612507018,ANISHA,AVADHUT,KAMBLE,Electronics and Telecommunication Engineering,LAB Batch 1-EEE- Elements of Electronics Engg,Division  1
+612507019,ANU,NAGDEVE,,Electronics and Telecommunication Engineering,LAB Batch 1-EEE- Elements of Electronics Engg,Division  1
+612507020,ANURADHA,BHAGWAN,AWALE,Electronics and Telecommunication Engineering,LAB Batch 1-EEE- Elements of Electronics Engg,Division  1
+612507022,ARCHIT,MANOJ,DESHPANDE,Electronics and Telecommunication Engineering,LAB Batch 1-EEE- Elements of Electronics Engg,Division  1
+612507023,ARNAV,TEJAS,PADHYE,Electronics and Telecommunication Engineering,LAB Batch 1-EEE- Elements of Electronics Engg,Division  1
+612507024,ARYAN,ASHOK,TIWARI,Electronics and Telecommunication Engineering,LAB Batch 1-EEE- Elements of Electronics Engg,Division  1
+612507025,ARYAN,PRASHANT,GORE,Electronics and Telecommunication Engineering,LAB Batch 1-EEE- Elements of Electronics Engg,Division  1
+612507026,ARYAN,SANJAY,POL,Electronics and Telecommunication Engineering,LAB Batch 1-EEE- Elements of Electronics Engg,Division  1
+612507027,ASHUTOSH,KUMAR,,Electronics and Telecommunication Engineering,LAB Batch 2-EEE- Elements of Electronics Engg,Division  1
+612507028,ATHARV,AMOL,PATIL,Electronics and Telecommunication Engineering,LAB Batch 2-EEE- Elements of Electronics Engg,Division  1
+612507029,ATHARV,MACHINDRANATH,KOLEKAR,Electronics and Telecommunication Engineering,LAB Batch 2-EEE- Elements of Electronics Engg,Division  1
+612507030,ATHARVA,RAVI,DEGALMODE,Electronics and Telecommunication Engineering,LAB Batch 2-EEE- Elements of Electronics Engg,Division  1
+612507031,ATHARVA,SACHIN,GOVINDWAR,Electronics and Telecommunication Engineering,LAB Batch 2-EEE- Elements of Electronics Engg,Division  1
+612507032,ATHARVA,SANDIP,GADGE,Electronics and Telecommunication Engineering,LAB Batch 2-EEE- Elements of Electronics Engg,Division  1
+612507033,AVADHUT,SANJAY,YADAV,Electronics and Telecommunication Engineering,LAB Batch 2-EEE- Elements of Electronics Engg,Division  1
+612507034,BHAVANESH,MILIND,JAGTAP,Electronics and Telecommunication Engineering,LAB Batch 2-EEE- Elements of Electronics Engg,Division  1
+612507035,BHUSHAN,MAHENDRA,BESARKAR,Electronics and Telecommunication Engineering,LAB Batch 2-EEE- Elements of Electronics Engg,Division  1
+612507036,CHAITANYA,SIDHARTH,NARVANE,Electronics and Telecommunication Engineering,LAB Batch 2-EEE- Elements of Electronics Engg,Division  1
+612507037,CHAITANYA,SUNIL,PATIL,Electronics and Telecommunication Engineering,LAB Batch 2-EEE- Elements of Electronics Engg,Division  1
+612507038,CHINMAY,PRADEEP,MUDGALKAR,Electronics and Telecommunication Engineering,LAB Batch 2-EEE- Elements of Electronics Engg,Division  1
+612507039,DEVAASHISH,PRANAV,VAIDYA,Electronics and Telecommunication Engineering,LAB Batch 2-EEE- Elements of Electronics Engg,Division  1
+612507040,DHANANJAY,SUNIL,KASULE,Electronics and Telecommunication Engineering,LAB Batch 2-EEE- Elements of Electronics Engg,Division  1
+612507041,DHIRAJ,GAJANAN,SAKHARKAR,Electronics and Telecommunication Engineering,LAB Batch 2-EEE- Elements of Electronics Engg,Division  1
+612507042,DIVYA,BABAN,SAMBHERAO,Electronics and Telecommunication Engineering,LAB Batch 2-EEE- Elements of Electronics Engg,Division  1
+612507043,ESHITA,HITENDRA,PATIL,Electronics and Telecommunication Engineering,LAB Batch 2-EEE- Elements of Electronics Engg,Division  1
+612507044,GANDHAR,PRASHANT,TAWADE,Electronics and Telecommunication Engineering,LAB Batch 2-EEE- Elements of Electronics Engg,Division  1
+612507045,HARSHAD,RAMRAO,BHOYAR,Electronics and Telecommunication Engineering,LAB Batch 2-EEE- Elements of Electronics Engg,Division  1
+612507046,HARSHVARDHAN,YUVRAJ,PATIL,Electronics and Telecommunication Engineering,LAB Batch 2-EEE- Elements of Electronics Engg,Division  1
+612507047,HARSHWARDHAN,ADHIK,JAGTAP,Electronics and Telecommunication Engineering,LAB Batch 2-EEE- Elements of Electronics Engg,Division  1
+612507048,HIMANSHU,DIPAK,PATIL,Electronics and Telecommunication Engineering,LAB Batch 2-EEE- Elements of Electronics Engg,Division  1
+612507049,HRUCHA,SANDESHKUMAR,SHINDE,Electronics and Telecommunication Engineering,LAB Batch 2-EEE- Elements of Electronics Engg,Division  1
+612507050,ISHAAN,SHRIKANT,MUDKHEDKAR,Electronics and Telecommunication Engineering,LAB Batch 2-EEE- Elements of Electronics Engg,Division  1
+612507051,ISHANT,DEVENDRA,NAHAR,Electronics and Telecommunication Engineering,LAB Batch 3-EEE- Elements of Electronics Engg,Division  1
+612507052,JAY,BHAIYA,TRIBHUVAN,Electronics and Telecommunication Engineering,LAB Batch 3-EEE- Elements of Electronics Engg,Division  1
+612507054,JITYA,NITIN,HASANI,Electronics and Telecommunication Engineering,LAB Batch 3-EEE- Elements of Electronics Engg,Division  1
+612507055,JOEL,TIKOO,,Electronics and Telecommunication Engineering,LAB Batch 3-EEE- Elements of Electronics Engg,Division  1
+612507056,KAIVALYA,GANESH,MHATRE,Electronics and Telecommunication Engineering,LAB Batch 3-EEE- Elements of Electronics Engg,Division  1
+612507057,KARTIK,DILIP,PATIL,Electronics and Telecommunication Engineering,LAB Batch 3-EEE- Elements of Electronics Engg,Division  1
+612507058,KARTIK,GANESH,RAUT,Electronics and Telecommunication Engineering,LAB Batch 3-EEE- Elements of Electronics Engg,Division  1
+612507059,KRISHNA,BHIKAN,PATIL,Electronics and Telecommunication Engineering,LAB Batch 3-EEE- Elements of Electronics Engg,Division  1
+612507060,KRISHNA,DEEPAK,BHISE,Electronics and Telecommunication Engineering,LAB Batch 3-EEE- Elements of Electronics Engg,Division  1
+612507061,KRISHNATEJASYA,MANASA,ENDELA,Electronics and Telecommunication Engineering,LAB Batch 3-EEE- Elements of Electronics Engg,Division  1
+612507062,KUNAL,VINOD,NIMJE,Electronics and Telecommunication Engineering,LAB Batch 3-EEE- Elements of Electronics Engg,Division  1
+612507063,LAKSHYA,VARSHNEY,,Electronics and Telecommunication Engineering,LAB Batch 3-EEE- Elements of Electronics Engg,Division  1
+612507065,LOKESH,ANIL,SURYAWANSHI,Electronics and Telecommunication Engineering,LAB Batch 3-EEE- Elements of Electronics Engg,Division  1
+612507066,LOKESH,DHARGAVE,,Electronics and Telecommunication Engineering,LAB Batch 3-EEE- Elements of Electronics Engg,Division  1
+612507067,MADHURA,DATTATRAY,JAGTAP,Electronics and Telecommunication Engineering,LAB Batch 3-EEE- Elements of Electronics Engg,Division  1
+612507068,MANDAR,PRASHANT,DESAI,Electronics and Telecommunication Engineering,LAB Batch 3-EEE- Elements of Electronics Engg,Division  1
+612507069,MANSI,VIJAYKUMAR,JADHAV,Electronics and Telecommunication Engineering,LAB Batch 3-EEE- Elements of Electronics Engg,Division  1
+612507070,MAYURESH,RAJARAM,ZORE,Electronics and Telecommunication Engineering,LAB Batch 3-EEE- Elements of Electronics Engg,Division  1
+612507071,MEET,VINAY,GUPTA,Electronics and Telecommunication Engineering,LAB Batch 3-EEE- Elements of Electronics Engg,Division  1
+612507072,MEGHAJ,PRASHANT,SHARMA,Electronics and Telecommunication Engineering,LAB Batch 3-EEE- Elements of Electronics Engg,Division  1
+612507073,NARAYANI,JAWALE,,Electronics and Telecommunication Engineering,LAB Batch 3-EEE- Elements of Electronics Engg,Division  1
+612507074,NEEL,RAHUL,BHARAMBE,Electronics and Telecommunication Engineering,LAB Batch 3-EEE- Elements of Electronics Engg,Division  1
+612507075,NEERAJ,TRILOKCHAND,KUMARE,Electronics and Telecommunication Engineering,LAB Batch 3-EEE- Elements of Electronics Engg,Division  1
+612507076,NEHA,NYAHALSING,JARWAL,Electronics and Telecommunication Engineering,LAB Batch 3-EEE- Elements of Electronics Engg,Division  1
+612507077,NEHA,SHANKAR,GAIKWAD,Electronics and Telecommunication Engineering,LAB Batch 4-EEE- Elements of Electronics Engg,Division  1
+612507078,NIBODH,RITESH,JAIN,Electronics and Telecommunication Engineering,LAB Batch 4-EEE- Elements of Electronics Engg,Division  1
+612507079,OJAS,DEVENDRA,JOSHI,Electronics and Telecommunication Engineering,LAB Batch 4-EEE- Elements of Electronics Engg,Division  1
+612507080,OM,LALIT,RANE,Electronics and Telecommunication Engineering,LAB Batch 4-EEE- Elements of Electronics Engg,Division  1
+612507081,OM,VITTHAL,SATPUTE,Electronics and Telecommunication Engineering,LAB Batch 4-EEE- Elements of Electronics Engg,Division  1
+612507082,OMKAR,MAHESH,SHITOLE,Electronics and Telecommunication Engineering,LAB Batch 4-EEE- Elements of Electronics Engg,Division  1
+612507083,ONKAR,ASHOK,WAGH,Electronics and Telecommunication Engineering,LAB Batch 4-EEE- Elements of Electronics Engg,Division  1
+612507084,ONKAR,RAJSHEKHAR,JAMBAGI,Electronics and Telecommunication Engineering,LAB Batch 4-EEE- Elements of Electronics Engg,Division  1
+612507085,PANKAJ,ATMARAM,GAIKWAD,Electronics and Telecommunication Engineering,LAB Batch 4-EEE- Elements of Electronics Engg,Division  1
+612507086,PARSHAD,SACHIN,NALE,Electronics and Telecommunication Engineering,LAB Batch 4-EEE- Elements of Electronics Engg,Division  1
+612507087,PARTH,GAJANAN,PANDE,Electronics and Telecommunication Engineering,LAB Batch 4-EEE- Elements of Electronics Engg,Division  1
+612507088,PARTH,NITIN,JAYSWAL,Electronics and Telecommunication Engineering,LAB Batch 4-EEE- Elements of Electronics Engg,Division  1
+612507089,PARTH,SACHIN,NALE,Electronics and Telecommunication Engineering,LAB Batch 4-EEE- Elements of Electronics Engg,Division  1
+612507090,PARTH,VISHNU,KAMALAKAR,Electronics and Telecommunication Engineering,LAB Batch 4-EEE- Elements of Electronics Engg,Division  1
+612507091,PARTH,WADKAR,,Electronics and Telecommunication Engineering,LAB Batch 4-EEE- Elements of Electronics Engg,Division  1
+612507092,PAYAL,KISAN,JADHAV,Electronics and Telecommunication Engineering,LAB Batch 4-EEE- Elements of Electronics Engg,Division  1
+612507093,PRABHA,SHARMA,,Electronics and Telecommunication Engineering,LAB Batch 4-EEE- Elements of Electronics Engg,Division  1
+612507094,PRAGATI,YOGESH,BHORE,Electronics and Telecommunication Engineering,LAB Batch 4-EEE- Elements of Electronics Engg,Division  1
+612507095,PRANAV,GANESH,KHAIRNAR,Electronics and Telecommunication Engineering,LAB Batch 4-EEE- Elements of Electronics Engg,Division  1
+612507096,PRANJAL,MAHESHKUMAR,PATIL,Electronics and Telecommunication Engineering,LAB Batch 4-EEE- Elements of Electronics Engg,Division  1
+612507097,PRATHAMESH,PRAVIN,BUTTE,Electronics and Telecommunication Engineering,LAB Batch 4-EEE- Elements of Electronics Engg,Division  1
+612507098,PRATHMESH,PUNDLIK,SONAWANE,Electronics and Telecommunication Engineering,LAB Batch 4-EEE- Elements of Electronics Engg,Division  1
+612507099,PRITHVIRAJ,SIDDHARTH,KAMBLE,Electronics and Telecommunication Engineering,LAB Batch 4-EEE- Elements of Electronics Engg,Division  1
+612507100,PRIYAANSH,PRATAP,TENDULKAR,Electronics and Telecommunication Engineering,LAB Batch 4-EEE- Elements of Electronics Engg,Division  1
+612507101,PRIYESH,SUNIL,PATIL,Electronics and Telecommunication Engineering,LAB Batch 1-EEE- Elements of Electronics Engg,Division  2
+612507102,PURVA,MAHESH,JOSHI,Electronics and Telecommunication Engineering,LAB Batch 1-EEE- Elements of Electronics Engg,Division  2
+612507103,RAJVEER,SINGH,DIXIT,Electronics and Telecommunication Engineering,LAB Batch 1-EEE- Elements of Electronics Engg,Division  2
+612507104,RAMMYA,JANARDAN,SHETE,Electronics and Telecommunication Engineering,LAB Batch 1-EEE- Elements of Electronics Engg,Division  2
+612507105,RAWANE,DHRUV,HARSHVARDHAN,Electronics and Telecommunication Engineering,LAB Batch 1-EEE- Elements of Electronics Engg,Division  2
+612507106,RIDDHI,SACHIN,BENDALE,Electronics and Telecommunication Engineering,LAB Batch 1-EEE- Elements of Electronics Engg,Division  2
+612507107,RISHI,PANKAJ,GUJARATHI,Electronics and Telecommunication Engineering,LAB Batch 1-EEE- Elements of Electronics Engg,Division  2
+612507108,RISHIK,RAJESH,RAJURKAR,Electronics and Telecommunication Engineering,LAB Batch 1-EEE- Elements of Electronics Engg,Division  2
+612507109,RISHIKA,SHRIHARSH,SHARMA,Electronics and Telecommunication Engineering,LAB Batch 1-EEE- Elements of Electronics Engg,Division  2
+612507110,RISHIT,SHAILESHSHETTY,,Electronics and Telecommunication Engineering,LAB Batch 1-EEE- Elements of Electronics Engg,Division  2
+612507111,RITESH,NAGNATH,KAYATE,Electronics and Telecommunication Engineering,LAB Batch 1-EEE- Elements of Electronics Engg,Division  2
+612507112,RIYA,ABHINANDAN,SOUNDATTE,Electronics and Telecommunication Engineering,LAB Batch 1-EEE- Elements of Electronics Engg,Division  2
+612507113,ROHAN,VINAYAK,VAIDYA,Electronics and Telecommunication Engineering,LAB Batch 1-EEE- Elements of Electronics Engg,Division  2
+612507114,RONNIT,YOGESH,KASAT,Electronics and Telecommunication Engineering,LAB Batch 1-EEE- Elements of Electronics Engg,Division  2
+612507115,RUCHA,GANESH,DASNAM,Electronics and Telecommunication Engineering,LAB Batch 1-EEE- Elements of Electronics Engg,Division  2
+612507116,RUGVED,DINESH,NANDEDKAR,Electronics and Telecommunication Engineering,LAB Batch 1-EEE- Elements of Electronics Engg,Division  2
+612507117,SAHIL,SANTOSH,KHARAT,Electronics and Telecommunication Engineering,LAB Batch 1-EEE- Elements of Electronics Engg,Division  2
+612507118,SAI,RAJEEV,HOTHA,Electronics and Telecommunication Engineering,LAB Batch 1-EEE- Elements of Electronics Engg,Division  2
+612507119,SAKSHAM,MANOJKUMAR,INANI,Electronics and Telecommunication Engineering,LAB Batch 1-EEE- Elements of Electronics Engg,Division  2
+612507120,SAMARTH,KRUSHANA,GADEKAR,Electronics and Telecommunication Engineering,LAB Batch 1-EEE- Elements of Electronics Engg,Division  2
+612507121,SAMARTH,SUNIL,KADAM,Electronics and Telecommunication Engineering,LAB Batch 1-EEE- Elements of Electronics Engg,Division  2
+612507122,SAMBIT,DAS,,Electronics and Telecommunication Engineering,LAB Batch 2-EEE- Elements of Electronics Engg,Division  2
+612507123,SAMYAK,GAUTAM,GAJBHIYE,Electronics and Telecommunication Engineering,LAB Batch 2-EEE- Elements of Electronics Engg,Division  2
+612507125,SANCHIT,PRASHANT,JOSHI,Electronics and Telecommunication Engineering,LAB Batch 2-EEE- Elements of Electronics Engg,Division  2
+612507126,SANIKA,CHANDRASHEKHAR,JOSHI,Electronics and Telecommunication Engineering,LAB Batch 2-EEE- Elements of Electronics Engg,Division  2
+612507127,SANKET,VIRBHADRA,BAWAGE,Electronics and Telecommunication Engineering,LAB Batch 2-EEE- Elements of Electronics Engg,Division  2
+612507128,SARTHAK,VISHWAS,PATIL,Electronics and Telecommunication Engineering,LAB Batch 2-EEE- Elements of Electronics Engg,Division  2
+612507129,SARTHAKI,DEVANAND,BUDHWANT,Electronics and Telecommunication Engineering,LAB Batch 2-EEE- Elements of Electronics Engg,Division  2
+612507130,SARVESH,MAHESH,KULKARNI,Electronics and Telecommunication Engineering,LAB Batch 2-EEE- Elements of Electronics Engg,Division  2
+612507131,SAVANI,VIJAY,REDEKAR,Electronics and Telecommunication Engineering,LAB Batch 2-EEE- Elements of Electronics Engg,Division  2
+612507132,SHAIKHHAYYAN,HAYYUR,REHMAN,Electronics and Telecommunication Engineering,LAB Batch 2-EEE- Elements of Electronics Engg,Division  2
+612507133,SHAMAN,SUDHEER,RAI,Electronics and Telecommunication Engineering,LAB Batch 2-EEE- Elements of Electronics Engg,Division  2
+612507134,SHARVARI,SHRIPADRAO,MULEY,Electronics and Telecommunication Engineering,LAB Batch 2-EEE- Elements of Electronics Engg,Division  2
+612507135,SHARVARY,NARAYAN,JUWAR,Electronics and Telecommunication Engineering,LAB Batch 2-EEE- Elements of Electronics Engg,Division  2
+612507136,SHOURYASAMARTH,SACHIN,ICHALKARANJE,Electronics and Telecommunication Engineering,LAB Batch 2-EEE- Elements of Electronics Engg,Division  2
+612507137,SHRAVANI,SUJIT,MANE,Electronics and Telecommunication Engineering,LAB Batch 2-EEE- Elements of Electronics Engg,Division  2
+612507138,SHRESTHA,BHAUMIK,,Electronics and Telecommunication Engineering,LAB Batch 2-EEE- Elements of Electronics Engg,Division  2
+612507139,SHREYA,DHANRAJ,DADMAL,Electronics and Telecommunication Engineering,LAB Batch 2-EEE- Elements of Electronics Engg,Division  2
+612507140,SHREYASH,SANJAY,PAWAR,Electronics and Telecommunication Engineering,LAB Batch 2-EEE- Elements of Electronics Engg,Division  2
+612507141,SHRUTI,JAYHIND,DISALE,Electronics and Telecommunication Engineering,LAB Batch 2-EEE- Elements of Electronics Engg,Division  2
+612507142,SHUBHAM,YASHAWANT,NEMADE,Electronics and Telecommunication Engineering,LAB Batch 2-EEE- Elements of Electronics Engg,Division  2
+612507143,SIDDHANT,DILIP,NIKHADE,Electronics and Telecommunication Engineering,LAB Batch 2-EEE- Elements of Electronics Engg,Division  2
+612507145,SIDDHI,MANOHAR,REDEKAR,Electronics and Telecommunication Engineering,LAB Batch 2-EEE- Elements of Electronics Engg,Division  2
+612507146,SNEHAL,BABURAO,AMBRE,Electronics and Telecommunication Engineering,LAB Batch 3-EEE- Elements of Electronics Engg,Division  2
+612507147,SOHAM,TANAJI,ADEKAR,Electronics and Telecommunication Engineering,LAB Batch 3-EEE- Elements of Electronics Engg,Division  2
+612507148,SOUMYA,SANJAY,FUSEY,Electronics and Telecommunication Engineering,LAB Batch 3-EEE- Elements of Electronics Engg,Division  2
+612507149,SOURABH,SUNIL,SONTAKKE,Electronics and Telecommunication Engineering,LAB Batch 3-EEE- Elements of Electronics Engg,Division  2
+612507150,SUJAL,SHASHIKANT,CHANDANE,Electronics and Telecommunication Engineering,LAB Batch 3-EEE- Elements of Electronics Engg,Division  2
+612507151,SUPRIYA,MAHENDRA,BORDEPATIL,Electronics and Telecommunication Engineering,LAB Batch 3-EEE- Elements of Electronics Engg,Division  2
+612507152,SURAJ,PAWAR,,Electronics and Telecommunication Engineering,LAB Batch 3-EEE- Elements of Electronics Engg,Division  2
+612507153,SUYASH,ANIL,JORE,Electronics and Telecommunication Engineering,LAB Batch 3-EEE- Elements of Electronics Engg,Division  2
+612507154,SWANANDI,GHANSHYAM,ZADE,Electronics and Telecommunication Engineering,LAB Batch 3-EEE- Elements of Electronics Engg,Division  2
+612507155,SWANANDI,MOHARIL,,Electronics and Telecommunication Engineering,LAB Batch 3-EEE- Elements of Electronics Engg,Division  2
+612507156,SWARA,SACHIN,KADAM,Electronics and Telecommunication Engineering,LAB Batch 3-EEE- Elements of Electronics Engg,Division  2
+612507157,SWARALI,HIMMATRAO,PATIL,Electronics and Telecommunication Engineering,LAB Batch 3-EEE- Elements of Electronics Engg,Division  2
+612507158,SWAYAM,RAHUL,BANKAR,Electronics and Telecommunication Engineering,LAB Batch 3-EEE- Elements of Electronics Engg,Division  2
+612507159,TANISHA,PRAVIN,BABAR,Electronics and Telecommunication Engineering,LAB Batch 3-EEE- Elements of Electronics Engg,Division  2
+612507160,TANISHQ,KAMLESH,BHANDARI,Electronics and Telecommunication Engineering,LAB Batch 3-EEE- Elements of Electronics Engg,Division  2
+612507161,TANVI,AJAY,MEHENDALE,Electronics and Telecommunication Engineering,LAB Batch 3-EEE- Elements of Electronics Engg,Division  2
+612507162,VAIDEHI,VIVEK,NARKHEDE,Electronics and Telecommunication Engineering,LAB Batch 3-EEE- Elements of Electronics Engg,Division  2
+612507163,VARAD,SADASHIV,SAROLKAR,Electronics and Telecommunication Engineering,LAB Batch 3-EEE- Elements of Electronics Engg,Division  2
+612507165,VEDANG,PANKAJ,VORA,Electronics and Telecommunication Engineering,LAB Batch 3-EEE- Elements of Electronics Engg,Division  2
+612507166,VEDANT,GOVINDRAO,KULKARNI,Electronics and Telecommunication Engineering,LAB Batch 3-EEE- Elements of Electronics Engg,Division  2
+612507167,VEDANT,SHRIHARI,YENCHEWAD,Electronics and Telecommunication Engineering,LAB Batch 3-EEE- Elements of Electronics Engg,Division  2
+612507168,VEDANT,VENKAT,HURCHNALE,Electronics and Telecommunication Engineering,LAB Batch 3-EEE- Elements of Electronics Engg,Division  2
+612507169,VIRAJ,SWAPNIL,PATIL,Electronics and Telecommunication Engineering,LAB Batch 4-EEE- Elements of Electronics Engg,Division  2
+612507170,VISHWAJEET,SOMANATH,MOHITE,Electronics and Telecommunication Engineering,LAB Batch 4-EEE- Elements of Electronics Engg,Division  2
+612507171,VISHWANAND,MARUTHE,,Electronics and Telecommunication Engineering,LAB Batch 4-EEE- Elements of Electronics Engg,Division  2
+612507172,YUWANSH,DAHIKAR,,Electronics and Telecommunication Engineering,LAB Batch 4-EEE- Elements of Electronics Engg,Division  2
+612507174,ADHYAYAN,VINOD,SHINDE,Electronics and Telecommunication Engineering,LAB Batch 4-EEE- Elements of Electronics Engg,Division  2
+612507175,APARNA,RAJALAKSHMI,ACHATH,Electronics and Telecommunication Engineering,LAB Batch 4-EEE- Elements of Electronics Engg,Division  2
+612507176,DHRUVA,SHIRNIVAS,,Electronics and Telecommunication Engineering,LAB Batch 4-EEE- Elements of Electronics Engg,Division  2
+612507177,KASHVEE,SHARMA,,Electronics and Telecommunication Engineering,LAB Batch 4-EEE- Elements of Electronics Engg,Division  2
+612507178,MRUNMAI,MAHESH,LAKHE,Electronics and Telecommunication Engineering,LAB Batch 4-EEE- Elements of Electronics Engg,Division  2
+612507179,PURVI,SHESHACHAL,KULKARNI,Electronics and Telecommunication Engineering,LAB Batch 4-EEE- Elements of Electronics Engg,Division  2
+612507180,SAHIL,JOSHI,,Electronics and Telecommunication Engineering,LAB Batch 4-EEE- Elements of Electronics Engg,Division  2
+612507181,SAMMIT,BHUSHAN,CHINCHALKAR,Electronics and Telecommunication Engineering,LAB Batch 4-EEE- Elements of Electronics Engg,Division  2
+612507182,SANAA,VIKRAM,JOSHI,Electronics and Telecommunication Engineering,LAB Batch 4-EEE- Elements of Electronics Engg,Division  2
+612507184,SHREEDNYA,AMOL,BHOSALE,Electronics and Telecommunication Engineering,LAB Batch 4-EEE- Elements of Electronics Engg,Division  2
+612507185,SHRUTI,SANTOSH,LONKAR,Electronics and Telecommunication Engineering,LAB Batch 4-EEE- Elements of Electronics Engg,Division  2
+612507186,SWARALI,JAYDEEP,JOSHI,Electronics and Telecommunication Engineering,LAB Batch 4-EEE- Elements of Electronics Engg,Division  2
+612507187,ADITYA,JAGAN,WABLE,Electronics and Telecommunication Engineering,LAB Batch 4-EEE- Elements of Electronics Engg,Division  2
+612507188,AKSHITA,SHARMA,,Electronics and Telecommunication Engineering,LAB Batch 4-EEE- Elements of Electronics Engg,Division  2
+612507190,SAMYAK,TUSHAR,JAIN,Electronics and Telecommunication Engineering,LAB Batch 4-EEE- Elements of Electronics Engg,Division  2
+612507191,SHIVRAJ,KAKASAHEB,BANDWAN,Electronics and Telecommunication Engineering,LAB Batch 4-EEE- Elements of Electronics Engg,Division  2
+612507192,RANVEER,SIDDHARTH,AJINKYA,Electronics and Telecommunication Engineering,LAB Batch 4-EEE- Elements of Electronics Engg,Division  2
+612511053,SAARTH,ASHISH,DUNGARWAL,Metallurgy and Materials Technology,LAB Batch 3-SPM- Structure amd Properties of Materials,Division  1
+612511054,SAGAL,SITARAM,SONAWALE,Metallurgy and Materials Technology,LAB Batch 3-SPM- Structure amd Properties of Materials,Division  1
+612511055,SAMEER,BAGWAN,ANAS,Metallurgy and Materials Technology,LAB Batch 3-SPM- Structure amd Properties of Materials,Division  1
+612511056,SAMRUDDHA,RAVINDRA,MOKAL,Metallurgy and Materials Technology,LAB Batch 3-SPM- Structure amd Properties of Materials,Division  1
+612511057,SANIKA,NIVAS,SHINDE,Metallurgy and Materials Technology,LAB Batch 3-SPM- Structure amd Properties of Materials,Division  1
+612511058,SARTHAK,SHIVRAM,RATHOD,Metallurgy and Materials Technology,LAB Batch 3-SPM- Structure amd Properties of Materials,Division  1
+612511059,SHASTRI,RUJUL,RAJVEER,Metallurgy and Materials Technology,LAB Batch 3-SPM- Structure amd Properties of Materials,Division  1
+612511060,SHIKALGAR,WASIF,FIROZ,Metallurgy and Materials Technology,LAB Batch 3-SPM- Structure amd Properties of Materials,Division  1
+612511061,SHREYA,ABHIJIT,KESKAR,Metallurgy and Materials Technology,LAB Batch 3-SPM- Structure amd Properties of Materials,Division  1
+612511062,SHREYASH,SANJAY,MORE,Metallurgy and Materials Technology,LAB Batch 3-SPM- Structure amd Properties of Materials,Division  1
+612511063,SHRISH,MAHESH,YEOLEKAR,Metallurgy and Materials Technology,LAB Batch 3-SPM- Structure amd Properties of Materials,Division  1
+612511064,SIDDHARTHA,DEO,,Metallurgy and Materials Technology,LAB Batch 3-SPM- Structure amd Properties of Materials,Division  1
+612511067,SUCHIR,SHRIRANG,DIVEKAR,Metallurgy and Materials Technology,LAB Batch 3-SPM- Structure amd Properties of Materials,Division  1
+612511068,SUNAYANA,DEEPAK,CHAKANE,Metallurgy and Materials Technology,LAB Batch 3-SPM- Structure amd Properties of Materials,Division  1
+612511069,SUSHIL,VINOD,BHOSALE,Metallurgy and Materials Technology,LAB Batch 3-SPM- Structure amd Properties of Materials,Division  1
+612511070,SWAPNIL,NARESH,SIDAM,Metallurgy and Materials Technology,LAB Batch 3-SPM- Structure amd Properties of Materials,Division  1
+612511071,SWARALI,NITESH,RAJPURKAR,Metallurgy and Materials Technology,LAB Batch 3-SPM- Structure amd Properties of Materials,Division  1
+612511072,TAKSHEEL,BUDDHADEO,,Metallurgy and Materials Technology,LAB Batch 3-SPM- Structure amd Properties of Materials,Division  1
+612511073,TANAYA,BALAJI,MORE,Metallurgy and Materials Technology,LAB Batch 3-SPM- Structure amd Properties of Materials,Division  1
+612511074,TANISHA,AMOL,KHISTE,Metallurgy and Materials Technology,LAB Batch 3-SPM- Structure amd Properties of Materials,Division  1
+612511075,TANVI,JEETENDRA,PATIL,Metallurgy and Materials Technology,LAB Batch 3-SPM- Structure amd Properties of Materials,Division  1
+612511076,TIYAN,SUHAS,DHAWALE,Metallurgy and Materials Technology,LAB Batch 4-SPM- Structure amd Properties of Materials,Division  1
+612511077,VANSH,VIJAY,SHRIWASTAVA,Metallurgy and Materials Technology,LAB Batch 4-SPM- Structure amd Properties of Materials,Division  1
+612511078,VANSHIKA,SRIVASTAVA,,Metallurgy and Materials Technology,LAB Batch 4-SPM- Structure amd Properties of Materials,Division  1
+612511079,VEDANG,AGRAWAL,,Metallurgy and Materials Technology,LAB Batch 4-SPM- Structure amd Properties of Materials,Division  1
+612511080,VEDANT,MANGESH,SAKURIKAR,Metallurgy and Materials Technology,LAB Batch 4-SPM- Structure amd Properties of Materials,Division  1
+612511081,VIPASHYA,RAJESH,SAPKAL,Metallurgy and Materials Technology,LAB Batch 4-SPM- Structure amd Properties of Materials,Division  1
+612511082,YASHIKA,GANESH,DAIMIWAL,Metallurgy and Materials Technology,LAB Batch 4-SPM- Structure amd Properties of Materials,Division  1
+612511083,YASHWARDHAN,GANESH,BHAME,Metallurgy and Materials Technology,LAB Batch 4-SPM- Structure amd Properties of Materials,Division  1
+612511084,CHAITANYA,RAJENDRA,VAISHAMPAYAN,Metallurgy and Materials Technology,LAB Batch 4-SPM- Structure amd Properties of Materials,Division  1
+612511085,MOHAMMAD,AFFAAN,ZUBAIR,Metallurgy and Materials Technology,LAB Batch 4-SPM- Structure amd Properties of Materials,Division  1
+612511086,DEVESH,KUMAR,KRISHNA KUMAR SINGH,Metallurgy and Materials Technology,LAB Batch 4-SPM- Structure amd Properties of Materials,Division  1
+612511087,KARTIKEY,VINOD,BORNARE,Metallurgy and Materials Technology,LAB Batch 4-SPM- Structure amd Properties of Materials,Division  1
+612511088,NIHAR,MANGESH,JADHAO,Metallurgy and Materials Technology,LAB Batch 4-SPM- Structure amd Properties of Materials,Division  1
+612511089,PRANSH,GOVIND,CHANDAK,Metallurgy and Materials Technology,LAB Batch 4-SPM- Structure amd Properties of Materials,Division  1
+612511090,RUPESH,DILIP,BARASKAR,Metallurgy and Materials Technology,LAB Batch 4-SPM- Structure amd Properties of Materials,Division  1
+612511091,SARVESH,TUSHAR,GODE,Metallurgy and Materials Technology,LAB Batch 4-SPM- Structure amd Properties of Materials,Division  1
+612511092,TANISHQ,SAARANG,DESHMUKH,Metallurgy and Materials Technology,LAB Batch 4-SPM- Structure amd Properties of Materials,Division  1
+612511093,VARAD,RAJENDRA,KALEL,Metallurgy and Materials Technology,LAB Batch 4-SPM- Structure amd Properties of Materials,Division  1
+612511094,ARIHANT,KAUL,,Metallurgy and Materials Technology,LAB Batch 4-SPM- Structure amd Properties of Materials,Division  1
+612511095,DEVANG,KIRAN,BHAVSAR,Metallurgy and Materials Technology,LAB Batch 4-SPM- Structure amd Properties of Materials,Division  1
+612511001,ABHIRAM,ANAND,MAIRAL,Metallurgy and Materials Technology,LAB Batch 1-SPM- Structure amd Properties of Materials,Division  1
+612511002,ADITYA,ANNASAHEB,GAIKWAD,Metallurgy and Materials Technology,LAB Batch 1-SPM- Structure amd Properties of Materials,Division  1
+612511003,AMOGH,PRASAD,WALEKAR,Metallurgy and Materials Technology,LAB Batch 1-SPM- Structure amd Properties of Materials,Division  1
+612511004,ANIKET,RAMKISAN,NARWADE,Metallurgy and Materials Technology,LAB Batch 1-SPM- Structure amd Properties of Materials,Division  1
+612511005,ANJALI,SHANKAR,KALMENGHE,Metallurgy and Materials Technology,LAB Batch 1-SPM- Structure amd Properties of Materials,Division  1
+612511006,ARNAV,MANISH,GAWANDE,Metallurgy and Materials Technology,LAB Batch 1-SPM- Structure amd Properties of Materials,Division  1
+612511008,ARYA,KALPESH,JUVEKAR,Metallurgy and Materials Technology,LAB Batch 1-SPM- Structure amd Properties of Materials,Division  1
+612511009,AYUSH,SHINDE,,Metallurgy and Materials Technology,LAB Batch 1-SPM- Structure amd Properties of Materials,Division  1
+612511010,AYUSH,SUNIL,CHOUGULE,Metallurgy and Materials Technology,LAB Batch 1-SPM- Structure amd Properties of Materials,Division  1
+612511011,BHAVIK,DATTATRAY,SANGALE,Metallurgy and Materials Technology,LAB Batch 1-SPM- Structure amd Properties of Materials,Division  1
+612511012,CHAITANYA,LAKSHMI,NARAYAN,Metallurgy and Materials Technology,LAB Batch 1-SPM- Structure amd Properties of Materials,Division  1
+612511013,CHANDANSHIV,ADITYA,CHAKRADHAR,Metallurgy and Materials Technology,LAB Batch 1-SPM- Structure amd Properties of Materials,Division  1
+612511014,CHETAN,KUMBHARE,,Metallurgy and Materials Technology,LAB Batch 1-SPM- Structure amd Properties of Materials,Division  1
+612511015,HARSHAD,SURYAKANT,PATIL,Metallurgy and Materials Technology,LAB Batch 1-SPM- Structure amd Properties of Materials,Division  1
+612511017,HIMANSHU,RAMESH,PUJARI,Metallurgy and Materials Technology,LAB Batch 1-SPM- Structure amd Properties of Materials,Division  1
+612511018,ISHWARI,PRASANNA,WALKE,Metallurgy and Materials Technology,LAB Batch 1-SPM- Structure amd Properties of Materials,Division  1
+612511020,JAYRAJ,RAVINDRA,SOMDE,Metallurgy and Materials Technology,LAB Batch 1-SPM- Structure amd Properties of Materials,Division  1
+612511021,KARAN,SUNIL,LAMKHEDE,Metallurgy and Materials Technology,LAB Batch 1-SPM- Structure amd Properties of Materials,Division  1
+612511022,KARUNA,SANJAY,SASANE,Metallurgy and Materials Technology,LAB Batch 1-SPM- Structure amd Properties of Materials,Division  1
+612511023,KAVISH,BRAJESH,BANG,Metallurgy and Materials Technology,LAB Batch 1-SPM- Structure amd Properties of Materials,Division  1
+612511024,KHUSHI,PUSHPAM,GUPTA,Metallurgy and Materials Technology,LAB Batch 1-SPM- Structure amd Properties of Materials,Division  1
+612511025,KRISH,SHRIKANT,SANKALE,Metallurgy and Materials Technology,LAB Batch 1-SPM- Structure amd Properties of Materials,Division  1
+612511027,MOHAMMAD,FAIZ,MOHAMMAD GHAZANFAR,Metallurgy and Materials Technology,LAB Batch 1-SPM- Structure amd Properties of Materials,Division  1
+612511028,NACHIKET,PRAKASH,POHANEY,Metallurgy and Materials Technology,LAB Batch 1-SPM- Structure amd Properties of Materials,Division  1
+612511029,NIRAJ,RAHATE,,Metallurgy and Materials Technology,LAB Batch 2-SPM- Structure amd Properties of Materials,Division  1
+612511030,NISARG,NITIN,WAYKAR,Metallurgy and Materials Technology,LAB Batch 2-SPM- Structure amd Properties of Materials,Division  1
+612511031,PARAS,AJIT,SHAH,Metallurgy and Materials Technology,LAB Batch 2-SPM- Structure amd Properties of Materials,Division  1
+612511032,PIYUSH,NAVANATH,KURLE,Metallurgy and Materials Technology,LAB Batch 2-SPM- Structure amd Properties of Materials,Division  1
+612511033,PIYUSHA,PRADEEP,MADDE,Metallurgy and Materials Technology,LAB Batch 2-SPM- Structure amd Properties of Materials,Division  1
+612511034,PRACHI,GANESH,GORE,Metallurgy and Materials Technology,LAB Batch 2-SPM- Structure amd Properties of Materials,Division  1
+612511035,PRAGYA,GUPTA,,Metallurgy and Materials Technology,LAB Batch 2-SPM- Structure amd Properties of Materials,Division  1
+612511036,PRANAV,NITIN,JAGTAP,Metallurgy and Materials Technology,LAB Batch 2-SPM- Structure amd Properties of Materials,Division  1
+612511037,PRANJAL,PRAMOD,PALHAL,Metallurgy and Materials Technology,LAB Batch 2-SPM- Structure amd Properties of Materials,Division  1
+612511038,PRATHAMESH,PURUSHOTTAM,THOMBRE,Metallurgy and Materials Technology,LAB Batch 2-SPM- Structure amd Properties of Materials,Division  1
+612511039,PRATHAMESH,VILAS,KADLAG,Metallurgy and Materials Technology,LAB Batch 2-SPM- Structure amd Properties of Materials,Division  1
+612511040,PUSHKAR,SANJAY,UDAWANT,Metallurgy and Materials Technology,LAB Batch 2-SPM- Structure amd Properties of Materials,Division  1
+612511041,RAHUL,NITESH,MESHRAM,Metallurgy and Materials Technology,LAB Batch 2-SPM- Structure amd Properties of Materials,Division  1
+612511042,RAHUL,PRALHAD,SHINDE,Metallurgy and Materials Technology,LAB Batch 2-SPM- Structure amd Properties of Materials,Division  1
+612511043,RAJVEERSINGH,JAGROOPSINGH,KALSI,Metallurgy and Materials Technology,LAB Batch 2-SPM- Structure amd Properties of Materials,Division  1
+612511044,RAJWARDHAN,RANJIT,MOHITE,Metallurgy and Materials Technology,LAB Batch 2-SPM- Structure amd Properties of Materials,Division  1
+612511045,RANAJAGJITSING,VIJAYKUMAR,RATHOD,Metallurgy and Materials Technology,LAB Batch 2-SPM- Structure amd Properties of Materials,Division  1
+612511046,RASIKA,MAHESH,TONDGAONKAR,Metallurgy and Materials Technology,LAB Batch 2-SPM- Structure amd Properties of Materials,Division  1
+612511047,RITESH,MAHADEV,MAKADE,Metallurgy and Materials Technology,LAB Batch 2-SPM- Structure amd Properties of Materials,Division  1
+612511048,RIYA,PRALHAD,KADAM,Metallurgy and Materials Technology,LAB Batch 2-SPM- Structure amd Properties of Materials,Division  1
+612511049,ROHAK,PRASHANT,ZALKE,Metallurgy and Materials Technology,LAB Batch 2-SPM- Structure amd Properties of Materials,Division  1
+612511050,ROHAN,VYANKATI,MULE,Metallurgy and Materials Technology,LAB Batch 2-SPM- Structure amd Properties of Materials,Division  1
+612511052,RUDRA,SATISH,GHEWARE,Metallurgy and Materials Technology,LAB Batch 2-SPM- Structure amd Properties of Materials,Division  1
+612513002,AADITYA,ASHOK,GHULE,Manufacturing Science and Engineering,LAB Batch 1-DTIL- Design Thunking and Idea Lab,Division  1
+612513004,AANCHAL,SOURABH,KULKARNI,Manufacturing Science and Engineering,LAB Batch 1-DTIL- Design Thunking and Idea Lab,Division  1
+612513007,ADITYA,PRASHANT,JADHAV,Manufacturing Science and Engineering,LAB Batch 1-DTIL- Design Thunking and Idea Lab,Division  1
+612513008,ADITYA,RAJU,GAIKWAD,Manufacturing Science and Engineering,LAB Batch 1-DTIL- Design Thunking and Idea Lab,Division  1
+612513009,AKANKSHA,GORAKHNATH,HANGE,Manufacturing Science and Engineering,LAB Batch 1-DTIL- Design Thunking and Idea Lab,Division  1
+612513010,AKSHADA,ANANDA,AUTI,Manufacturing Science and Engineering,LAB Batch 1-DTIL- Design Thunking and Idea Lab,Division  1
+612513011,AMIT,GOVIND,DADHEL,Manufacturing Science and Engineering,LAB Batch 1-DTIL- Design Thunking and Idea Lab,Division  1
+612513014,ASHISH,GIRISH,ARWADE,Manufacturing Science and Engineering,LAB Batch 1-DTIL- Design Thunking and Idea Lab,Division  1
+612513016,AYUSH,AMOL,POTDAR,Manufacturing Science and Engineering,LAB Batch 1-DTIL- Design Thunking and Idea Lab,Division  1
+612513021,DEVESH,KAMLESH,CHAVAN,Manufacturing Science and Engineering,LAB Batch 1-DTIL- Design Thunking and Idea Lab,Division  1
+612513022,DHAVAL,AMOL,DEVMORE,Manufacturing Science and Engineering,LAB Batch 1-DTIL- Design Thunking and Idea Lab,Division  1
+612513023,GANVITA,ANKUSH,DHURVE,Manufacturing Science and Engineering,LAB Batch 1-DTIL- Design Thunking and Idea Lab,Division  1
+612513024,GOPAL,ULHAS,SADEGAONKAR,Manufacturing Science and Engineering,LAB Batch 1-DTIL- Design Thunking and Idea Lab,Division  1
+612513026,HANMANT,NAGNATH,HEMBADE,Manufacturing Science and Engineering,LAB Batch 1-DTIL- Design Thunking and Idea Lab,Division  1
+612513051,ROHAN,BABAN,WAGH,Manufacturing Science and Engineering,LAB Batch 1-DTIL- Design Thunking and Idea Lab,Division  1
+612513053,RUSHABH,SUBHASH,CHOUGULE,Manufacturing Science and Engineering,LAB Batch 1-DTIL- Design Thunking and Idea Lab,Division  1
+612513054,SAMYAK,ATUL,JAIN,Manufacturing Science and Engineering,LAB Batch 1-DTIL- Design Thunking and Idea Lab,Division  1
+612513055,SANIKA,RAGHUNATH,LAWHALE,Manufacturing Science and Engineering,LAB Batch 1-DTIL- Design Thunking and Idea Lab,Division  1
+612513056,SANKPAL,CHAITANYA,ANAND,Manufacturing Science and Engineering,LAB Batch 1-DTIL- Design Thunking and Idea Lab,Division  1
+612513057,SAYYAM,PRASHANT,BADGUJAR,Manufacturing Science and Engineering,LAB Batch 1-DTIL- Design Thunking and Idea Lab,Division  1
+612513058,SHANTANU,SANJAY,KANBALE,Manufacturing Science and Engineering,LAB Batch 1-DTIL- Design Thunking and Idea Lab,Division  1
+612513027,HARSH,BASAVARAJ,CHOUGALA,Manufacturing Science and Engineering,LAB Batch 2-DTIL- Design Thunking and Idea Lab,Division  1
+612513028,HARSH,RATHI,,Manufacturing Science and Engineering,LAB Batch 2-DTIL- Design Thunking and Idea Lab,Division  1
+612513029,HARSHAL,WAMAN,CHUDHARI,Manufacturing Science and Engineering,LAB Batch 2-DTIL- Design Thunking and Idea Lab,Division  1
+612513030,HIMANSHU,BHAGAWAT,PATIL,Manufacturing Science and Engineering,LAB Batch 2-DTIL- Design Thunking and Idea Lab,Division  1
+612513031,HIMANSHU,NITIN,SARODE,Manufacturing Science and Engineering,LAB Batch 2-DTIL- Design Thunking and Idea Lab,Division  1
+612513032,JAHNAVI,SHRIRAM,SINGH,Manufacturing Science and Engineering,LAB Batch 2-DTIL- Design Thunking and Idea Lab,Division  1
+612513033,JATIN,HARIDAS,KATKAR,Manufacturing Science and Engineering,LAB Batch 2-DTIL- Design Thunking and Idea Lab,Division  1
+612513034,JAYRAJ,SUDHAKAR,CHAVAN,Manufacturing Science and Engineering,LAB Batch 2-DTIL- Design Thunking and Idea Lab,Division  1
+612513035,KHANMOHAMMED,AYAAN,SHAMIR,Manufacturing Science and Engineering,LAB Batch 2-DTIL- Design Thunking and Idea Lab,Division  1
+612513037,KRUSHNESH,HARSHWARDHAN,HARDAS,Manufacturing Science and Engineering,LAB Batch 2-DTIL- Design Thunking and Idea Lab,Division  1
+612513038,MAITHILI,UMASHANKAR,KOCHE,Manufacturing Science and Engineering,LAB Batch 2-DTIL- Design Thunking and Idea Lab,Division  1
+612513039,MANTHAN,RAVI,KHOBRAGADE,Manufacturing Science and Engineering,LAB Batch 2-DTIL- Design Thunking and Idea Lab,Division  1
+612513040,MAYURI,DNYANESHWAR,PAWAR,Manufacturing Science and Engineering,LAB Batch 2-DTIL- Design Thunking and Idea Lab,Division  1
+612513043,OMKAR,RAJUDAS,RATHOD,Manufacturing Science and Engineering,LAB Batch 2-DTIL- Design Thunking and Idea Lab,Division  1
+612513044,PARINITA,SAMEER,KHEDIKAR,Manufacturing Science and Engineering,LAB Batch 2-DTIL- Design Thunking and Idea Lab,Division  1
+612513045,PARITOSH,PRASANNA,ARKADI,Manufacturing Science and Engineering,LAB Batch 2-DTIL- Design Thunking and Idea Lab,Division  1
+612513046,PRANAV,SHIVAJI,CHOUGULE,Manufacturing Science and Engineering,LAB Batch 2-DTIL- Design Thunking and Idea Lab,Division  1
+612513047,PRANITEE,PRASAD,KHEDKAR,Manufacturing Science and Engineering,LAB Batch 2-DTIL- Design Thunking and Idea Lab,Division  1
+612513048,PRUTHVIRAJ,VIJAY,DHAWALE,Manufacturing Science and Engineering,LAB Batch 2-DTIL- Design Thunking and Idea Lab,Division  1
+612513049,REEVA,JHAWAR,,Manufacturing Science and Engineering,LAB Batch 2-DTIL- Design Thunking and Idea Lab,Division  1
+612513050,RENUSANJANA,SIVA,BOMMISETTY,Manufacturing Science and Engineering,LAB Batch 2-DTIL- Design Thunking and Idea Lab,Division  1
+612513001,AADITYA,ABHIJIT,LAULKAR,Manufacturing Science and Engineering,LAB Batch 3-DTIL- Design Thunking and Idea Lab,Division  1
+612513005,ADITI,AMOL,POTEKAR,Manufacturing Science and Engineering,LAB Batch 3-DTIL- Design Thunking and Idea Lab,Division  1
+612513006,ADITYA,HANMANT,SHETE,Manufacturing Science and Engineering,LAB Batch 3-DTIL- Design Thunking and Idea Lab,Division  1
+612513015,AVANEESH,MILIND,CHIRMULE,Manufacturing Science and Engineering,LAB Batch 3-DTIL- Design Thunking and Idea Lab,Division  1
+612513017,AYUSH,ASHISH,DESHMUKH,Manufacturing Science and Engineering,LAB Batch 3-DTIL- Design Thunking and Idea Lab,Division  1
+612513018,BHAGWAN,LAXMAN,PATIL,Manufacturing Science and Engineering,LAB Batch 3-DTIL- Design Thunking and Idea Lab,Division  1
+612513019,CHAITANYA,BHUPENDRA,HIRULKAR,Manufacturing Science and Engineering,LAB Batch 3-DTIL- Design Thunking and Idea Lab,Division  1
+612513059,SHARVARI,SAHEBRAO,MORE,Manufacturing Science and Engineering,LAB Batch 3-DTIL- Design Thunking and Idea Lab,Division  1
+612513060,SHASHWAT,MAHESH,MAHAJAN,Manufacturing Science and Engineering,LAB Batch 3-DTIL- Design Thunking and Idea Lab,Division  1
+612513061,SHLOK,RAKESHKUMAR,BHANGDIYA,Manufacturing Science and Engineering,LAB Batch 3-DTIL- Design Thunking and Idea Lab,Division  1
+612513063,SHRAVANI,RAMCHANDRA,KHOT,Manufacturing Science and Engineering,LAB Batch 3-DTIL- Design Thunking and Idea Lab,Division  1
+612513065,SHREYA,DATTATRAYA,DAGADE,Manufacturing Science and Engineering,LAB Batch 3-DTIL- Design Thunking and Idea Lab,Division  1
+612513066,SHREYA,SACHIN,GAIKWAD,Manufacturing Science and Engineering,LAB Batch 3-DTIL- Design Thunking and Idea Lab,Division  1
+612513067,SHREYASH,JAMBU,GAIKWAD,Manufacturing Science and Engineering,LAB Batch 3-DTIL- Design Thunking and Idea Lab,Division  1
+612513068,SHRIKANT,DIPAK,SALUNKHE,Manufacturing Science and Engineering,LAB Batch 3-DTIL- Design Thunking and Idea Lab,Division  1
+612513069,SHRINIVAS,DIGAMBAR,PANDE,Manufacturing Science and Engineering,LAB Batch 3-DTIL- Design Thunking and Idea Lab,Division  1
+612513070,SHRIRAM,SUHAS,DHAMNE,Manufacturing Science and Engineering,LAB Batch 3-DTIL- Design Thunking and Idea Lab,Division  1
+612513071,SIDDESH,PRAMOD,INGOLE,Manufacturing Science and Engineering,LAB Batch 3-DTIL- Design Thunking and Idea Lab,Division  1
+612513072,SIDDHESH,SATHIK,,Manufacturing Science and Engineering,LAB Batch 3-DTIL- Design Thunking and Idea Lab,Division  1
+612513073,SPANDAN,VISHAL,JAIN,Manufacturing Science and Engineering,LAB Batch 3-DTIL- Design Thunking and Idea Lab,Division  1
+612513074,SPARSH,ANIL,LONDHE,Manufacturing Science and Engineering,LAB Batch 3-DTIL- Design Thunking and Idea Lab,Division  1
+612513075,SUJIT,KUMAR,,Manufacturing Science and Engineering,LAB Batch 4-DTIL- Design Thunking and Idea Lab,Division  1
+612513076,SUMIT,SAINATH,BORADE,Manufacturing Science and Engineering,LAB Batch 4-DTIL- Design Thunking and Idea Lab,Division  1
+612513078,SUSHANT,SUBHASH,SONAWANE,Manufacturing Science and Engineering,LAB Batch 4-DTIL- Design Thunking and Idea Lab,Division  1
+612513079,TANISHQ,SHITALKUMAR,LOKHANDE,Manufacturing Science and Engineering,LAB Batch 4-DTIL- Design Thunking and Idea Lab,Division  1
+612513080,TEJAS,RAJARAM,SHELKE,Manufacturing Science and Engineering,LAB Batch 4-DTIL- Design Thunking and Idea Lab,Division  1
+612513081,UTKARSH,UMASHANKAR,GUPTA,Manufacturing Science and Engineering,LAB Batch 4-DTIL- Design Thunking and Idea Lab,Division  1
+612513082,VAISHNAVI,VITTHAL,LABADE,Manufacturing Science and Engineering,LAB Batch 4-DTIL- Design Thunking and Idea Lab,Division  1
+612513083,VARAD,MURLIDHAR,DESHMUKH,Manufacturing Science and Engineering,LAB Batch 4-DTIL- Design Thunking and Idea Lab,Division  1
+612513084,VEDANT,KRANTIVEER,PAWAR,Manufacturing Science and Engineering,LAB Batch 4-DTIL- Design Thunking and Idea Lab,Division  1
+612513085,VINAYAK,VISHWANATH,KHOKALE,Manufacturing Science and Engineering,LAB Batch 4-DTIL- Design Thunking and Idea Lab,Division  1
+612513086,YASHODHAN,ASHISH,APTE,Manufacturing Science and Engineering,LAB Batch 4-DTIL- Design Thunking and Idea Lab,Division  1
+612513087,YASHWANT,SUBHASH,CHANDANE,Manufacturing Science and Engineering,LAB Batch 4-DTIL- Design Thunking and Idea Lab,Division  1
+612513088,ADITI,SWAPNIL,BHANDARKAR,Manufacturing Science and Engineering,LAB Batch 4-DTIL- Design Thunking and Idea Lab,Division  1
+612513089,ARNAV,NIRMAL,NEHETE,Manufacturing Science and Engineering,LAB Batch 4-DTIL- Design Thunking and Idea Lab,Division  1
+612513090,HARSHIT,JEETENDRA,BORA,Manufacturing Science and Engineering,LAB Batch 4-DTIL- Design Thunking and Idea Lab,Division  1
+612513091,JYOTIRADITYA,VIJAYKUMAR,PALWE,Manufacturing Science and Engineering,LAB Batch 4-DTIL- Design Thunking and Idea Lab,Division  1
+612513092,KUMAR,SAHU,DELESH,Manufacturing Science and Engineering,LAB Batch 4-DTIL- Design Thunking and Idea Lab,Division  1
+612513093,MADHUR,CHANDRASHEKHAR,BARAPATRE,Manufacturing Science and Engineering,LAB Batch 4-DTIL- Design Thunking and Idea Lab,Division  1
+612513094,PAYAL,SAHADEV,DHAYBAR,Manufacturing Science and Engineering,LAB Batch 4-DTIL- Design Thunking and Idea Lab,Division  1
+612513095,ROHIT,MANISH,JAIN,Manufacturing Science and Engineering,LAB Batch 4-DTIL- Design Thunking and Idea Lab,Division  1
+612513096,TANAY,PRASHANT,BHARAMBE,Manufacturing Science and Engineering,LAB Batch 4-DTIL- Design Thunking and Idea Lab,Division  1
+612513098,VEDANT,DEEPAK,PATIL,Manufacturing Science and Engineering,LAB Batch 4-DTIL- Design Thunking and Idea Lab,Division  1
+612509001,ADITI,SATISH,SAWANT,Instrumentation and Control Engineering,LAB Batch 1-FMATSIM- Funda. of MATLAB,Division  1
+612509002,AGRAJ,SANJAY,RAUT,Instrumentation and Control Engineering,LAB Batch 1-FMATSIM- Funda. of MATLAB,Division  1
+612509003,AMAN,KHANDELWAL,,Instrumentation and Control Engineering,LAB Batch 1-FMATSIM- Funda. of MATLAB,Division  1
+612509004,AMEY,AJAY,KSHIRSAGAR,Instrumentation and Control Engineering,LAB Batch 1-FMATSIM- Funda. of MATLAB,Division  1
+612509005,AMEYA,SACHIN,PATIL,Instrumentation and Control Engineering,LAB Batch 1-FMATSIM- Funda. of MATLAB,Division  1
+612509006,ANANNYA,TUSHAR,MIRKUTE,Instrumentation and Control Engineering,LAB Batch 1-FMATSIM- Funda. of MATLAB,Division  1
+612509008,ARYAN,ADMANE,,Instrumentation and Control Engineering,LAB Batch 1-FMATSIM- Funda. of MATLAB,Division  1
+612509009,ASHVIN,VISHNU,WANJARE,Instrumentation and Control Engineering,LAB Batch 1-FMATSIM- Funda. of MATLAB,Division  1
+612509010,ASHWIN,PREM,PATHAK,Instrumentation and Control Engineering,LAB Batch 1-FMATSIM- Funda. of MATLAB,Division  1
+612509011,ASMITA,ARVIND,GANVIR,Instrumentation and Control Engineering,LAB Batch 1-FMATSIM- Funda. of MATLAB,Division  1
+612509012,ATHARVA,PRADEEP,SAKHARE,Instrumentation and Control Engineering,LAB Batch 1-FMATSIM- Funda. of MATLAB,Division  1
+612509013,CHINMAY,ANIL,DHEKANE,Instrumentation and Control Engineering,LAB Batch 1-FMATSIM- Funda. of MATLAB,Division  1
+612509014,CHIRAYU,BABALU,SALUNKE,Instrumentation and Control Engineering,LAB Batch 1-FMATSIM- Funda. of MATLAB,Division  1
+612509015,DAKSH,DHANANJAY,GATTEWAR,Instrumentation and Control Engineering,LAB Batch 1-FMATSIM- Funda. of MATLAB,Division  1
+612509016,DHANANJAY,SARVE,MALHAR,Instrumentation and Control Engineering,LAB Batch 1-FMATSIM- Funda. of MATLAB,Division  1
+612509017,DHRUV,ISHWAR,PATIL,Instrumentation and Control Engineering,LAB Batch 1-FMATSIM- Funda. of MATLAB,Division  1
+612509018,DNYANESHWARI,JALINDAR,JADHAV,Instrumentation and Control Engineering,LAB Batch 1-FMATSIM- Funda. of MATLAB,Division  1
+612509019,DUSHYANT,KAILAS,MARATHE,Instrumentation and Control Engineering,LAB Batch 2-FMATSIM- Funda. of MATLAB,Division  1
+612509020,HARSH,SACHIN,VATHARE,Instrumentation and Control Engineering,LAB Batch 2-FMATSIM- Funda. of MATLAB,Division  1
+612509021,JANAK,SHARAD,RAHUDKAR,Instrumentation and Control Engineering,LAB Batch 2-FMATSIM- Funda. of MATLAB,Division  1
+612509022,JANHAVI,GHOSE,,Instrumentation and Control Engineering,LAB Batch 2-FMATSIM- Funda. of MATLAB,Division  1
+612509023,JANVI,GAJANAN,KHUDE,Instrumentation and Control Engineering,LAB Batch 2-FMATSIM- Funda. of MATLAB,Division  1
+612509024,KUMAR,MANDAR,KULKARNI,Instrumentation and Control Engineering,LAB Batch 2-FMATSIM- Funda. of MATLAB,Division  1
+612509025,MANAV,DHANRAJ,RACHETTI,Instrumentation and Control Engineering,LAB Batch 2-FMATSIM- Funda. of MATLAB,Division  1
+612509026,MEET,AMOL,PATIL,Instrumentation and Control Engineering,LAB Batch 2-FMATSIM- Funda. of MATLAB,Division  1
+612509027,MRUNMAYI,ANANDKUMAR,LONDHE,Instrumentation and Control Engineering,LAB Batch 2-FMATSIM- Funda. of MATLAB,Division  1
+612509028,NIHARIKA,NITIN,KONDALWADEPATIL,Instrumentation and Control Engineering,LAB Batch 2-FMATSIM- Funda. of MATLAB,Division  1
+612509029,NIKHIL,SHRIPAD,PATANKAR,Instrumentation and Control Engineering,LAB Batch 2-FMATSIM- Funda. of MATLAB,Division  1
+612509030,OMKAR,BHAGINATH,KORADE,Instrumentation and Control Engineering,LAB Batch 2-FMATSIM- Funda. of MATLAB,Division  1
+612509032,PRAJAKTA,ADLINGE,,Instrumentation and Control Engineering,LAB Batch 2-FMATSIM- Funda. of MATLAB,Division  1
+612509033,PRANAY,MANIK,RATHOD,Instrumentation and Control Engineering,LAB Batch 2-FMATSIM- Funda. of MATLAB,Division  1
+612509034,PRATHAMESH,PANDURANG,PALAMKAR,Instrumentation and Control Engineering,LAB Batch 2-FMATSIM- Funda. of MATLAB,Division  1
+612509035,RACHIT,MAHENDRA,DONGRE,Instrumentation and Control Engineering,LAB Batch 2-FMATSIM- Funda. of MATLAB,Division  1
+612509037,ROHAN,SANJAY,KUMBHARE,Instrumentation and Control Engineering,LAB Batch 2-FMATSIM- Funda. of MATLAB,Division  1
+612509038,RUDRAPRIYA,GIRISH,KANGANE,Instrumentation and Control Engineering,LAB Batch 3-FMATSIM- Funda. of MATLAB,Division  1
+612509039,RUSHABH,BHAIRAVNATH,VARULE,Instrumentation and Control Engineering,LAB Batch 3-FMATSIM- Funda. of MATLAB,Division  1
+612509040,RUTVA,KAUSHAL,PAREKH,Instrumentation and Control Engineering,LAB Batch 3-FMATSIM- Funda. of MATLAB,Division  1
+612509041,SAMARTH,SAMADHAN,GALANDE,Instrumentation and Control Engineering,LAB Batch 3-FMATSIM- Funda. of MATLAB,Division  1
+612509042,SANCHIT,DANGONDA,PATIL,Instrumentation and Control Engineering,LAB Batch 3-FMATSIM- Funda. of MATLAB,Division  1
+612509043,SARANG,PRANAV,JAIRAM,Instrumentation and Control Engineering,LAB Batch 3-FMATSIM- Funda. of MATLAB,Division  1
+612509044,SARTHAK,MAHADEV,BHAWAR,Instrumentation and Control Engineering,LAB Batch 3-FMATSIM- Funda. of MATLAB,Division  1
+612509045,SHARWARI,RAJESH,JAWADE,Instrumentation and Control Engineering,LAB Batch 3-FMATSIM- Funda. of MATLAB,Division  1
+612509046,SHRADDHA,JAYWANT,SHINDE,Instrumentation and Control Engineering,LAB Batch 3-FMATSIM- Funda. of MATLAB,Division  1
+612509047,SHRISTI,SINGH,SINGH,Instrumentation and Control Engineering,LAB Batch 3-FMATSIM- Funda. of MATLAB,Division  1
+612509048,SOUMYASHREE,SIDDHARUDHA,HOLIKATTI,Instrumentation and Control Engineering,LAB Batch 3-FMATSIM- Funda. of MATLAB,Division  1
+612509049,SPANDAN,CHANDRABHAN,GAIKWAD,Instrumentation and Control Engineering,LAB Batch 3-FMATSIM- Funda. of MATLAB,Division  1
+612509050,SRUSHTI,SACHIN,DHAVALE,Instrumentation and Control Engineering,LAB Batch 3-FMATSIM- Funda. of MATLAB,Division  1
+612509051,SUJAL,EKNATH,JADHAO,Instrumentation and Control Engineering,LAB Batch 3-FMATSIM- Funda. of MATLAB,Division  1
+612509052,SWAPNALI,SANTOSH,MALI,Instrumentation and Control Engineering,LAB Batch 3-FMATSIM- Funda. of MATLAB,Division  1
+612509053,SWAPNIL,MAHADEO,GADKAR,Instrumentation and Control Engineering,LAB Batch 3-FMATSIM- Funda. of MATLAB,Division  1
+612509054,TANMAY,MAHADEO,KARPE,Instrumentation and Control Engineering,LAB Batch 3-FMATSIM- Funda. of MATLAB,Division  1
+612509056,TANUJA,DATTATRAY,KHARSUNDE,Instrumentation and Control Engineering,LAB Batch 4-FMATSIM- Funda. of MATLAB,Division  1
+612509057,TEJAS,SHRIKANT,TAVADARKAR,Instrumentation and Control Engineering,LAB Batch 4-FMATSIM- Funda. of MATLAB,Division  1
+612509058,USMAANMOHAMMAD,FAROOQUE,SHEWAN,Instrumentation and Control Engineering,LAB Batch 4-FMATSIM- Funda. of MATLAB,Division  1
+612509059,VAIBHAV,VIKRAM,INAMDAR,Instrumentation and Control Engineering,LAB Batch 4-FMATSIM- Funda. of MATLAB,Division  1
+612509060,VARAD,BABAN,BHANDURE,Instrumentation and Control Engineering,LAB Batch 4-FMATSIM- Funda. of MATLAB,Division  1
+612509061,VARDHAN,HERAMB,KULKARNI,Instrumentation and Control Engineering,LAB Batch 4-FMATSIM- Funda. of MATLAB,Division  1
+612509062,VEDANT,ASHOK,BHAKRE,Instrumentation and Control Engineering,LAB Batch 4-FMATSIM- Funda. of MATLAB,Division  1
+612509063,VIDUSHI,MANTOO,,Instrumentation and Control Engineering,LAB Batch 4-FMATSIM- Funda. of MATLAB,Division  1
+612509064,VIRUPAKSHA,DNYANOBA,DHAGE,Instrumentation and Control Engineering,LAB Batch 4-FMATSIM- Funda. of MATLAB,Division  1
+612509065,WAKDE,RANJEET,JEEVAN,Instrumentation and Control Engineering,LAB Batch 4-FMATSIM- Funda. of MATLAB,Division  1
+612509066,YASHODEEP,MAHENDRA,GAIKWAD,Instrumentation and Control Engineering,LAB Batch 4-FMATSIM- Funda. of MATLAB,Division  1
+612509068,ZIL,SHARAD,BHUTE,Instrumentation and Control Engineering,LAB Batch 4-FMATSIM- Funda. of MATLAB,Division  1
+612509069,NAKSHATRA,ROHITKUMAR,PATIL,Instrumentation and Control Engineering,LAB Batch 4-FMATSIM- Funda. of MATLAB,Division  1
+612509070,SANAT,NIKESH,NAGPURKAR,Instrumentation and Control Engineering,LAB Batch 4-FMATSIM- Funda. of MATLAB,Division  1
+612509071,GURUKANT,TIWARI,,Instrumentation and Control Engineering,LAB Batch 4-FMATSIM- Funda. of MATLAB,Division  1
+612509072,MANASVI,GUPTA,,Instrumentation and Control Engineering,LAB Batch 4-FMATSIM- Funda. of MATLAB,Division  1
+612509073,OMKAAR,SACHIN,PATWARDHAN,Instrumentation and Control Engineering,LAB Batch 4-FMATSIM- Funda. of MATLAB,Division  1
+612509074,SHREEHARI,FATING,,Instrumentation and Control Engineering,LAB Batch 4-FMATSIM- Funda. of MATLAB,Division  1
