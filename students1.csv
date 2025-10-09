@@ -9953,7 +9953,7 @@ MIS,FirstName,MiddleName,LastName,Branch,Subject,Division
 612513037,KRUSHNESH,HARSHWARDHAN,HARDA,Manufacturing  Science and Engineering,Linear Algebra,Division  1
 612513038,MAITHILI,UMASHANKAR,KOCHE,Manufacturing  Science and Engineering,Linear Algebra,Division  1
 612513040,MAYURI,DNYANESHWAR,PAWAR,Manufacturing  Science and Engineering,Linear Algebra,Division  1
-612513043,OMKAR,RAJUDAS,RATHOD,Manufacturing  Science and Engineering,Linear Algebra,Division  6
+612513043,OMKAR,RAJUDAS,RATHOD,Manufacturing  Science and Engineering,Linear Algebra,Division  1
 612513049,REEVA,,JHAWAR,Manufacturing  Science and Engineering,Linear Algebra,Division  1
 612513059,SHARVARI,SAHEBRAO,MORE,Manufacturing  Science and Engineering,Linear Algebra,Division  1
 612513060,SHASHWAT,MAHESH,MAHAJAN,Manufacturing  Science and Engineering,Linear Algebra,Division  1
@@ -13889,8 +13889,8 @@ MIS,FirstName,MiddleName,LastName,Branch,Subject,Division
 612501100,PRANJAL,NAVnath,BHAGAT,Civil Engineering,Tut Batch 1-MAC,Division  4
 612515135,DHIRAJ,SUDHIR,SADANSHIV,Computer Science and Engineering,Tut Batch 1-MAC,Division  4
 612515136,DHYANAM,KARMESH,PATEL,Computer Science and Engineering,Tut Batch 1-MAC,Division  4
-612515145,HARSHVARDHAN,JAYSING,PATIL,Computer Science and Engineering,Tut Batch 2-MAC,Division  4
-612515148,JAYANT,TATYASO,PATIL,Computer Science and Engineering,Tut Batch 2-MAC,Division  4
+612515145,HARSHVARDHAN,JAYSING,PATIL,Computer Science and Engineering,Tut Batch 1-MAC,Division  4
+612515148,JAYANT,TATYASO,PATIL,Computer Science and Engineering,Tut Batch 1-MAC,Division  4
 612515160,LAXMAN,DINESH,KAMATH,Computer Science and Engineering,Tut Batch 1-MAC,Division  4
 612515165,MANASWI,RAJESH,KHADSE,Computer Science and Engineering,Tut Batch 2-MAC,Division  4
 612515187,NIDHISH,SANJAY,DHAWAS,Computer Science and Engineering,Tut Batch 2-MAC,Division  4
