@@ -721,7 +721,7 @@ MIS,FirstName,MiddleName,LastName,Branch,Subject,Division
 612515361,AMOGH,JAYDEEP,UTEKAR,Computer Science and Engineering,Engg  Physics,Division  8
 612515362,ANAYA,SANDEEP,GORE,Computer Science and Engineering,Engg  Physics,Division  8
 612515363,ANVI,PRAVIN,MOKAL,Computer Science and Engineering,Engg  Physics,Division  8
-612515364,AREEN,YATIN,VALSÁNGKAR,Computer Science and Engineering,Engg  Physics,Division  8
+612515364,AREEN,YATIN,VALS NGKAR,Computer Science and Engineering,Engg  Physics,Division  8
 612515368,AYUSH,PORE,,Computer Science and Engineering,Engg  Physics,Division  8
 612515369,DEVARSH,DHANANJAY,MULEY,Computer Science and Engineering,Engg  Physics,Division  8
 612515371,DIVIJ,SANDEEP,BANAVALI,Computer Science and Engineering,Engg  Physics,Division  8
@@ -2374,7 +2374,7 @@ MIS,FirstName,MiddleName,LastName,Branch,Subject,Division
 612515355,ADITYA,ASHTUOSH,DESHMUKH,Computer Science and Engineering,Fundamentals Of Quantum Physics,Division  4
 612515356,ADITYA,KEDAR,BAVADEKAR,Computer Science and Engineering,Fundamentals Of Quantum Physics,Division  4
 612515358,ADVAY,KIRDAT,,Computer Science and Engineering,Fundamentals Of Quantum Physics,Division  4
-612515364,AREEN,YATIN,VALSÁNGKAR,Computer Science and Engineering,Fundamentals Of Quantum Physics,Division  4
+612515364,AREEN,YATIN,VALS NGKAR,Computer Science and Engineering,Fundamentals Of Quantum Physics,Division  4
 612515365,ARYA,PRADEEP,SUBHEDAR,Computer Science and Engineering,Fundamentals Of Quantum Physics,Division  4
 612515367,AYAAN,GIRISH,MANGLANI,Computer Science and Engineering,Fundamentals Of Quantum Physics,Division  4
 612515368,AYUSH,PORE,,Computer Science and Engineering,Fundamentals Of Quantum Physics,Division  4
@@ -3315,7 +3315,7 @@ MIS,FirstName,MiddleName,LastName,Branch,Subject,Division
 612515361,AMOGH,JAYDEEP,UTEKAR,Computer Science and Engineering,FAI- Fundamentals of Ai,Division  4
 612515362,ANAYA,SANDEEP,GORE,Computer Science and Engineering,FAI- Fundamentals of Ai,Division  4
 612515363,ANVI,PRAVIN,MOKAL,Computer Science and Engineering,FAI- Fundamentals of Ai,Division  4
-612515364,AREEN,YATIN,VALSÁNGKAR,Computer Science and Engineering,FAI- Fundamentals of Ai,Division  4
+612515364,AREEN,YATIN,VALS NGKAR,Computer Science and Engineering,FAI- Fundamentals of Ai,Division  4
 612515365,ARYA,PRADEEP,SUBHEDAR,Computer Science and Engineering,FAI- Fundamentals of Ai,Division  4
 612515366,ATHARVA,MANGESH,YEROLKAR,Computer Science and Engineering,FAI- Fundamentals of Ai,Division  4
 612515368,AYUSH,PORE,,Computer Science and Engineering,FAI- Fundamentals of Ai,Division  4
@@ -5363,7 +5363,7 @@ MIS,FirstName,MiddleName,LastName,Branch,Subject,Division
 612515361,AMOGH,JAYDEEP,UTEKAR,Computer Science and Engineering,AEIoT- Applied Electronics And IoT,Division  5
 612515362,ANAYA,SANDEEP,GORE,Computer Science and Engineering,AEIoT- Applied Electronics And IoT,Division  5
 612515363,ANVI,PRAVIN,MOKAL,Computer Science and Engineering,AEIoT- Applied Electronics And IoT,Division  5
-612515364,AREEN,YATIN,VALSÁNGKAR,Computer Science and Engineering,AEIoT- Applied Electronics And IoT,Division  5
+612515364,AREEN,YATIN,VALS NGKAR,Computer Science and Engineering,AEIoT- Applied Electronics And IoT,Division  5
 612515365,ARYA,PRADEEP,SUBHEDAR,Computer Science and Engineering,AEIoT- Applied Electronics And IoT,Division  5
 612515368,AYUSH,PORE,,Computer Science and Engineering,AEIoT- Applied Electronics And IoT,Division  5
 612515369,DEVARSH,DHANANJAY,MULEY,Computer Science and Engineering,AEIoT- Applied Electronics And IoT,Division  5
@@ -7317,7 +7317,7 @@ MIS,FirstName,MiddleName,LastName,Branch,Subject,Division
 612515361,AMOGH,JAYDEEP,UTEKAR,Computer Science and Engineering,DLD- Digital Logic Design,Division  5
 612515362,ANAYA,SANDEEP,GORE,Computer Science and Engineering,DLD- Digital Logic Design,Division  5
 612515363,ANVI,PRAVIN,MOKAL,Computer Science and Engineering,DLD- Digital Logic Design,Division  5
-612515364,AREEN,YATIN,VALSÁNGKAR,Computer Science and Engineering,DLD- Digital Logic Design,Division  5
+612515364,AREEN,YATIN,VALS NGKAR,Computer Science and Engineering,DLD- Digital Logic Design,Division  5
 612515365,ARYA,PRADEEP,SUBHEDAR,Computer Science and Engineering,DLD- Digital Logic Design,Division  5
 612515366,ATHARVA,MANGESH,YEROLKAR,Computer Science and Engineering,DLD- Digital Logic Design,Division  5
 612515368,AYUSH,,PORE,Computer Science and Engineering,DLD- Digital Logic Design,Division  5
@@ -7996,7 +7996,7 @@ MIS,FirstName,MiddleName,LastName,Branch,Subject,Division
 612515358,ADVAY,,KIRDAT,Computer Science and Engineering,PPS- Programming For Problem Solving,Division  3
 612515359,ALINA,GAUTAM,WADHWANI,Computer Science and Engineering,PPS- Programming For Problem Solving,Division  3
 612515362,ANAYA,SANDEEP,GORE,Computer Science and Engineering,PPS- Programming For Problem Solving,Division  3
-612515364,AREEN,YATIN,VALSÁNGKAR,Computer Science and Engineering,PPS- Programming For Problem Solving,Division  3
+612515364,AREEN,YATIN,VALS NGKAR,Computer Science and Engineering,PPS- Programming For Problem Solving,Division  3
 612515368,AYUSH,,PORE,Computer Science and Engineering,PPS- Programming For Problem Solving,Division  3
 612515369,DEVARSH,DHANANJAY,MULEY,Computer Science and Engineering,PPS- Programming For Problem Solving,Division  3
 612515371,DIVIJ,SANDEEP,BANAVALI,Computer Science and Engineering,PPS- Programming For Problem Solving,Division  3
@@ -9998,7 +9998,7 @@ MIS,FirstName,MiddleName,LastName,Branch,Subject,Division
 612511037,PRANJAL,PRAMOD,PALHAL,Metallurgy and Materials Technology,Linear Algebra,Division  2
 612511039,PRATHAMESH,VILAS,KADLAG,Metallurgy and Materials Technology,Linear Algebra,Division  2
 612511043,RAJVEERSINGH,JAGROOPSINGH,KALS,Metallurgy and Materials Technology,Linear Algebra,Division  2
-612511045,RANAJAGJITSING,VIJAYKUMAR,RATHOIM,etaIIurgy and Materials Technology,Linear Algebra,Division  2
+612511045,RANAJAGJITSING,VIJAYKUMAR,RATHOIM,Metallurgy and Materials Technology,Linear Algebra,Division  2
 612511046,RASIKA,MAHESH,TONDGAONKAR,Metallurgy and Materials Technology,Linear Algebra,Division  2
 612511047,RITESH,MAHADEV,MAKADE,Metallurgy and Materials Technology,Linear Algebra,Division  2
 612515071,ROSHNI,SANTOSH,GUSINGE,Computer Science and Engineering,Linear Algebra,Division  2
@@ -10545,7 +10545,6 @@ MIS,FirstName,MiddleName,LastName,Branch,Subject,Division
 612510146,SARTHAK,ANIL,KADAM,Mechanical Engineering,Linear Algebra,Division  7
 612510148,SAYYAD,SAHIL,KHAJASAB,Mechanical Engineering,Linear Algebra,Division  7
 612510152,SHLOK,RUTUPARNA,PEDNEKAR,Mechanical Engineering,Linear Algebra,Division  7
-612510183,SHRIYA,YOGESH,JOSHI,Mechanical Engineering,Linear Algebra,Division  7
 612510185,APURV,NITIN,INGALE,Mechanical Engineering,MAC,Division  9
 612501002,AARYAN,ASHWIN,PATIL,Civil Engineering,Civil 1-CS- Communication Skills Dr.Neha Shroff,Division  1
 612501003,ABHAY,ATMARAM,DONGARE,Civil Engineering,Civil 1-CS- Communication Skills Dr.Neha Shroff,Division  1
@@ -10659,6 +10658,14 @@ MIS,FirstName,MiddleName,LastName,Branch,Subject,Division
 612515079,SANIKA,DADASAHEB,INGALE,Computer Science and Engineering,Comp 3-CS- Communication Skills Dr.Avinash K,Division  2
 612515080,SANSKAR,PANJABRAO,GAWHAD,Computer Science and Engineering,Comp 3-CS- Communication Skills Dr.Avinash K,Division  2
 612515082,SARTHAK,SANJAY,GHADAGE,Computer Science and Engineering,Comp 3-CS- Communication Skills Dr.Avinash K,Division  2
+612505053,JYOTIRADITYA,AMOL,DESHPANDE,Electrical Engineering,Elec 3 CS- Communication Skills Dr. Avinash K,Division  3
+612505057,KRISHNA,PITAMBAR,DANGAL,Electrical Engineering,Elec 3 CS- Communication Skills Dr. Avinash K,Division  3
+612505062,MANDAL,AYUSH,SUBRATO,Electrical Engineering,Elec 3 CS- Communication Skills Dr. Avinash K,Division  3
+612505076,PRAJWAL,GAJANAN,KARDE,Electrical Engineering,Elec 3 CS- Communication Skills Dr. Avinash K,Division  3
+612505079,RIDDHI,NANDKISHOR,LOHIYA,Electrical Engineering,Elec 3 CS- Communication Skills Dr. Avinash K,Division  3
+612505082,SALONI,SARJERAO,PATIL,Electrical Engineering,Elec 3 CS- Communication Skills Dr. Avinash K,Division  3
+612505084,SANDESH,SHARAD,HIRAY,Electrical Engineering,Elec 3 CS- Communication Skills Dr. Avinash K,Division  3
+612505086,SANSKAR,SANJAY,KADAM,Electrical Engineering,Elec 3 CS- Communication Skills Dr. Avinash K,Division  3
 612515083,SARTHAK,SUBHASH,DAGALE,Computer Science and Engineering,Comp 4-CS-Communication Skills Dr. Amol Jadhav,Division  2
 612515084,SARTHAK,VITTHAL,DESHMUKH,Computer Science and Engineering,Comp 4-CS-Communication Skills Dr. Amol Jadhav,Division  2
 612515085,SHAMBHURAJE,SATISH,GOSAVI,Computer Science and Engineering,Comp 4-CS-Communication Skills Dr. Amol Jadhav,Division  2
@@ -10773,23 +10780,15 @@ MIS,FirstName,MiddleName,LastName,Branch,Subject,Division
 612505045,HEMAMBIKA,RAY,CHAUDHURI,Electrical Engineering,Elec 6-CS- Communication Skills Dr. Avinash K,Division  3
 612505050,JANVI,CHITTESHWAR,DHOLE,Electrical Engineering,Elec 6-CS- Communication Skills Dr. Avinash K,Division  3
 612505052,JAY,SACHIN,GIRDHAR,Electrical Engineering,Elec 6-CS- Communication Skills Dr. Avinash K,Division  3
-612505053,JYOTIRADITYA,AMOL,DESHPANDE,Electrical Engineering,Elec 6-CS- Communication Skills Dr. Avinash K,Division  3
 612505056,KOUMUDI,JOSHI,,Electrical Engineering,Elec 6-CS- Communication Skills Dr. Avinash K,Division  3
-612505057,KRISHNA,PITAMBAR,DANGAL,Electrical Engineering,Elec 6-CS- Communication Skills Dr. Avinash K,Division  3
 612505059,KRISHNA,SUNIL,BHOKARE,Electrical Engineering,Elec 6-CS- Communication Skills Dr. Avinash K,Division  3
-612505062,MANDAL,AYUSH,SUBRATO,Electrical Engineering,Elec 6-CS- Communication Skills Dr. Avinash K,Division  3
 612505064,MAYUR,ASHOK,PALVE,Electrical Engineering,Elec 6-CS- Communication Skills Dr. Avinash K,Division  3
 612505065,MAYUR,MAHESH,PATIL,Electrical Engineering,Elec 6-CS- Communication Skills Dr. Avinash K,Division  3
 612505066,MEET,KISHOR,GANGREDDIWAR,Electrical Engineering,Elec 6-CS- Communication Skills Dr. Avinash K,Division  3
 612505067,MOHAMMADREHAN,IQBAL,HUSAIN,Electrical Engineering,Elec 6-CS- Communication Skills Dr. Avinash K,Division  3
 612505070,NEHAL,DEEPAK,CHAUDHARI,Electrical Engineering,Elec 6-CS- Communication Skills Dr. Avinash K,Division  3
-612505076,PRAJWAL,GAJANAN,KARDE,Electrical Engineering,Elec 6-CS- Communication Skills Dr. Avinash K,Division  3
 612505078,PURVESH,BANDU,KOLI,Electrical Engineering,Elec 6-CS- Communication Skills Dr. Avinash K,Division  3
-612505079,RIDDHI,NANDKISHOR,LOHIYA,Electrical Engineering,Elec 6-CS- Communication Skills Dr. Avinash K,Division  3
 612505080,SAHIL,ASIFKHA,PATHAN,Electrical Engineering,Elec 6-CS- Communication Skills Dr. Avinash K,Division  3
-612505082,SALONI,SARJERAO,PATIL,Electrical Engineering,Elec 6-CS- Communication Skills Dr. Avinash K,Division  3
-612505084,SANDESH,SHARAD,HIRAY,Electrical Engineering,Elec 6-CS- Communication Skills Dr. Avinash K,Division  3
-612505086,SANSKAR,SANJAY,KADAM,Electrical Engineering,Elec 6-CS- Communication Skills Dr. Avinash K,Division  3
 612505089,SHRAVANI,AJIT,PISAL,Electrical Engineering,Elec 6-CS- Communication Skills Dr. Avinash K,Division  3
 612505090,SHRAWASTI,PREMCHAND,AMBHORE,Electrical Engineering,Elec 6-CS- Communication Skills Dr. Avinash K,Division  3
 612505094,SRUSHTI,MAHESH,AFRE,Electrical Engineering,Elec 6-CS- Communication Skills Dr. Avinash K,Division  3
@@ -11680,7 +11679,7 @@ MIS,FirstName,MiddleName,LastName,Branch,Subject,Division
 612515358,ADVAY,KIRDAT,,Computer Science and Engineering,1st and 3rd Sat-PD- Personality Development,Division  4
 612515361,AMOGH,JAYDEEP,UTEKAR,Computer Science and Engineering,1st and 3rd Sat-PD- Personality Development,Division  4
 612515362,ANAYA,SANDEEP,GORE,Computer Science and Engineering,1st and 3rd Sat-PD- Personality Development,Division  4
-612515364,AREEN,YATIN,VALSÁNGKAR,Computer Science and Engineering,1st and 3rd Sat-PD- Personality Development,Division  4
+612515364,AREEN,YATIN,VALS NGKAR,Computer Science and Engineering,1st and 3rd Sat-PD- Personality Development,Division  4
 612515365,ARYA,PRADEEP,SUBHEDAR,Computer Science and Engineering,1st and 3rd Sat-PD- Personality Development,Division  4
 612515369,DEVARSH,DHANANJAY,MULEY,Computer Science and Engineering,1st and 3rd Sat-PD- Personality Development,Division  4
 612515371,DIVIJ,SANDEEP,BANAVALI,Computer Science and Engineering,1st and 3rd Sat-PD- Personality Development,Division  4
@@ -12262,7 +12261,7 @@ MIS,FirstName,MiddleName,LastName,Branch,Subject,Division
 612515358,ADVAY,KIRDAT,,Computer Science and Engineering,2nd & 4th Sat-PD- Personality Development (Till 10:30),Division  4
 612515361,AMOGH,JAYDEEP,UTEKAR,Computer Science and Engineering,2nd & 4th Sat-PD- Personality Development (Till 10:30),Division  4
 612515362,ANAYA,SANDEEP,GORE,Computer Science and Engineering,2nd & 4th Sat-PD- Personality Development (Till 10:30),Division  4
-612515364,AREEN,YATIN,VALSÁNGKAR,Computer Science and Engineering,2nd & 4th Sat-PD- Personality Development (Till 10:30),Division  4
+612515364,AREEN,YATIN,VALS NGKAR,Computer Science and Engineering,2nd & 4th Sat-PD- Personality Development (Till 10:30),Division  4
 612515365,ARYA,PRADEEP,SUBHEDAR,Computer Science and Engineering,2nd & 4th Sat-PD- Personality Development (Till 10:30),Division  4
 612515369,DEVARSH,DHANANJAY,MULEY,Computer Science and Engineering,2nd & 4th Sat-PD- Personality Development (Till 10:30),Division  4
 612515371,DIVIJ,SANDEEP,BANAVALI,Computer Science and Engineering,2nd & 4th Sat-PD- Personality Development (Till 10:30),Division  4
@@ -14575,7 +14574,7 @@ MIS,FirstName,MiddleName,LastName,Branch,Subject,Division
 612515361,AMOGH,JAYDEEP,UTEKAR,Computer Science and Engineering,LAB Batch 2-Engg  Physics,Division  8
 612515362,ANAYA,SANDEEP,GORE,Computer Science and Engineering,LAB Batch 2-Engg  Physics,Division  8
 612515363,ANVI,PRAVIN,MOKAL,Computer Science and Engineering,LAB Batch 2-Engg  Physics,Division  8
-612515364,AREEN,YATIN,VALSÁNGKAR,Computer Science and Engineering,LAB Batch 2-Engg  Physics,Division  8
+612515364,AREEN,YATIN,VALS NGKAR,Computer Science and Engineering,LAB Batch 2-Engg  Physics,Division  8
 612515368,AYUSH,PORE,,Computer Science and Engineering,LAB Batch 2-Engg  Physics,Division  8
 612515369,DEVARSH,DHANANJAY,MULEY,Computer Science and Engineering,LAB Batch 2-Engg  Physics,Division  8
 612515371,DIVIJ,SANDEEP,BANAVALI,Computer Science and Engineering,LAB Batch 2-Engg  Physics,Division  8
