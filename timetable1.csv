@@ -185,7 +185,7 @@ FME- Foundations in Mech Engg,Division 2,Tuesday,10:30-11:30,NC09
 FME- Foundations in Mech Engg,Division 2,Monday,05:30-06:30,NC09
 FME- Foundations in Mech Engg,Division 2,Friday,03:30-04:30,NC14
 EG- Engineering Graphics,Division 1,Wednesday,09:30-10:30,NC08
-EG- Engineering Graphics,Division 1,Thursday,08:30-09:30,
+EG- Engineering Graphics,Division 1,Thursday,08:30-09:30,TBD
 EG- Engineering Graphics,Division 2,Tuesday,01:30-02:30,NC03
 EG- Engineering Graphics,Division 2,Wednesday,01:30-02:30,NC03
 SPM- Structure amd Properties of Materials,Division 1,Thursday,02:30-03:30,NC11
@@ -237,22 +237,22 @@ LAB Batch 3-ECE-Essentials of Civil Engineering,Division 2,Monday,08:30-09:30,ST
 LAB Batch 3-ECE-Essentials of Civil Engineering,Division 2,Monday,09:30-10:30,ST01 ( M Tech-Construction Management Classroom)
 LAB Batch 4-ECE-Essentials of Civil Engineering,Division 2,Monday,08:30-09:30,NT 03 ( M Tech Transportation Engineering Classroom)
 LAB Batch 4-ECE-Essentials of Civil Engineering,Division 2,Monday,09:30-10:30,NT 03 ( M Tech Transportation Engineering Classroom)
-LAB Batch 1-FEE- fundamentals OF Electrical Engineering,Division 1,Wednesday,04:30-05:30,TBD
-LAB Batch 1-FEE- fundamentals OF Electrical Engineering,Division 1,Wednesday,05:30-06:30,TBD
-LAB Batch 2-FEE- fundamentals OF Electrical Engineering,Division 1,Wednesday,04:30-05:30,TBD
-LAB Batch 2-FEE- fundamentals OF Electrical Engineering,Division 1,Wednesday,05:30-06:30,TBD
-LAB Batch 3-FEE- fundamentals OF Electrical Engineering,Division 1,Thursday,10:30-11:30,TBD
-LAB Batch 3-FEE- fundamentals OF Electrical Engineering,Division 1,Thursday,11:30-12:30,TBD
-LAB Batch 4-FEE- fundamentals OF Electrical Engineering,Division 1,Thursday,10:30-11:30,TBD
-LAB Batch 4-FEE- fundamentals OF Electrical Engineering,Division 1,Thursday,11:30-12:30,TBD
-LAB Batch 1-FEE- fundamentals OF Electrical Engineering,Division 2,Thursday,08:30-09:30,TBD
-LAB Batch 1-FEE- fundamentals OF Electrical Engineering,Division 2,Thursday,09:30-10:30,TBD
-LAB Batch 2-FEE- fundamentals OF Electrical Engineering,Division 2,Thursday,08:30-09:30,TBD
-LAB Batch 2-FEE- fundamentals OF Electrical Engineering,Division 2,Thursday,09:30-10:30,TBD
-LAB Batch 3-FEE- fundamentals OF Electrical Engineering,Division 2,Tuesday,03:30-04:30,TBD
-LAB Batch 3-FEE- fundamentals OF Electrical Engineering,Division 2,Tuesday,04:30-05:30,TBD
-LAB Batch 4-FEE- fundamentals OF Electrical Engineering,Division 2,Tuesday,03:30-04:30,TBD
-LAB Batch 4-FEE- fundamentals OF Electrical Engineering,Division 2,Tuesday,04:30-05:30,TBD
+LAB Batch 1-FEE- fundamentals OF Electrical Engineering,Division 1,Wednesday,04:30-05:30,BEE Lab Electrical Department South Campus
+LAB Batch 1-FEE- fundamentals OF Electrical Engineering,Division 1,Wednesday,05:30-06:30,BEE Lab Electrical Department South Campus
+LAB Batch 2-FEE- fundamentals OF Electrical Engineering,Division 1,Wednesday,04:30-05:30,BEE Lab Electrical Department South Campus
+LAB Batch 2-FEE- fundamentals OF Electrical Engineering,Division 1,Wednesday,05:30-06:30,BEE Lab Electrical Department South Campus
+LAB Batch 3-FEE- fundamentals OF Electrical Engineering,Division 1,Thursday,10:30-11:30,BEE Lab Electrical Department South Campus
+LAB Batch 3-FEE- fundamentals OF Electrical Engineering,Division 1,Thursday,11:30-12:30,BEE Lab Electrical Department South Campus
+LAB Batch 4-FEE- fundamentals OF Electrical Engineering,Division 1,Thursday,10:30-11:30,BEE Lab Electrical Department South Campus
+LAB Batch 4-FEE- fundamentals OF Electrical Engineering,Division 1,Thursday,11:30-12:30,BEE Lab Electrical Department South Campus
+LAB Batch 1-FEE- fundamentals OF Electrical Engineering,Division 2,Thursday,08:30-09:30,BEE Lab Electrical Department South Campus
+LAB Batch 1-FEE- fundamentals OF Electrical Engineering,Division 2,Thursday,09:30-10:30,BEE Lab Electrical Department South Campus
+LAB Batch 2-FEE- fundamentals OF Electrical Engineering,Division 2,Thursday,08:30-09:30,BEE Lab Electrical Department South Campus
+LAB Batch 2-FEE- fundamentals OF Electrical Engineering,Division 2,Thursday,09:30-10:30,BEE Lab Electrical Department South Campus
+LAB Batch 3-FEE- fundamentals OF Electrical Engineering,Division 2,Tuesday,03:30-04:30,BEE Lab Electrical Department South Campus
+LAB Batch 3-FEE- fundamentals OF Electrical Engineering,Division 2,Tuesday,04:30-05:30,BEE Lab Electrical Department South Campus
+LAB Batch 4-FEE- fundamentals OF Electrical Engineering,Division 2,Tuesday,03:30-04:30,BEE Lab Electrical Department South Campus
+LAB Batch 4-FEE- fundamentals OF Electrical Engineering,Division 2,Tuesday,04:30-05:30,BEE Lab Electrical Department South Campus
 Civil 1-CS- Communication Skills Dr.Neha Shroff,Division 1,Thursday,10:30-11:30,Lang Lab
 Civil 1-CS- Communication Skills Dr.Neha Shroff,Division 1,Thursday,11:30-12:30,Lang Lab
 Civil 2-CS- Communication Skills Dr. Amol Jadhav,Division 1,Thursday,10:30-11:30,NC10
@@ -494,3 +494,25 @@ LAB Batch 3-Engg Chem,Division 4,Thursday,10:30-11:30,TBD
 LAB Batch 3-Engg Chem,Division 4,Thursday,11:30-12:30,TBD
 LAB Batch 4-Engg Chem,Division 4,Tuesday,01:30-02:30,TBD
 LAB Batch 4-Engg Chem,Division 4,Tuesday,02:30-03:30,TBD
+Tut Batch 1-Linear Algebra,Division 1,Tuesday,09:30-10:30,NC08
+Tut Batch 2-Linear Algebra,Division 1,Friday,02:30-03:30,NC08
+Tut Batch 3-Linear Algebra,Division 1,Monday,03:30-04:30,NC08
+Tut Batch 4-Linear Algebra,Division 1,Thursday,03:30-04:30,NC08
+Tut Batch 1-Linear Algebra,Division 2,Tuesday,09:30-10:30,NC11
+Tut Batch 2-Linear Algebra,Division 2,Friday,02:30-03:30,NC11
+Tut Batch 3-Linear Algebra,Division 2,Monday,03:30-04:30,NC11
+Tut Batch 4-Linear Algebra,Division 2,Thursday,03:30-04:30,NC12
+Tut Batch 1-Linear Algebra,Division 3,Tuesday,09:30-10:30,NC12
+Tut Batch 2-Linear Algebra,Division 3,Friday,02:30-03:30,NC12
+Tut Batch 3-Linear Algebra,Division 3,Monday,03:30-04:30,NC12
+Tut Batch 4-Linear Algebra,Division 3,Thursday,03:30-04:30,NC13
+Tut Batch 1-Linear Algebra,Division 5,Thursday,10:30-11:30,NC11
+Tut Batch 2-Linear Algebra,Division 5,Friday,10:30-11:30,NC11
+Tut Batch 3-Linear Algebra,Division 5,Saturday,12:30-01:30,NC11
+Tut Batch 3-Linear Algebra,Division 5,Saturday,01:30-02:30,NC11
+Tut Batch 4-Linear Algebra,Division 5,Friday,11:30-12:30,NC11
+Tut Batch 1-Linear Algebra,Division 7,Thursday,12:30-01:30,NC11
+Tut Batch 2-Linear Algebra,Division 7,Friday,10:30-11:30,NC13
+Tut Batch 3-Linear Algebra,Division 7,Saturday,12:30-01:30,NC12
+Tut Batch 3-Linear Algebra,Division 7,Saturday,01:30-02:30,NC12
+Tut Batch 4-Linear Algebra,Division 7,Friday,11:30-12:30,NC13
