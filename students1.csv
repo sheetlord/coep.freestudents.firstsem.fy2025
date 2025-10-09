@@ -9953,7 +9953,7 @@ MIS,FirstName,MiddleName,LastName,Branch,Subject,Division
 612513037,KRUSHNESH,HARSHWARDHAN,HARDA,Manufacturing  Science and Engineering,Linear Algebra,Division  1
 612513038,MAITHILI,UMASHANKAR,KOCHE,Manufacturing  Science and Engineering,Linear Algebra,Division  1
 612513040,MAYURI,DNYANESHWAR,PAWAR,Manufacturing  Science and Engineering,Linear Algebra,Division  1
-612513043,OMKAR,RAJUDAS,RATHOD,Manufacturing  Science and Engineering,Linear Algebra,Division  1
+612513043,OMKAR,RAJUDAS,RATHOD,Manufacturing  Science and Engineering,Linear Algebra,Division  6
 612513049,REEVA,,JHAWAR,Manufacturing  Science and Engineering,Linear Algebra,Division  1
 612513059,SHARVARI,SAHEBRAO,MORE,Manufacturing  Science and Engineering,Linear Algebra,Division  1
 612513060,SHASHWAT,MAHESH,MAHAJAN,Manufacturing  Science and Engineering,Linear Algebra,Division  1
@@ -13889,8 +13889,8 @@ MIS,FirstName,MiddleName,LastName,Branch,Subject,Division
 612501100,PRANJAL,NAVnath,BHAGAT,Civil Engineering,Tut Batch 1-MAC,Division  4
 612515135,DHIRAJ,SUDHIR,SADANSHIV,Computer Science and Engineering,Tut Batch 1-MAC,Division  4
 612515136,DHYANAM,KARMESH,PATEL,Computer Science and Engineering,Tut Batch 1-MAC,Division  4
-612515145,HARSHVARDHAN,JAYSING,PATIL,Computer Science and Engineering,Tut Batch 1-MAC,Division  4
-612515148,JAYANT,TATYASO,PATIL,Computer Science and Engineering,Tut Batch 1-MAC,Division  4
+612515145,HARSHVARDHAN,JAYSING,PATIL,Computer Science and Engineering,Tut Batch 2-MAC,Division  4
+612515148,JAYANT,TATYASO,PATIL,Computer Science and Engineering,Tut Batch 2-MAC,Division  4
 612515160,LAXMAN,DINESH,KAMATH,Computer Science and Engineering,Tut Batch 1-MAC,Division  4
 612515165,MANASWI,RAJESH,KHADSE,Computer Science and Engineering,Tut Batch 2-MAC,Division  4
 612515187,NIDHISH,SANJAY,DHAWAS,Computer Science and Engineering,Tut Batch 2-MAC,Division  4
@@ -15128,3 +15128,188 @@ MIS,FirstName,MiddleName,LastName,Branch,Subject,Division
 612511091,SARVESH,TUSHAR,GODE,Metallurgy and Materials Technology,LAB Batch 2-Engg Chem,Division  4
 612511092,TANISHQ,SAARANG,DESHMUKH,Metallurgy and Materials Technology,LAB Batch 2-Engg Chem,Division  4
 612511094,ARIHANT,KAUL,,Metallurgy and Materials Technology,LAB Batch 2-Engg Chem,Division  4
+612515015,AKSHAJ,,SAXENA,Computer Science and Engineering,Tut Batch 1-Linear Algebra,Division  1
+612515016,AKSHAY,,JHA,Computer Science and Engineering,Tut Batch 1-Linear Algebra,Division  1
+612515017,ANEKA,RAJESH,GANYARPAWAR,Computer Science and Engineering,Tut Batch 1-Linear Algebra,Division  1
+612515018,ANSARI,AMAAN,SAJID,Computer Science and Engineering,Tut Batch 1-Linear Algebra,Division  1
+612515020,ARHANT,,RAUT,Computer Science and Engineering,Tut Batch 1-Linear Algebra,Division  1
+612515022,ARYAN,RAJENDRA,GAVALI,Computer Science and Engineering,Tut Batch 1-Linear Algebra,Division  1
+612515023,ARYAN,SANJAY,KHAIRKHAR,Computer Science and Engineering,Tut Batch 1-Linear Algebra,Division  1
+612515024,ASHUTOSH,AMIT,SAXENA,Computer Science and Engineering,Tut Batch 1-Linear Algebra,Division  1
+612515025,ATHARV,NAMDEV,GORSHETWAR,Computer Science and Engineering,Tut Batch 1-Linear Algebra,Division  1
+612515027,ATHARVA,ARVIND,PATIL,Computer Science and Engineering,Tut Batch 1-Linear Algebra,Division  1
+612515028,ATHARVA,PANKAJ,JAGTAP,Computer Science and Engineering,Tut Batch 1-Linear Algebra,Division  1
+612515032,AYAN,JAVID,SHIKALGAR,Computer Science and Engineering,Tut Batch 1-Linear Algebra,Division  1
+612515033,AYUSH,NIVARUTTI,GARMODE,Computer Science and Engineering,Tut Batch 1-Linear Algebra,Division  1
+612515034,AYUSH,SUBHASH,PHAD,Computer Science and Engineering,Tut Batch 1-Linear Algebra,Division  1
+612515035,CHANCHAL,SANTOSH,BHAYANI,Computer Science and Engineering,Tut Batch 1-Linear Algebra,Division  1
+612515036,CHINMAY,VIKAS,CHAVAN,Computer Science and Engineering,Tut Batch 1-Linear Algebra,Division  1
+612515039,DEVANSH,MAHESH,AGRAWAL,Computer Science and Engineering,Tut Batch 1-Linear Algebra,Division  1
+612515040,DHIRAJ,DATTATRAYA,SHINDE,Computer Science and Engineering,Tut Batch 1-Linear Algebra,Division  1
+612515042,DISHAN,,OSWAL,Computer Science and Engineering,Tut Batch 1-Linear Algebra,Division  1
+612515043,DIVYAM,RAVI,AGRAWAL,Computer Science and Engineering,Tut Batch 1-Linear Algebra,Division  1
+612515044,EKLAVYA,,KUMAR,Computer Science and Engineering,Tut Batch 1-Linear Algebra,Division  1
+612515045,GAURANG,RAJESH,GOHIL,Computer Science and Engineering,Tut Batch 1-Linear Algebra,Division  1
+612515046,GAURAV,PRAKASH,CHOPRA,Computer Science and Engineering,Tut Batch 1-Linear Algebra,Division  1
+612515047,HARSH,ANIL,SAWANT,Computer Science and Engineering,Tut Batch 1-Linear Algebra,Division  1
+612501001,AARYA,PRASHANT,KADAM,Civil Engineering,Tut Batch 2-Linear Algebra,Division  1
+612501004,ABHIJEET,GOVARDHAN,TIKAR,Civil Engineering,Tut Batch 2-Linear Algebra,Division  1
+612501005,ABHIMANYU,ARJUN,PATIL,Civil Engineering,Tut Batch 2-Linear Algebra,Division  1
+612501007,ABHISHEK,NITIN,BALLAL,Civil Engineering,Tut Batch 2-Linear Algebra,Division  1
+612501025,ANKITA,VIKAS,PATIL,Civil Engineering,Tut Batch 2-Linear Algebra,Division  1
+612501027,ANUJA,VITHOBA,PAWAR,Civil Engineering,Tut Batch 2-Linear Algebra,Division  1
+612501029,ARJUN,ATUL,HIVARKAR,Civil Engineering,Tut Batch 2-Linear Algebra,Division  1
+612501035,ARYAN,SURENDRA,RATHI,Civil Engineering,Tut Batch 2-Linear Algebra,Division  1
+612501041,ATHARVA,BHUSHAN,JADHAV,Civil Engineering,Tut Batch 2-Linear Algebra,Division  1
+612501043,AVANEESH,SUDHIR,MUTHAL,Civil Engineering,Tut Batch 2-Linear Algebra,Division  1
+612501044,AVANTIKA,ANANDRAO,SHINDE,Civil Engineering,Tut Batch 2-Linear Algebra,Division  1
+612501054,DIGVIJAY,BALASAHEB,JADHAV,Civil Engineering,Tut Batch 2-Linear Algebra,Division  1
+612501056,DISHA,SHASHIKANT,BABAR,Civil Engineering,Tut Batch 2-Linear Algebra,Division  1
+612501068,KADAMBARI,,KHAWALE,Civil Engineering,Tut Batch 2-Linear Algebra,Division  1
+612501069,KARTIK,RAJESH,SAVARKAR,Civil Engineering,Tut Batch 2-Linear Algebra,Division  1
+612501077,KUBDE,VEDANT,MAHESH,Civil Engineering,Tut Batch 2-Linear Algebra,Division  1
+612501081,MANASI,PRAVEEN,JADHAV,Civil Engineering,Tut Batch 2-Linear Algebra,Division  1
+612501085,MONU,,KUMAR,Civil Engineering,Tut Batch 2-Linear Algebra,Division  1
+612501089,NIRAJ,KAILAS,JADHAO,Civil Engineering,Tut Batch 2-Linear Algebra,Division  1
+612501091,PARTH,SUNIL,MURABATTE,Civil Engineering,Tut Batch 2-Linear Algebra,Division  1
+612501099,PRANAY,RUPESH,GAIKWAD,Civil Engineering,Tut Batch 2-Linear Algebra,Division  1
+612513009,AKANKSHA,GORAKHNATH,HANGE,Manufacturing  Science and Engineering,Tut Batch 2-Linear Algebra,Division  1
+612513016,AYUSH,AMOL,POTDAR,Manufacturing  Science and Engineering,Tut Batch 2-Linear Algebra,Division  1
+612513018,BHAGWAN,LAXMAN,PATIL,Manufacturing  Science and Engineering,Tut Batch 2-Linear Algebra,Division  1
+612513019,CHAITANYA,BHUPENDRA,HIRULKAR,Manufacturing Science and Engineering,Tut Batch 2-Linear Algebra,Division  1
+612515001,AAFAN,IMRAN,PATHAN,Computer Science and Engineering,Tut Batch 3-Linear Algebra,Division  1
+612515002,AARAV,,OSWAL,Computer Science and Engineering,Tut Batch 3-Linear Algebra,Division  1
+612515003,AAROHI,MAHENDRA,RUNWAL,Computer Science and Engineering,Tut Batch 3-Linear Algebra,Division  1
+612515004,AARYA,PRASHANT,BANSOD,Computer Science and Engineering,Tut Batch 3-Linear Algebra,Division  1
+612515006,AASHLESHA,AMARSINH,CHAVAN,Computer Science and Engineering,Tut Batch 3-Linear Algebra,Division  1
+612515008,ADITI,BALASAHEB,MANE,Computer Science and Engineering,Tut Batch 3-Linear Algebra,Division  1
+612515009,ADITI,SANJAY,POL,Computer Science and Engineering,Tut Batch 3-Linear Algebra,Division  1
+612515010,ADITYA,MUKESH,TOTANI,Computer Science and Engineering,Tut Batch 3-Linear Algebra,Division  1
+612515011,ADITYA,RAMCHANDRA,DESHPANDE,Computer Science and Engineering,Tut Batch 3-Linear Algebra,Division  1
+612515012,ADITYA,,SINHA,Computer Science and Engineering,Tut Batch 3-Linear Algebra,Division  1
+612515013,ADITYA,VIKRAM,FARATE,Computer Science and Engineering,Tut Batch 3-Linear Algebra,Division  1
+612515014,AISHWARYA,,PRAKASH,Computer Science and Engineering,Tut Batch 3-Linear Algebra,Division  1
+612513030,HIMANSHU,BHAGAWAT,PATIL,Manufacturing  Science and Engineering,Tut Batch 3-Linear Algebra,Division  1
+612513032,JAHNAVI,SHRIRAM,SINGH,Manufacturing  Science and Engineering,Tut Batch 3-Linear Algebra,Division  1
+612513034,JAYRAJ,SUDHAKAR,CHAVAN,Manufacturing  Science and Engineering,Tut Batch 3-Linear Algebra,Division  1
+612513037,KRUSHNESH,HARSHWARDHAN,HARDA,Manufacturing  Science and Engineering,Tut Batch 3-Linear Algebra,Division  1
+612513038,MAITHILI,UMASHANKAR,KOCHE,Manufacturing  Science and Engineering,Tut Batch 3-Linear Algebra,Division  1
+612513040,MAYURI,DNYANESHWAR,PAWAR,Manufacturing  Science and Engineering,Tut Batch 3-Linear Algebra,Division  1
+612513043,OMKAR,RAJUDAS,RATHOD,Manufacturing  Science and Engineering,Tut Batch 3-Linear Algebra,Division  1
+612513049,REEVA,,JHAWAR,Manufacturing  Science and Engineering,Tut Batch 3-Linear Algebra,Division  1
+612513059,SHARVARI,SAHEBRAO,MORE,Manufacturing  Science and Engineering,Tut Batch 3-Linear Algebra,Division  1
+612513060,SHASHWAT,MAHESH,MAHAJAN,Manufacturing  Science and Engineering,Tut Batch 3-Linear Algebra,Division  1
+612513066,SHREYA,SACHIN,GAIKWAD,Manufacturing  Science and Engineering,Tut Batch 3-Linear Algebra,Division  1
+612513067,SHREYASH,JAMBU,GAIKWAD,Manufacturing  Science and Engineering,Tut Batch 3-Linear Algebra,Division  1
+612515048,HARSH,DHIRENDRA,MISHRA,Computer Science and Engineering,Tut Batch 4-Linear Algebra,Division  1
+612515049,HARSH,JAISING,YADAV,Computer Science and Engineering,Tut Batch 4-Linear Algebra,Division  1
+612515050,HERAMBA,AMOL,BARDE,Computer Science and Engineering,Tut Batch 4-Linear Algebra,Division  1
+612515051,HIMANSHI,,SINGH,Computer Science and Engineering,Tut Batch 4-Linear Algebra,Division  1
+612515052,ISHAAN,,JAIN,Computer Science and Engineering,Tut Batch 4-Linear Algebra,Division  1
+612515053,KUNAL,NARENDRA,FIRAKE,Computer Science and Engineering,Tut Batch 4-Linear Algebra,Division  1
+612515054,KUNAL,SANDIP,GANGURDE,Computer Science and Engineering,Tut Batch 4-Linear Algebra,Division  1
+612515055,MADHAV,DINESH,AGRAWAL,Computer Science and Engineering,Tut Batch 4-Linear Algebra,Division  1
+612515058,MEGHARANI,RAJENDRA,GORE,Computer Science and Engineering,Tut Batch 4-Linear Algebra,Division  1
+612515059,NIHAL,RAJESH,BHATIA,Computer Science and Engineering,Tut Batch 4-Linear Algebra,Division  1
+612515060,PIYUSH,NAMDEO,AHIRE,Computer Science and Engineering,Tut Batch 4-Linear Algebra,Division  1
+612515061,PIYUSH,PRAVIN,BHOSALE,Computer Science and Engineering,Tut Batch 4-Linear Algebra,Division  1
+612515063,PRANAV,DHARMENDRA,DONGARWAR,Computer Science and Engineering,Tut Batch 4-Linear Algebra,Division  1
+612515065,RAUNAK,RUPESH,AGRAWAL,Computer Science and Engineering,Tut Batch 4-Linear Algebra,Division  1
+612515066,RISHIT,DHARMESH,CHOTALIA,Computer Science and Engineering,Tut Batch 4-Linear Algebra,Division  1
+612515067,RITESH,EKNATH,BODAKHE,Computer Science and Engineering,Tut Batch 4-Linear Algebra,Division  1
+612515068,RIYA,ANIL,GORDE,Computer Science and Engineering,Tut Batch 4-Linear Algebra,Division  1
+612515069,ROHAN,SUBHASH,HARPUDE,Computer Science and Engineering,Tut Batch 4-Linear Algebra,Division  1
+612515070,ROSHANI,SURESH,DESAI,Computer Science and Engineering,Tut Batch 4-Linear Algebra,Division  1
+612513070,SHRIRAM,SUHAS,DHAMNE,Manufacturing  Science and Engineering,Tut Batch 1-Linear Algebra,Division  2
+612513071,SIDDESH,PRAMOD,INGOLe,Manufacturing  Science and Engineering,Tut Batch 1-Linear Algebra,Division  2
+612513075,SUJIT,,KUMAR,Manufacturing Science and Engineering,Tut Batch 1-Linear Algebra,Division  2
+612513078,SUSHANT,SUBHASH,SONAWANE,Manufacturing  Science and Engineering,Tut Batch 1-Linear Algebra,Division  2
+612513085,VINAYAK,VISHWANATH,KHOKALE,Manufacturing  Science and Engineering,Tut Batch 1-Linear Algebra,Division  2
+612513088,ADITI,SWAPNIL,BHANDARKAR,Manufacturing  Science and Engineering,Tut Batch 1-Linear Algebra,Division  2
+612513092,KUMAR,SAHU,DELESH,Manufacturing  Science and Engineering,Tut Batch 1-Linear Algebra,Division  2
+612513093,MADHUR,CHANDRASHEKHAR,BARAPATRE,Manufacturing  Science and Engineering,Tut Batch 1-Linear Algebra,Division  2
+612513094,PAYAL,SAHADEV,DHAYBAR,Manufacturing  Science and Engineering,Tut Batch 1-Linear Algebra,Division  2
+612510007,ADITYA,VITTHAL,SHINDE,Mechanical Engineering,Tut Batch 1-Linear Algebra,Division  2
+612510022,ARYA,SANTOSH,HIROLLI,Mechanical Engineering,Tut Batch 1-Linear Algebra,Division  2
+612510023,ARYAN,GANESH,BANDAL,Mechanical Engineering,Tut Batch 1-Linear Algebra,Division  2
+612510025,ARYAN,SANJAY,SHELAR,Mechanical Engineering,Tut Batch 1-Linear Algebra,Division  2
+612510029,AYUSH,ADESH,KAMBLE,Mechanical Engineering,Tut Batch 1-Linear Algebra,Division  2
+612510043,HARSHIT,VIVEK,SURYAWANSHI,Mechanical Engineering,Tut Batch 1-Linear Algebra,Division  2
+612510050,KAUSTUBH,TUSHAR,JOSHI,Mechanical Engineering,Tut Batch 1-Linear Algebra,Division  2
+612510054,MADHURA,MAHESH,GAIKWAD,Mechanical Engineering,Tut Batch 1-Linear Algebra,Division  2
+612510059,NISHANT,UMESH,KULKARNI,Mechanical Engineering,Tut Batch 1-Linear Algebra,Division  2
+612510062,PRANALI,SUDHIR,BUVA,Mechanical Engineering,Tut Batch 1-Linear Algebra,Division  2
+612510066,RAJ,RAHUL,DESAI,Mechanical Engineering,Tut Batch 1-Linear Algebra,Division  2
+612510067,RIYA,RAHUL,GAIKWAD,Mechanical Engineering,Tut Batch 1-Linear Algebra,Division  2
+612510074,SAISH,MARUTI,DIVASE,Mechanical Engineering,Tut Batch 1-Linear Algebra,Division  2
+612510083,SHREYASH,RAGHUNATH,DESAI,Mechanical Engineering,Tut Batch 1-Linear Algebra,Division  2
+612510086,SPARSH,SANJAY,GAICHARE,Mechanical Engineering,Tut Batch 1-Linear Algebra,Division  2
+612510087,SWAROOP,SANTOSH,BAGAL,Mechanical Engineering,Tut Batch 1-Linear Algebra,Division  2
+612510094,VEDASHRI,SHAILESH,KARHALE,Mechanical Engineering,Tut Batch 1-Linear Algebra,Division  2
+612511002,ADITYA,ANNASAHEB,GAIKWAD,Metallurgy and Materials Technology,Tut Batch 2-Linear Algebra,Division  2
+612511003,AMOGH,PRASAD,WALEKAR,Metallurgy and Materials Technology,Tut Batch 2-Linear Algebra,Division  2
+612511005,ANJALI,SHANKAR,KALMENGHE,Metallurgy and Materials Technology,Tut Batch 2-Linear Algebra,Division  2
+612511006,ARNAV,MANISH,GAWANDE,Metallurgy and Materials Technology,Tut Batch 2-Linear Algebra,Division  2
+612511011,BHAVIK,DATTATRAY,SANGALE,Metallurgy and Materials Technology,Tut Batch 2-Linear Algebra,Division  2
+612511012,CHAITANYA,LAKSHMI,NARAYAN,Metallurgy and Materials Technology,Tut Batch 2-Linear Algebra,Division  2
+612511014,CHETAN,,KUMBHARE,Metallurgy and Materials Technology,Tut Batch 2-Linear Algebra,Division  2
+612511020,JAYRAJ,RAVINDRA,SOMDE,Metallurgy and Materials Technology,Tut Batch 2-Linear Algebra,Division  2
+612511030,NISARG,NITIN,WAYKAR,Metallurgy and Materials Technology,Tut Batch 2-Linear Algebra,Division  2
+612511033,PIYUSHA,PRADEEP,MADDE,Metallurgy and Materials Technology,Tut Batch 2-Linear Algebra,Division  2
+612511037,PRANJAL,PRAMOD,PALHAL,Metallurgy and Materials Technology,Tut Batch 2-Linear Algebra,Division  2
+612511039,PRATHAMESH,VILAS,KADLAG,Metallurgy and Materials Technology,Tut Batch 2-Linear Algebra,Division  2
+612511043,RAJVEERSINGH,JAGROOPSINGH,KALS,Metallurgy and Materials Technology,Tut Batch 2-Linear Algebra,Division  2
+612511045,RANAJAGJITSING,VIJAYKUMAR,RATHOIM,Metallurgy and Materials Technology,Tut Batch 2-Linear Algebra,Division  2
+612511046,RASIKA,MAHESH,TONDGAONKAR,Metallurgy and Materials Technology,Tut Batch 2-Linear Algebra,Division  2
+612511047,RITESH,MAHADEV,MAKADE,Metallurgy and Materials Technology,Tut Batch 2-Linear Algebra,Division  2
+612515071,ROSHNI,SANTOSH,GUSINGE,Computer Science and Engineering,Tut Batch 2-Linear Algebra,Division  2
+612515072,RUDRA,DILEEP,BOROLE,Computer Science and Engineering,Tut Batch 2-Linear Algebra,Division  2
+612515073,RUTU,KIRAN,CHAVHAN,Computer Science and Engineering,Tut Batch 2-Linear Algebra,Division  2
+612515074,SAHIL,PRAKASH,DHEKALE,Computer Science and Engineering,Tut Batch 2-Linear Algebra,Division  2
+612515075,SAKSHAM,NAMOBUDDHAY,BETAL,Computer Science and Engineering,Tut Batch 2-Linear Algebra,Division  2
+612515076,SAKSHI,DATTA,GAIKWAD,Computer Science and Engineering,Tut Batch 2-Linear Algebra,Division  2
+612515077,SAMARTH,RAJENDRA,DEVKAR,Computer Science and Engineering,Tut Batch 3-Linear Algebra,Division  2
+612515079,SANIKA,DADASAHEB,INGALE,Computer Science and Engineering,Tut Batch 3-Linear Algebra,Division  2
+612515080,SANSKAR,PANJABRAO,GAWHAD,Computer Science and Engineering,Tut Batch 3-Linear Algebra,Division  2
+612515081,SANSKAR,PRABHAKAR,BHOSALE,Computer Science and Engineering,Tut Batch 3-Linear Algebra,Division  2
+612515084,SARTHAK,VITTHAL,DESHMUKH,Computer Science and Engineering,Tut Batch 3-Linear Algebra,Division  2
+612515085,SHAMBHURAJE,SATISH,GOSAVI,Computer Science and Engineering,Tut Batch 3-Linear Algebra,Division  2
+612515086,SHERWIN,DINESH,ADVANT,Computer Science and Engineering,Tut Batch 3-Linear Algebra,Division  2
+612515087,SHOUNAK,SUYOG,DESHMUKH,Computer Science and Engineering,Tut Batch 3-Linear Algebra,Division  2
+612515088,SHRADDHA,RAVINDRA,CHAVHAN,Computer Science and Engineering,Tut Batch 3-Linear Algebra,Division  2
+612515089,SHRAVANI,RAMKRISHNA,BORSE,Computer Science and Engineering,Tut Batch 3-Linear Algebra,Division  2
+612515090,SIDDHESH,GAJANAN,CHITKESHIWAR,Computer Science and Engineering,Tut Batch 3-Linear Algebra,Division  2
+612515091,SOHAM,SHANKAR,FOBAWAR,Computer Science and Engineering,Tut Batch 3-Linear Algebra,Division  2
+612515092,SONAL,RAVINDRA,GANJARE,Computer Science and Engineering,Tut Batch 3-Linear Algebra,Division  2
+612515093,SURAJ,VINOD,GIMHAVANEKAR,Computer Science and Engineering,Tut Batch 3-Linear Algebra,Division  2
+612515094,SWARA,RAVINDRA,AMBATKAR,Computer Science and Engineering,Tut Batch 3-Linear Algebra,Division  2
+612515096,TANMAY,BRIJESH,BIHANI,Computer Science and Engineering,Tut Batch 3-Linear Algebra,Division  2
+612515098,TANUJ,SAMEER,GITE,Computer Science and Engineering,Tut Batch 3-Linear Algebra,Division  2
+612515099,TEJASWINI,RAHUL,BHOSALE,Computer Science and Engineering,Tut Batch 3-Linear Algebra,Division  2
+612515100,VIVEK,RAVINDRA,AGHADATE,Computer Science and Engineering,Tut Batch 3-Linear Algebra,Division  2
+612515101,ABHAY,SHIVAJI,KUMBHAR,Computer Science and Engineering,Tut Batch 3-Linear Algebra,Division  2
+612515102,ADINATH,RAM,KAWALE,Computer Science and Engineering,Tut Batch 3-Linear Algebra,Division  2
+612515103,ADITEYA,SHASHIKANT,PHAND,Computer Science and Engineering,Tut Batch 3-Linear Algebra,Division  2
+612515104,ADITYA,GAJENDRA,JADHAO,Computer Science and Engineering,Tut Batch 4-Linear Algebra,Division  2
+612515105,ADITYA,VINAYAK,JUNGHARE,Computer Science and Engineering,Tut Batch 4-Linear Algebra,Division  2
+612515106,ADWAIT,PRASAD,ZANJURNE,Computer Science and Engineering,Tut Batch 4-Linear Algebra,Division  2
+612515107,AKSHARA,HIRALAL,PARDESHI,Computer Science and Engineering,Tut Batch 4-Linear Algebra,Division  2
+612515108,AKSHAY,SURESH,SUSAR,Computer Science and Engineering,Tut Batch 4-Linear Algebra,Division  2
+612515109,ALOK,MADHAV,KADAM,Computer Science and Engineering,Tut Batch 4-Linear Algebra,Division  2
+612515110,ANGAD,AKHILESH,JOSHI,Computer Science and Engineering,Tut Batch 4-Linear Algebra,Division  2
+612515111,ANIL,BALAJI,PATIL,Computer Science and Engineering,Tut Batch 4-Linear Algebra,Division  2
+612515112,ANISH,SURYAPRAKASH,KARANDE,Computer Science and Engineering,Tut Batch 4-Linear Algebra,Division  2
+612515113,ARNAV,MANISH,KATEPALLEWAR,Computer Science and Engineering,Tut Batch 4-Linear Algebra,Division  2
+612515115,ARPITA,ATUL,MANDRUPKAR,Computer Science and Engineering,Tut Batch 4-Linear Algebra,Division  2
+612515116,ARTI,VINOD,PRADHAN,Computer Science and Engineering,Tut Batch 4-Linear Algebra,Division  2
+612515117,ARYA,SANJAY,KURKUTE,Computer Science and Engineering,Tut Batch 4-Linear Algebra,Division  2
+612515118,ARYAN,ABHIJEET,SONAWANE,Computer Science and Engineering,Tut Batch 4-Linear Algebra,Division  2
+612515119,ARYAN,DEWANAND,DAHEKAR,Computer Science and Engineering,Tut Batch 4-Linear Algebra,Division  2
+612515120,ARYAN,GANESH,KALE,Computer Science and Engineering,Tut Batch 4-Linear Algebra,Division  2
+612515121,ARYAN,SANTOSH,MANE,Computer Science and Engineering,Tut Batch 4-Linear Algebra,Division  2
+612515123,ATHARV,SANDEEP,VYAS,Computer Science and Engineering,Tut Batch 4-Linear Algebra,Division  2
+612515124,ATHARV,SANTOSH,JADHAV,Computer Science and Engineering,Tut Batch 4-Linear Algebra,Division  2
+612515127,ATHARVA,PRAKASH,KAMBLE,Computer Science and Engineering,Tut Batch 4-Linear Algebra,Division  2
+612515128,ATHARVA,RANGNATH,PAWAR,Computer Science and Engineering,Tut Batch 4-Linear Algebra,Division  2
+612515130,ATHARVA,VIJAY,SAKURE,Computer Science and Engineering,Tut Batch 4-Linear Algebra,Division  2
+612515131,AYUSH,VISHWANATH,THAKUR,Computer Science and Engineering,Tut Batch 4-Linear Algebra,Division  2
