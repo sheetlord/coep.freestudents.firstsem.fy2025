@@ -38,16 +38,21 @@ def index():
 
 @app.route('/check_availability', methods=['POST'])
 def check_availability():
-    """Handles the background request from JavaScript and returns JSON data."""
+    """Handles the background request and returns JSON with free and busy lists."""
     if students_df is None or timetable_df is None:
         return jsonify({'error': 'Server data not loaded correctly.'}), 500
 
     # Get User Input
     selected_day = request.form.get('day')
     selected_time = request.form.get('time')
-    
-    print("\n--- NEW REQUEST ---")
-    print(f"Checking for Day: '{selected_day}' and Time: '{selected_time}'")
+    mis_input_text = request.form.get('mis_numbers', '')
+
+    target_mis_list = re.split(r'[\s,]+', mis_input_text.strip())
+    target_mis_list = [mis for mis in target_mis_list if mis]
+    target_mis_set = set(map(str, target_mis_list))
+
+    if not all([selected_day, selected_time, target_mis_list]):
+        return jsonify({'error': 'All fields are required.'}), 400
 
     # --- Core Logic ---
     busy_schedule = timetable_df[
@@ -55,37 +60,43 @@ def check_availability():
         (timetable_df['Time'] == selected_time)
     ]
     
-    if busy_schedule.empty:
-        print("DEBUG: FAILED to find any schedule entry in timetable1.csv for this Day/Time.")
-    
     busy_mis_set = set()
-    target_mis_list = re.split(r'[\s,]+', request.form.get('mis_numbers', '').strip())
-    target_mis_set = set(map(str, [mis for mis in target_mis_list if mis]))
+    busy_students_details = []
     
     if not busy_schedule.empty:
         for index, row in busy_schedule.iterrows():
             busy_subject = row['Subject']
             busy_division = row['Division']
+            busy_room = row['Room']
             
-            # This is the crucial debug print. The > < markers will reveal hidden spaces.
-            print(f"DEBUG: Found a class. Now searching for Subject: >{busy_subject}< and Division: >{busy_division}< in students1.csv")
-            
-            all_busy_students = students_df[
+            all_busy_students_in_class = students_df[
                 (students_df['Subject'] == busy_subject) & 
                 (students_df['Division'] == busy_division)
             ]
             
-            if all_busy_students.empty:
-                print("DEBUG: FAILED to find any students for this Subject/Division combination.")
-            else:
-                print(f"DEBUG: SUCCESS! Found {len(all_busy_students)} student entries for this class.")
+            all_busy_mis_in_class_set = set(map(str, all_busy_students_in_class['MIS'].unique()))
             
-            all_busy_mis_set = set(map(str, all_busy_students['MIS'].unique()))
-            busy_in_this_class = target_mis_set.intersection(all_busy_mis_set)
-            busy_mis_set.update(busy_in_this_class)
+            # Find which of OUR target students are in this specific busy class
+            busy_in_this_class_set = target_mis_set.intersection(all_busy_mis_in_class_set)
+            
+            if busy_in_this_class_set:
+                # Add these students to the overall busy set
+                busy_mis_set.update(busy_in_this_class_set)
+                
+                # Get details for the busy students in this class
+                busy_details_df = students_df[students_df['MIS'].astype(str).isin(busy_in_this_class_set)].drop_duplicates(subset=['MIS'])
+                for _, student_row in busy_details_df.iterrows():
+                    busy_students_details.append({
+                        'MIS': student_row['MIS'],
+                        'Name': f"{student_row['FirstName']} {student_row['LastName']}",
+                        'Branch': student_row['Branch'],
+                        'Subject': busy_subject,
+                        'Division': busy_division,
+                        'Room': busy_room
+                    })
 
+    # Calculate free students
     free_mis_set = target_mis_set - busy_mis_set
-    # ... rest of the code is the same
     
     free_students_details = []
     if free_mis_set:
@@ -97,7 +108,7 @@ def check_availability():
                 'Branch': row['Branch']
             })
 
-    return jsonify({'results': free_students_details})
+    return jsonify({'free_results': free_students_details, 'busy_results': busy_students_details})
 
 
 if __name__ == '__main__':

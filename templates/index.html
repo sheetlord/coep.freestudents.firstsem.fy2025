@@ -7,7 +7,9 @@
     <style>
         body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background-color: #f4f4f9; color: #333; margin: 0; padding: 2rem; }
         .container { max-width: 900px; margin: auto; background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
-        h1, h2 { color: #444; }
+        h1, h2 { color: #444; border-bottom: 2px solid #eee; padding-bottom: 0.5rem; }
+        h2.free { color: #28a745; }
+        h2.busy { color: #dc3545; }
         form { margin-bottom: 2rem; display: flex; flex-direction: column; gap: 1.5rem; }
         .form-controls { display: flex; gap: 1rem; align-items: center; flex-wrap: wrap; }
         label { font-weight: 500; }
@@ -15,7 +17,7 @@
         textarea { width: 100%; min-height: 120px; resize: vertical; }
         input[type="submit"] { background-color: #007bff; color: white; cursor: pointer; border: none; font-weight: bold; }
         input[type="submit"]:hover { background-color: #0056b3; }
-        table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+        table { width: 100%; border-collapse: collapse; margin-top: 1rem; margin-bottom: 2rem; }
         th, td { padding: 0.75rem; border: 1px solid #e0e0e0; text-align: left; }
         th { background-color: #f8f9fa; }
         #results-container { min-height: 50px; }
@@ -28,7 +30,7 @@
         <h1>🎓 Student Availability Checker</h1>
         <form id="availability-form">
             <div>
-                <label for="mis_numbers">Paste MIS Numbers (separated by comma, space, or new line):</label>
+                <label for="mis_numbers">Paste MIS Numbers:</label>
                 <textarea name="mis_numbers" id="mis_numbers" placeholder="e.g. 612501003, 612501008" required></textarea>
             </div>
             <div class="form-controls">
@@ -63,13 +65,9 @@
         const resultsContainer = document.getElementById('results-container');
 
         form.addEventListener('submit', function(event) {
-            // 1. Prevent the default form submission (which causes a page reload)
             event.preventDefault();
-
-            // 2. Show a loading message
             resultsContainer.innerHTML = '<p class="message">Checking...</p>';
 
-            // 3. Send form data to the server in the background
             const formData = new FormData(form);
             fetch('/check_availability', {
                 method: 'POST',
@@ -77,42 +75,38 @@
             })
             .then(response => response.json())
             .then(data => {
-                // 4. Process the JSON response and build the results table
                 if (data.error) {
                     resultsContainer.innerHTML = `<p class="message error">${data.error}</p>`;
                     return;
                 }
 
-                if (data.results && data.results.length > 0) {
-                    let tableHTML = `
-                        <h2>Results</h2>
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>MIS</th>
-                                    <th>Name</th>
-                                    <th>Branch</th>
-                                </tr>
-                            </thead>
-                            <tbody>`;
-                    
-                    data.results.forEach(student => {
-                        tableHTML += `
-                            <tr>
-                                <td>${student.MIS}</td>
-                                <td>${student.Name}</td>
-                                <td>${student.Branch}</td>
-                            </tr>`;
-                    });
+                let resultsHTML = '';
 
-                    tableHTML += `</tbody></table>`;
-                    resultsContainer.innerHTML = tableHTML;
-                } else {
-                    resultsContainer.innerHTML = '<p class="message">✅ All students from your list are available at this time.</p>';
+                // Build Busy Students Table
+                if (data.busy_results && data.busy_results.length > 0) {
+                    resultsHTML += `<h2 class="busy">Busy Students (${data.busy_results.length})</h2><table><thead><tr><th>Sr. No.</th><th>MIS</th><th>Name</th><th>Branch</th><th>Subject</th><th>Division</th><th>Room</th></tr></thead><tbody>`;
+                    data.busy_results.forEach((student, index) => {
+                        resultsHTML += `<tr><td>${index + 1}</td><td>${student.MIS}</td><td>${student.Name}</td><td>${student.Branch}</td><td>${student.Subject}</td><td>${student.Division}</td><td>${student.Room}</td></tr>`;
+                    });
+                    resultsHTML += `</tbody></table>`;
                 }
+
+                // Build Free Students Table
+                if (data.free_results && data.free_results.length > 0) {
+                    resultsHTML += `<h2 class="free">Free Students (${data.free_results.length})</h2><table><thead><tr><th>Sr. No.</th><th>MIS</th><th>Name</th><th>Branch</th></tr></thead><tbody>`;
+                    data.free_results.forEach((student, index) => {
+                        resultsHTML += `<tr><td>${index + 1}</td><td>${student.MIS}</td><td>${student.Name}</td><td>${student.Branch}</td></tr>`;
+                    });
+                    resultsHTML += `</tbody></table>`;
+                }
+                
+                if (resultsHTML === '') {
+                    resultsHTML = '<p class="message">No students from your list were found to be either busy or free for this slot.</p>';
+                }
+
+                resultsContainer.innerHTML = resultsHTML;
             })
             .catch(error => {
-                // 5. Handle network errors
                 console.error('Error:', error);
                 resultsContainer.innerHTML = '<p class="message error">An error occurred. Please try again.</p>';
             });
