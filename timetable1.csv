@@ -340,22 +340,22 @@ Tut Batch 2-MAC,Division 5,Friday,10:30-11:30,NC01
 Tut Batch 3-MAC,Division 5,Saturday,12:30-01:30,NC01
 Tut Batch 3-MAC,Division 5,Saturday,01:30-02:30,NC01
 Tut Batch 4-MAC,Division 5,Friday,11:30-12:30,NC01
-LAB Batch 1-SME- System in Mech Engg,Division 1,Wednesday,04:30-05:30,"NT06-3rd Floor, Mech Dept Old Bajaj Building"
-LAB Batch 1-SME- System in Mech Engg,Division 1,Wednesday,05:30-06:30,"NT06-3rd Floor, Mech Dept Old Bajaj Building"
-LAB Batch 2-SME- System in Mech Engg,Division 1,Wednesday,04:30-05:30,"NT06-3rd Floor, Mech Dept Old Bajaj Building"
-LAB Batch 2-SME- System in Mech Engg,Division 1,Wednesday,05:30-06:30,"NT06-3rd Floor, Mech Dept Old Bajaj Building"
-LAB Batch 3-SME- System in Mech Engg,Division 1,Tuesday,10:30-11:30,"NT06-3rd Floor, Mech Dept Old Bajaj Building"
-LAB Batch 3-SME- System in Mech Engg,Division 1,Tuesday,11:30-12:30,"NT06-3rd Floor, Mech Dept Old Bajaj Building"
-LAB Batch 4-SME- System in Mech Engg,Division 1,Tuesday,10:30-11:30,"NT06-3rd Floor, Mech Dept Old Bajaj Building"
-LAB Batch 4-SME- System in Mech Engg,Division 1,Tuesday,11:30-12:30,"NT06-3rd Floor, Mech Dept Old Bajaj Building"
-LAB Batch 1-SME- System in Mech Engg,Division 2,Wednesday,08:30-09:30,"NT06-3rd Floor, Mech Dept Old Bajaj Building"
-LAB Batch 1-SME- System in Mech Engg,Division 2,Wednesday,09:30-10:30,"NT06-3rd Floor, Mech Dept Old Bajaj Building"
-LAB Batch 2-SME- System in Mech Engg,Division 2,Monday,01:30-02:30,"NT06-3rd Floor, Mech Dept Old Bajaj Building"
-LAB Batch 2-SME- System in Mech Engg,Division 2,Monday,02:30-03:30,"NT06-3rd Floor, Mech Dept Old Bajaj Building"
-LAB Batch 3-SME- System in Mech Engg,Division 2,Wednesday,08:30-09:30,"NT06-3rd Floor, Mech Dept Old Bajaj Building"
-LAB Batch 3-SME- System in Mech Engg,Division 2,Wednesday,09:30-10:30,"NT06-3rd Floor, Mech Dept Old Bajaj Building"
-LAB Batch 4-SME- System in Mech Engg,Division 2,Monday,01:30-02:30,"NT06-3rd Floor, Mech Dept Old Bajaj Building"
-LAB Batch 4-SME- System in Mech Engg,Division 2,Monday,02:30-03:30,"NT06-3rd Floor, Mech Dept Old Bajaj Building"
+LAB Batch 1-SME- System in Mech Engg,Division 1,Wednesday,04:30-05:30,NT06-3rd Floor Mech Dept Old Bajaj Building
+LAB Batch 1-SME- System in Mech Engg,Division 1,Wednesday,05:30-06:30,NT06-3rd Floor Mech Dept Old Bajaj Building
+LAB Batch 2-SME- System in Mech Engg,Division 1,Wednesday,04:30-05:30,NT06-3rd Floor Mech Dept Old Bajaj Building
+LAB Batch 2-SME- System in Mech Engg,Division 1,Wednesday,05:30-06:30,NT06-3rd Floor Mech Dept Old Bajaj Building
+LAB Batch 3-SME- System in Mech Engg,Division 1,Tuesday,10:30-11:30,NT06-3rd Floor Mech Dept Old Bajaj Building
+LAB Batch 3-SME- System in Mech Engg,Division 1,Tuesday,11:30-12:30,NT06-3rd Floor Mech Dept Old Bajaj Building
+LAB Batch 4-SME- System in Mech Engg,Division 1,Tuesday,10:30-11:30,NT06-3rd Floor Mech Dept Old Bajaj Building
+LAB Batch 4-SME- System in Mech Engg,Division 1,Tuesday,11:30-12:30,NT06-3rd Floor Mech Dept Old Bajaj Building
+LAB Batch 1-SME- System in Mech Engg,Division 2,Wednesday,08:30-09:30,NT06-3rd Floor Mech Dept Old Bajaj Building
+LAB Batch 1-SME- System in Mech Engg,Division 2,Wednesday,09:30-10:30,NT06-3rd Floor Mech Dept Old Bajaj Building
+LAB Batch 2-SME- System in Mech Engg,Division 2,Monday,01:30-02:30,NT06-3rd Floor Mech Dept Old Bajaj Building
+LAB Batch 2-SME- System in Mech Engg,Division 2,Monday,02:30-03:30,NT06-3rd Floor Mech Dept Old Bajaj Building
+LAB Batch 3-SME- System in Mech Engg,Division 2,Wednesday,08:30-09:30,NT06-3rd Floor Mech Dept Old Bajaj Building
+LAB Batch 3-SME- System in Mech Engg,Division 2,Wednesday,09:30-10:30,NT06-3rd Floor Mech Dept Old Bajaj Building
+LAB Batch 4-SME- System in Mech Engg,Division 2,Monday,01:30-02:30,NT06-3rd Floor Mech Dept Old Bajaj Building
+LAB Batch 4-SME- System in Mech Engg,Division 2,Monday,02:30-03:30,NT06-3rd Floor Mech Dept Old Bajaj Building
 Tut Batch 1-MAC,Division 6,Thursday,10:30-11:30,NC02
 Tut Batch 2-MAC,Division 6,Friday,10:30-11:30,NC02
 Tut Batch 3-MAC,Division 6,Saturday,12:30-01:30,NC02
@@ -584,11 +584,53 @@ LAB Batch 3-FMATSIM- Funda. of MATLAB,Division 1,Wednesday,03:30-04:30,TBD
 LAB Batch 3-FMATSIM- Funda. of MATLAB,Division 1,Wednesday,04:30-05:30,TBD
 LAB Batch 4-FMATSIM- Funda. of MATLAB,Division 1,Wednesday,03:30-04:30,TBD
 LAB Batch 4-FMATSIM- Funda. of MATLAB,Division 1,Wednesday,04:30-05:30,TBD
-LAB Batch 1-SPM- Structure amd Properties of Materials,Division 1,Monday,10:30-11:30,"SC14-Ground Floor, Meta Dept"
-LAB Batch 1-SPM- Structure amd Properties of Materials,Division 1,Monday,11:30-12:30,"SC14-Ground Floor, Meta Dept"
-LAB Batch 2-SPM- Structure amd Properties of Materials,Division 1,Monday,10:30-11:30,"SC14-Ground Floor, Meta Dept"
-LAB Batch 2-SPM- Structure amd Properties of Materials,Division 1,Monday,11:30-12:30,"SC14-Ground Floor, Meta Dept"
-LAB Batch 3-SPM- Structure amd Properties of Materials,Division 1,Monday,04:30-05:30,"SC14-Ground Floor, Meta Dept"
-LAB Batch 3-SPM- Structure amd Properties of Materials,Division 1,Monday,05:30-06:30,"SC14-Ground Floor, Meta Dept"
-LAB Batch 4-SPM- Structure amd Properties of Materials,Division 1,Monday,04:30-05:30,"SC14-Ground Floor, Meta Dept"
-LAB Batch 4-SPM- Structure amd Properties of Materials,Division 1,Monday,05:30-06:30,"SC14-Ground Floor, Meta Dept"
+LAB Batch 1-SPM- Structure amd Properties of Materials,Division 1,Monday,10:30-11:30,SC14-Ground Floor Meta Dept
+LAB Batch 1-SPM- Structure amd Properties of Materials,Division 1,Monday,11:30-12:30,SC14-Ground Floor Meta Dept
+LAB Batch 2-SPM- Structure amd Properties of Materials,Division 1,Monday,10:30-11:30,SC14-Ground Floor Meta Dept
+LAB Batch 2-SPM- Structure amd Properties of Materials,Division 1,Monday,11:30-12:30,SC14-Ground Floor Meta Dept
+LAB Batch 3-SPM- Structure amd Properties of Materials,Division 1,Monday,04:30-05:30,SC14-Ground Floor Meta Dept
+LAB Batch 3-SPM- Structure amd Properties of Materials,Division 1,Monday,05:30-06:30,SC14-Ground Floor Meta Dept
+LAB Batch 4-SPM- Structure amd Properties of Materials,Division 1,Monday,04:30-05:30,SC14-Ground Floor Meta Dept
+LAB Batch 4-SPM- Structure amd Properties of Materials,Division 1,Monday,05:30-06:30,SC14-Ground Floor Meta Dept
+LAB Batch 1-FAI- Fundamentals of Ai,Division 1,Tuesday,01:30-02:30,Programming LAB CSE Ground Floor
+LAB Batch 1-FAI- Fundamentals of Ai,Division 1,Tuesday,02:30-03:30,Programming LAB CSE Ground Floor
+LAB Batch 2-FAI- Fundamentals of Ai,Division 1,Wednesday,10:30-11:30,Graphics LAB CSE Ground Floor
+LAB Batch 2-FAI- Fundamentals of Ai,Division 1,Wednesday,11:30-12:30,Graphics LAB CSE Ground Floor
+LAB Batch 3-FAI- Fundamentals of Ai,Division 1,Thursday,10:30-11:30,Programming LAB CSE Ground Floor
+LAB Batch 3-FAI- Fundamentals of Ai,Division 1,Thursday,11:30-12:30,Programming LAB CSE Ground Floor
+LAB Batch 4-FAI- Fundamentals of Ai,Division 1,Friday,04:30-05:30,Graphics LAB CSE Ground Floor
+LAB Batch 4-FAI- Fundamentals of Ai,Division 1,Friday,05:30-06:30,Graphics LAB CSE Ground Floor
+LAB Batch 1-FAI- Fundamentals of Ai,Division 2,Tuesday,01:30-02:30,CCF-2 Cognizant LAB AC
+LAB Batch 1-FAI- Fundamentals of Ai,Division 2,Tuesday,02:30-03:30,CCF-2 Cognizant LAB AC
+LAB Batch 2-FAI- Fundamentals of Ai,Division 2,Wednesday,10:30-11:30,Programming LAB CSE Ground Floor
+LAB Batch 2-FAI- Fundamentals of Ai,Division 2,Wednesday,11:30-12:30,Programming LAB CSE Ground Floor
+LAB Batch 3-FAI- Fundamentals of Ai,Division 2,Thursday,10:30-11:30,CCF-1 Cognizant LAB AC
+LAB Batch 3-FAI- Fundamentals of Ai,Division 2,Thursday,11:30-12:30,CCF-1 Cognizant LAB AC
+LAB Batch 4-FAI- Fundamentals of Ai,Division 2,Friday,04:30-05:30,Programming LAB CSE Ground Floor
+LAB Batch 4-FAI- Fundamentals of Ai,Division 2,Friday,05:30-06:30,Programming LAB CSE Ground Floor
+LAB Batch 1-FAI- Fundamentals of Ai,Division 3,Thursday,08:30-09:30,Graphics LAB CSE Ground Floor
+LAB Batch 1-FAI- Fundamentals of Ai,Division 3,Thursday,09:30-10:30,Graphics LAB CSE Ground Floor
+LAB Batch 2-FAI- Fundamentals of Ai,Division 3,Wednesday,03:30-04:30,Graphics LAB CSE Ground Floor
+LAB Batch 2-FAI- Fundamentals of Ai,Division 3,Wednesday,04:30-05:30,Graphics LAB CSE Ground Floor
+LAB Batch 3-FAI- Fundamentals of Ai,Division 3,Wednesday,03:30-04:30,Advance Software LAB First Floor CSE
+LAB Batch 3-FAI- Fundamentals of Ai,Division 3,Wednesday,04:30-05:30,Advance Software LAB First Floor CSE
+LAB Batch 4-FAI- Fundamentals of Ai,Division 3,Thursday,03:30-04:30,Graphics LAB CSE Ground Floor
+LAB Batch 4-FAI- Fundamentals of Ai,Division 3,Thursday,04:30-05:30,Graphics LAB CSE Ground Floor
+LAB Batch 5-FAI- Fundamentals of Ai,Division 3,Thursday,08:30-09:30,CCF-4 Cognizant LAB AC
+LAB Batch 5-FAI- Fundamentals of Ai,Division 3,Thursday,09:30-10:30,CCF-4 Cognizant LAB AC
+LAB Batch 6-FAI- Fundamentals of Ai,Division 3,Thursday,03:30-04:30,Programming LAB CSE Ground Floor
+LAB Batch 6-FAI- Fundamentals of Ai,Division 3,Thursday,04:30-05:30,Programming LAB CSE Ground Floor
+LAB Batch 1-FAI- Fundamentals of Ai,Division 4,Thursday,08:30-09:30,Programming LAB CSE Ground Floor
+LAB Batch 1-FAI- Fundamentals of Ai,Division 4,Thursday,09:30-10:30,Programming LAB CSE Ground Floor
+LAB Batch 2-FAI- Fundamentals of Ai,Division 4,Wednesday,03:30-04:30,Database Management System LABFirst Floor CSE
+LAB Batch 2-FAI- Fundamentals of Ai,Division 4,Wednesday,04:30-05:30,Database Management System LABFirst Floor CSE
+LAB Batch 3-FAI- Fundamentals of Ai,Division 4,Wednesday,03:30-04:30,Internet Labs
+LAB Batch 3-FAI- Fundamentals of Ai,Division 4,Wednesday,04:30-05:30,Internet Labs
+LAB Batch 4-FAI- Fundamentals of Ai,Division 4,Wednesday,08:30-09:30,CLManufacturing
+LAB Batch 4-FAI- Fundamentals of Ai,Division 4,Wednesday,09:30-10:30,CLManufacturing
+LAB Batch 5-FAI- Fundamentals of Ai,Division 4,Wednesday,08:30-09:30,SP LAB Instru
+LAB Batch 5-FAI- Fundamentals of Ai,Division 4,Wednesday,09:30-10:30,SP LAB Instru
+LAB Batch 6-FAI- Fundamentals of Ai,Division 4,Monday,01:30-02:30,CLManufacturing
+LAB Batch 6-FAI- Fundamentals of Ai,Division 4,Monday,02:30-03:30,CLManufacturing
+LAB Batch 7-FAI- Fundamentals of Ai,Division 4,Monday,01:30-02:30,CCF-2 Cognizant LAB AC
+LAB Batch 7-FAI- Fundamentals of Ai,Division 4,Monday,02:30-03:30,CCF-2 Cognizant LAB AC
