@@ -522,8 +522,8 @@ LAB Batch 1A-Engg Chem(Instru+Comp),Division 6,Wednesday,08:30-09:30,Chemistry L
 LAB Batch 1A-Engg Chem(Instru+Comp),Division 6,Wednesday,09:30-10:30,Chemistry LAB
 LAB Batch 1A-Engg Chem(Instru+Comp),Division 7,Wednesday,08:30-09:30,Chemistry LAB
 LAB Batch 1A-Engg Chem(Instru+Comp),Division 7,Wednesday,09:30-10:30,Chemistry LAB
-LAB Batch 1B-Engg Chem(Instru+Comp),Division 5,Monday,01:30-02:30,Chemistry LAB
-LAB Batch 1B-Engg Chem(Instru+Comp),Division 5,Monday,02:30-03:30,Chemistry LAB
+LAB Batch 1B-Engg Chem(Instru+Comp),Division 8,Monday,01:30-02:30,Chemistry LAB
+LAB Batch 1B-Engg Chem(Instru+Comp),Division 8,Monday,02:30-03:30,Chemistry LAB
 LAB Batch 1B-Engg Chem(Instru+Comp),Division 6,Monday,01:30-02:30,Chemistry LAB
 LAB Batch 1B-Engg Chem(Instru+Comp),Division 6,Monday,02:30-03:30,Chemistry LAB
 LAB Batch 1B-Engg Chem(Instru+Comp),Division 7,Monday,01:30-02:30,Chemistry LAB
@@ -832,12 +832,12 @@ LAB Batch 3-WD- Web Designing,Division 1,Tuesday,03:30-04:30,FOSS-1 Free&Open So
 LAB Batch 3-WD- Web Designing,Division 1,Tuesday,04:30-05:30,FOSS-1 Free&Open Source Software LAB E&TC Extansion 3rd Floor
 LAB Batch 4-WD- Web Designing,Division 1,Wednesday,10:30-11:30,Database Management System LABFirst Floor CSE
 LAB Batch 4-WD- Web Designing,Division 1,Wednesday,11:30-12:30,Database Management System LABFirst Floor CSE
-LAB Batch 1-GE- Geomatic Engg,Division 1,Thursday,10:30-11:30,TBD
-LAB Batch 1-GE- Geomatic Engg,Division 1,Thursday,11:30-12:30,TBD
-LAB Batch 2-GE- Geomatic Engg,Division 1,Tuesday,03:30-04:30,TBD
-LAB Batch 2-GE- Geomatic Engg,Division 1,Tuesday,04:30-05:30,TBD
-LAB Batch 3-GE- Geomatic Engg,Division 1,Wednesday,01:30-02:30,TBD
-LAB Batch 3-GE- Geomatic Engg,Division 1,Wednesday,02:30-03:30,TBD
+LAB Batch 1-GE- Geomatic Engg,Division 1,Thursday,10:30-11:30,Surveying Lab Civil Dept 
+LAB Batch 1-GE- Geomatic Engg,Division 1,Thursday,11:30-12:30,Surveying Lab Civil Dept 
+LAB Batch 2-GE- Geomatic Engg,Division 1,Tuesday,03:30-04:30,Surveying Lab Civil Dept 
+LAB Batch 2-GE- Geomatic Engg,Division 1,Tuesday,04:30-05:30,Surveying Lab Civil Dept 
+LAB Batch 3-GE- Geomatic Engg,Division 1,Wednesday,01:30-02:30,Surveying Lab Civil Dept 
+LAB Batch 3-GE- Geomatic Engg,Division 1,Wednesday,02:30-03:30,Surveying Lab Civil Dept 
 LAB Batch 1-FCP- Funda. Of Constructive Practices,Division 1,Thursday,03:30-04:30,Civil Drawing Hall 1 CDH 1
 LAB Batch 1-FCP- Funda. Of Constructive Practices,Division 1,Thursday,04:30-05:30,Civil Drawing Hall 1 CDH 1
 LAB Batch 2-FCP- Funda. Of Constructive Practices,Division 1,Thursday,10:30-11:30,NT01 Fluid Mechanics Lab Classroom
@@ -890,11 +890,13 @@ LAB Batch 3-CAD- Computer Aided Drafting,Division 1,Wednesday,01:30-02:30,CAD & 
 LAB Batch 3-CAD- Computer Aided Drafting,Division 1,Wednesday,02:30-03:30,CAD & CAE LAB
 LAB Batch 4-CAD- Computer Aided Drafting,Division 1,Wednesday,10:30-11:30,CAD & CAE LAB
 LAB Batch 4-CAD- Computer Aided Drafting,Division 1,Wednesday,11:30-12:30,CAD & CAE LAB
-LAB Batch 1-EVA- EV Archi.,Division 1,Thursday,10:30-11:30,Electric Vehicle Lab
-LAB Batch 1-EVA- EV Archi.,Division 1,Thursday,11:30-12:30,Electric Vehicle Lab
-LAB Batch 2-EVA- EV Archi.,Division 1,Tuesday,03:30-04:30,Electric Vehicle Lab
-LAB Batch 2-EVA- EV Archi.,Division 1,Tuesday,04:30-05:30,Electric Vehicle Lab
+LAB Batch 1-EVA- EV Archi.,Division 1,Monday,03:30-04:30,Electric Vehicle Lab
+LAB Batch 1-EVA- EV Archi.,Division 1,Monday,04:30-05:30,Electric Vehicle Lab
+LAB Batch 2-EVA- EV Archi.,Division 1,Thursday,10:30-11:30,Electric Vehicle Lab
+LAB Batch 2-EVA- EV Archi.,Division 1,Thursday,11:30-12:30,Electric Vehicle Lab
 LAB Batch 3-EVA- EV Archi.,Division 1,Wednesday,01:30-02:30,Electric Vehicle Lab
 LAB Batch 3-EVA- EV Archi.,Division 1,Wednesday,02:30-03:30,Electric Vehicle Lab
-LAB Batch 4-EVA- EV Archi.,Division 1,Wednesday,10:30-11:30,Electric Vehicle Lab
-LAB Batch 4-EVA- EV Archi.,Division 1,Wednesday,11:30-12:30,Electric Vehicle Lab
+LAB Batch 4-EVA- EV Archi.,Division 1,Wednesday,03:30-04:30,Electric Vehicle Lab
+LAB Batch 4-EVA- EV Archi.,Division 1,Wednesday,04:30-05:30,Electric Vehicle Lab
+LAB Batch 5-EVA- EV Archi.,Division 1,Wednesday,10:30-11:30,Electric Vehicle Lab
+LAB Batch 5-EVA- EV Archi.,Division 1,Wednesday,11:30-12:30,Electric Vehicle Lab
