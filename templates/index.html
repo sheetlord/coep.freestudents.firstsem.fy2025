@@ -3,114 +3,170 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student Availability Checker</title>
+    <title>COEP Tech Suite</title>
     <style>
         body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background-color: #f4f4f9; color: #333; margin: 0; padding: 2rem; }
-        .container { max-width: 900px; margin: auto; background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
-        h1, h2 { color: #444; border-bottom: 2px solid #eee; padding-bottom: 0.5rem; }
-        h2.free { color: #28a745; }
-        h2.busy { color: #dc3545; }
-        form { margin-bottom: 2rem; display: flex; flex-direction: column; gap: 1.5rem; }
+        .container { max-width: 1000px; margin: auto; background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 6px 12px rgba(0,0,0,0.1); }
+        h1, h2, h3, h4 { color: #444; } h1 { border-bottom: 2px solid #eee; padding-bottom: 1rem; margin-bottom: 1.5rem;}
+        h2.free { color: #28a745; } h2.busy { color: #dc3545; }
+        .tabs { display: flex; border-bottom: 2px solid #eee; margin-bottom: 1.5rem; }
+        .tab-button { padding: 1rem 1.5rem; cursor: pointer; border: none; background: none; font-size: 1rem; font-weight: 500; color: #555; border-bottom: 3px solid transparent; }
+        .tab-button.active { color: #007bff; border-bottom-color: #007bff; }
+        .tab-content { display: none; } .tab-content.active { display: block; }
+        form { display: flex; flex-direction: column; gap: 1.5rem; }
         .form-controls { display: flex; gap: 1rem; align-items: center; flex-wrap: wrap; }
         label { font-weight: 500; }
-        select, textarea, input[type="submit"] { padding: 0.75rem; border: 1px solid #ddd; border-radius: 4px; font-size: 1rem; font-family: inherit; }
-        textarea { width: 100%; min-height: 120px; resize: vertical; }
-        input[type="submit"] { background-color: #007bff; color: white; cursor: pointer; border: none; font-weight: bold; }
-        input[type="submit"]:hover { background-color: #0056b3; }
-        table { width: 100%; border-collapse: collapse; margin-top: 1rem; margin-bottom: 2rem; }
-        th, td { padding: 0.75rem; border: 1px solid #e0e0e0; text-align: left; }
-        th { background-color: #f8f9fa; }
-        #results-container { min-height: 50px; }
-        .message { color: #555; font-style: italic; padding: 1rem; text-align: center; }
+        select, textarea, input[type="submit"] { padding: 0.75rem; border: 1px solid #ddd; border-radius: 4px; font-size: 1rem; }
+        textarea { width: 100%; min-height: 100px; }
+        .submit-btn { background-color: #007bff; color: white; cursor: pointer; border: none; font-weight: bold; }
+        #results-container { margin-top: 2rem; }
+        .message { color: #555; padding: 2rem; text-align: center; background-color: #f8f9fa; border-radius: 8px; }
         .error { color: #d93025; font-weight: bold; }
+        table { width: 100%; border-collapse: collapse; margin-top: 1rem; margin-bottom: 2rem; }
+        th, td { padding: 0.75rem; border: 1px solid #e0e0e0; text-align: left; } th { background-color: #f8f9fa; }
+        .result-card { border: 1px solid #e0e0e0; border-radius: 8px; margin-bottom: 1.5rem; padding: 1.5rem; }
+        .result-card h3 { margin-top: 0; }
+        .success h3 { color: #28a745; }
+        .failure h3 { color: #dc3545; }
+        .suggestion { background-color: #fff9c4; border: 1px solid #fbc02d; color: #5d4037; } .suggestion h3 { color: #f57f17; }
+        .option-card { border-left: 4px solid #007bff; padding-left: 1.5rem; margin-bottom: 1.5rem; }
+        .view-list-btn { background: #e9ecef; border: 1px solid #ced4da; color: #495057; padding: 5px 10px; border-radius: 4px; cursor: pointer; margin-left: 10px; }
+        .details-list { display: none; margin-top: 1rem; }
+        .footer { text-align: center; margin-top: 2rem; color: #888; font-size: 0.9rem; }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>🎓 Student Availability Checker</h1>
-        <form id="availability-form">
-            <div>
-                <label for="mis_numbers">Paste MIS Numbers:</label>
-                <textarea name="mis_numbers" id="mis_numbers" placeholder="e.g. 612501003, 612501008" required></textarea>
-            </div>
-            <div class="form-controls">
-                <div>
-                    <label for="day">Day:</label>
-                    <select name="day" id="day" required>
-                        <option value="" disabled selected>Select Day</option>
-                        {% for day in days %}
-                            <option value="{{ day }}">{{ day }}</option>
-                        {% endfor %}
-                    </select>
-                </div>
-                <div>
-                    <label for="time">Time:</label>
-                    <select name="time" id="time" required>
-                        <option value="" disabled selected>Select Time</option>
-                        {% for time in times %}
-                            <option value="{{ time }}">{{ time }}</option>
-                        {% endfor %}
-                    </select>
-                </div>
-                <input type="submit" value="Check Availability">
-            </div>
-        </form>
-
-        <div id="results-container">
-            </div>
+        <h1>🎓 COEP Tech Suite</h1>
+        <div class="tabs">
+            <button class="tab-button active" data-tab="mode-check">Check Single Slot</button>
+            <button class="tab-button" data-tab="mode-group">Find Slot by Group</button>
+            <button class="tab-button" data-tab="mode-mis">Find Slot by MIS List</button>
+        </div>
+        <div id="mode-check" class="tab-content active"><form id="check-form"></form></div>
+        <div id="mode-group" class="tab-content"><form id="group-form"></form></div>
+        <div id="mode-mis" class="tab-content"><form id="mis-form"></form></div>
+        <div id="results-container"></div>
+        <div class="footer">
+            Created by Rushikesh ⚡⚡
+        </div>
     </div>
 
     <script>
-        const form = document.getElementById('availability-form');
-        const resultsContainer = document.getElementById('results-container');
+        let responseData = {};
 
-        form.addEventListener('submit', function(event) {
-            event.preventDefault();
-            resultsContainer.innerHTML = '<p class="message">Checking...</p>';
-
-            const formData = new FormData(form);
-            fetch('/check_availability', {
-                method: 'POST',
-                body: formData
-            })
-            .then(response => response.json())
-            .then(data => {
-                if (data.error) {
-                    resultsContainer.innerHTML = `<p class="message error">${data.error}</p>`;
-                    return;
-                }
-
-                let resultsHTML = '';
-
-                // Build Busy Students Table
-                if (data.busy_results && data.busy_results.length > 0) {
-                    resultsHTML += `<h2 class="busy">Busy Students (${data.busy_results.length})</h2><table><thead><tr><th>Sr. No.</th><th>MIS</th><th>Name</th><th>Branch</th><th>Subject</th><th>Division</th><th>Room</th></tr></thead><tbody>`;
-                    data.busy_results.forEach((student, index) => {
-                        resultsHTML += `<tr><td>${index + 1}</td><td>${student.MIS}</td><td>${student.Name}</td><td>${student.Branch}</td><td>${student.Subject}</td><td>${student.Division}</td><td>${student.Room}</td></tr>`;
-                    });
-                    resultsHTML += `</tbody></table>`;
-                }
-
-                // Build Free Students Table
-                if (data.free_results && data.free_results.length > 0) {
-                    resultsHTML += `<h2 class="free">Free Students (${data.free_results.length})</h2><table><thead><tr><th>Sr. No.</th><th>MIS</th><th>Name</th><th>Branch</th></tr></thead><tbody>`;
-                    data.free_results.forEach((student, index) => {
-                        resultsHTML += `<tr><td>${index + 1}</td><td>${student.MIS}</td><td>${student.Name}</td><td>${student.Branch}</td></tr>`;
-                    });
-                    resultsHTML += `</tbody></table>`;
-                }
-                
-                if (resultsHTML === '') {
-                    resultsHTML = '<p class="message">No students from your list were found to be either busy or free for this slot.</p>';
-                }
-
-                resultsContainer.innerHTML = resultsHTML;
-            })
-            .catch(error => {
-                console.error('Error:', error);
-                resultsContainer.innerHTML = '<p class="message error">An error occurred. Please try again.</p>';
+        document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('check-form').innerHTML = createFormHTML('check');
+            document.getElementById('group-form').innerHTML = createFormHTML('group');
+            document.getElementById('mis-form').innerHTML = createFormHTML('mis');
+            
+            document.querySelectorAll('.tab-button').forEach(tab => {
+                tab.addEventListener('click', () => {
+                    document.querySelectorAll('.tab-button, .tab-content').forEach(el => el.classList.remove('active'));
+                    tab.classList.add('active');
+                    document.getElementById(tab.dataset.tab).classList.add('active');
+                    document.getElementById('results-container').innerHTML = '';
+                });
             });
+
+            document.getElementById('check-form').addEventListener('submit', (e) => handleFormSubmit(e, '/check_availability', renderCheckResults));
+            document.getElementById('group-form').addEventListener('submit', (e) => handleFormSubmit(e, '/find_best_slots', renderSchedulerResults));
+            document.getElementById('mis-form').addEventListener('submit', (e) => handleFormSubmit(e, '/find_best_slots', renderSchedulerResults));
         });
+
+        const handleFormSubmit = (event, endpoint, renderer) => {
+            event.preventDefault();
+            const resultsContainer = document.getElementById('results-container');
+            resultsContainer.innerHTML = `<p class="message">Finding the best options... 🧠</p>`;
+            fetch(endpoint, { method: 'POST', body: new FormData(event.target) })
+                .then(response => response.ok ? response.json() : Promise.reject(`HTTP error! status: ${response.status}`))
+                .then(data => { responseData = data; renderer(data); })
+                .catch(error => { console.error('Error:', error); resultsContainer.innerHTML = `<p class="message error">An unexpected error occurred. Check the console.</p>`; });
+        };
+        
+        const renderCheckResults = (data) => {
+            const resultsContainer = document.getElementById('results-container');
+            if (data.error) { resultsContainer.innerHTML = `<p class="message error">${data.error}</p>`; return; }
+            let html = '';
+            if (data.busy_results?.length) html += `<h2 class="busy">Busy Students (${data.busy_results.length})</h2>` + createStudentTable(data.busy_results, ['MIS', 'Name', 'Subject', 'Room']);
+            if (data.free_results?.length) html += `<h2 class="free">Free Students (${data.free_results.length})</h2>` + createStudentTable(data.free_results, ['MIS', 'Name', 'Branch']);
+            resultsContainer.innerHTML = html || `<p class="message">No results to display.</p>`;
+        };
+
+        const renderSchedulerResults = (data) => {
+            const resultsContainer = document.getElementById('results-container');
+            if (data.error) { resultsContainer.innerHTML = `<p class="message error">${data.error}</p>`; return; }
+            let html = '';
+
+            if (data.status === 'success') {
+                html = `<div class="result-card success"><h3>✅ Success! Found ${data.solutions.length} excellent options for ${data.solutions[0].length} batches.</h3>`;
+                data.solutions.forEach((solution, index) => {
+                    html += `<div class="option-card"><h4>Option ${index + 1}</h4>`;
+                    html += createBatchList(solution, `success-${index}`);
+                    html += `</div>`;
+                });
+                html += `</div>`;
+            } else if (data.status === 'failure_with_suggestion') {
+                html = `<div class="result-card failure"><h3>💥 Request Failed</h3><p>Unable to fit all students into the requested <strong>${data.requested_batches} batches</strong>.</p></div>`;
+                html += `<div class="result-card suggestion"><h3>💡 SUGGESTION: Found ${data.suggestion.solutions.length} options using ${data.suggestion.solutions[0].length} batches.</h3>`;
+                data.suggestion.solutions.forEach((solution, index) => {
+                    html += `<div class="option-card"><h4>Option ${index + 1}</h4>`;
+                    html += createBatchList(solution, `suggestion-${index}`);
+                    html += `</div>`;
+                });
+                html += `</div>`;
+            } else if (data.status === 'failure_no_solution') {
+                 html = `<div class="result-card failure"><h3>❌ No Solution Found</h3><p>Could not find a way to schedule all students, even after trying up to 8 batches.</p></div>`;
+            }
+            
+            resultsContainer.innerHTML = html || `<p class="message">Could not find a suitable solution.</p>`;
+            document.querySelectorAll('.view-list-btn').forEach(btn => btn.addEventListener('click', toggleBatchList));
+        };
+        
+        const createBatchList = (batches, typePrefix) => {
+            let listHtml = '<ul>';
+            batches.forEach((batch, index) => {
+                const availableRooms = batch.available_rooms.length > 0 ? batch.available_rooms.join(', ') : 'None Available';
+                listHtml += `<li><strong>Batch ${String.fromCharCode(65 + index)} (${batch.students.length} Students):</strong> ${batch.day} at ${batch.time} <br><small><strong>Available Rooms:</strong> ${availableRooms}</small> <button class="view-list-btn" data-type-prefix="${typePrefix}" data-batch-index="${index}">View List</button></li>
+                             <div id="list-${typePrefix}-${index}" class="details-list"></div>`;
+            });
+            return listHtml + '</ul>';
+        };
+
+        const toggleBatchList = (event) => {
+            const { typePrefix, batchIndex } = event.target.dataset;
+            const listContainer = document.getElementById(`list-${typePrefix}-${batchIndex}`);
+            if (listContainer.style.display === 'block') {
+                listContainer.style.display = 'none'; event.target.textContent = 'View List';
+            } else {
+                const [type, optionIndex] = typePrefix.split('-');
+                let studentData;
+                if (type === 'success') {
+                    studentData = responseData.solutions[optionIndex][batchIndex].students;
+                } else { // suggestion
+                    studentData = responseData.suggestion.solutions[optionIndex][batchIndex].students;
+                }
+                listContainer.innerHTML = createStudentTable(studentData, ['MIS', 'Name', 'Branch']);
+                listContainer.style.display = 'block'; event.target.textContent = 'Hide List';
+            }
+        };
+
+        const createStudentTable = (students, headers) => {
+            let table = `<table><thead><tr>${headers.map(h => `<th>${h}</th>`).join('')}</tr></thead><tbody>`;
+            students.forEach(s => { table += `<tr>${headers.map(h => `<td>${s[h] || ''}</td>`).join('')}</tr>`; });
+            return table + '</tbody></table>';
+        };
+
+        const createFormHTML = (type) => {
+            const mis_textarea = `<textarea name="mis_numbers" placeholder="Paste student MIS numbers..." required></textarea>`;
+            const day_select = `<div><label>Day:</label><select name="day" required><option value="" disabled selected>Select</option>{% for day in days %}<option value="{{ day }}">{{ day }}</option>{% endfor %}</select></div>`;
+            const time_select = `<div><label>Time:</label><select name="time" required><option value="" disabled selected>Select</option>{% for time in times %}<option value="{{ time }}">{{ time }}</option>{% endfor %}</select></div>`;
+            const group_select = `<div class="form-controls"><label>Subject:</label><select name="subject" required><option value="" disabled selected>Select</option>{% for subject in subjects %}<option value="{{ subject }}">{{ subject }}</option>{% endfor %}</select><label>Division:</label><select name="division" required><option value="" disabled selected>Select</option>{% for division in divisions %}<option value="{{ division }}">{{ division }}</option>{% endfor %}</select></div>`;
+            const batch_select = `<div class="form-controls"><label>Requested Batches:</label><select name="num_batches">${Array.from({length: 8}, (_, i) => `<option value="${i + 1}">${i + 1}</option>`).join('')}</select></div>`;
+            if (type === 'check') return `<form id="check-form">${mis_textarea}<div class="form-controls">${day_select}${time_select}<input type="submit" value="Check" class="submit-btn"></div></form>`;
+            if (type === 'group') return `<form id="group-form"><input type="hidden" name="mode" value="by_group">${group_select}${batch_select}<input type="submit" value="Find Options" class="submit-btn"></form>`;
+            if (type === 'mis') return `<form id="mis-form"><input type="hidden" name="mode" value="by_mis">${mis_textarea}${batch_select}<input type="submit" value="Find Options" class="submit-btn"></form>`;
+        };
     </script>
 </body>
 </html>
