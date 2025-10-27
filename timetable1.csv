@@ -182,7 +182,7 @@ FME- Foundations in Mech Engg,Division 1,Wednesday,08:30-09:30,NC13
 FME- Foundations in Mech Engg,Division 1,Friday,09:30-10:30,NC13
 FME- Foundations in Mech Engg,Division 1,Wednesday,03:30-04:30,NC13
 FME- Foundations in Mech Engg,Division 2,Tuesday,10:30-11:30,NC09
-FME- Foundations in Mech Engg,Division 2,Monday,05:30-06:30,NC09
+FME- Foundations in Mech Engg,Division 2,Monday,05:30-06:30,SC07 Civil Department
 FME- Foundations in Mech Engg,Division 2,Friday,03:30-04:30,NC14
 EG- Engineering Graphics,Division 1,Wednesday,09:30-10:30,NC08
 EG- Engineering Graphics,Division 1,Thursday,08:30-09:30,TBD
@@ -315,14 +315,14 @@ Mech 22-CS- Communication Skills Dr. Neha Shroff,Division 8,Tuesday,04:30-05:30,
 1st and 3rd Sat-PD- Personality Development,Division 3,Saturday,10:30-11:30,AC103
 1st and 3rd Sat-PD- Personality Development,Division 4,Saturday,09:30-10:30,AC104
 1st and 3rd Sat-PD- Personality Development,Division 4,Saturday,10:30-11:30,AC104
-PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5,Saturday,10:30-11:30,AC101
-PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5,Saturday,11:30-12:30,AC101
-PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6,Saturday,10:30-11:30,AC102
-PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6,Saturday,11:30-12:30,AC102
-PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7,Saturday,10:30-11:30,AC103
-PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7,Saturday,11:30-12:30,AC103
-PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 8,Saturday,10:30-11:30,AC104
-PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 8,Saturday,11:30-12:30,AC104
+PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5,Saturday,10:30-11:30,AC101
+PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5,Saturday,11:30-12:30,AC101
+PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6,Saturday,10:30-11:30,AC102
+PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6,Saturday,11:30-12:30,AC102
+PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7,Saturday,10:30-11:30,AC103
+PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7,Saturday,11:30-12:30,AC103
+PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 8,Saturday,10:30-11:30,AC104
+PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 8,Saturday,11:30-12:30,AC104
 2nd & 4th Sat-PD- Personality Development (Till 10:30),Division 1,Saturday,08:30-09:30,AC101
 2nd & 4th Sat-PD- Personality Development (Till 10:30),Division 2,Saturday,08:30-09:30,AC102
 2nd & 4th Sat-PD- Personality Development (Till 10:30),Division 3,Saturday,08:30-09:30,AC103
@@ -545,6 +545,8 @@ LAB Batch 3B-Engg Chem(Elec+Civil),Division 8,Thursday,01:30-02:30,Chemistry LAB
 LAB Batch 3B-Engg Chem(Elec+Civil),Division 8,Thursday,02:30-03:30,Chemistry LAB
 LAB Batch 4A-Engg Chem(Ai+Mech+E&TC),Division 5,Monday,08:30-09:30,Chemistry LAB
 LAB Batch 4A-Engg Chem(Ai+Mech+E&TC),Division 5,Monday,09:30-10:30,Chemistry LAB
+LAB Batch 4A-Engg Chem(Civil),Division 6,Monday,08:30-09:30,Chemistry LAB
+LAB Batch 4A-Engg Chem(Civil),Division 6,Monday,09:30-10:30,Chemistry LAB
 LAB Batch 4A-Engg Chem(Ai+Mech+E&TC),Division 6,Monday,08:30-09:30,Chemistry LAB
 LAB Batch 4A-Engg Chem(Ai+Mech+E&TC),Division 6,Monday,09:30-10:30,Chemistry LAB
 LAB Batch 4B-Engg Chem(Ai+Mech+E&TC),Division 7,Tuesday,08:30-09:30,Chemistry LAB
