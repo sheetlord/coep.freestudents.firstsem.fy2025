@@ -84,7 +84,7 @@ MIS,FirstName,MiddleName,LastName,Branch,Subject,Division
 612501024,ANKITA,UMESH,PATIL,Civil Engineering,Engg  Physics,Division 2
 612501033,ARYAN,MOHAN,SANGALE,Civil Engineering,Engg  Physics,Division 2
 612501038,ATHARV,SAGAR,PATIL,Civil Engineering,Engg  Physics,Division 2
-612501043,AVANEESH,SUDHIR,MUTHAL,Civil Engineering,Engg  Physics,Division 2
+612501043,AVANEESH,SUDHIR,MUTHAL,Civil Engineering,Engg Chem,Division 1
 612501049,CHESA,KENT,,Civil Engineering,Engg  Physics,Division 2
 612515049,HARSH,JAISING,YADAV,Computer Science and Engineering,Engg  Physics,Division 2
 612515050,HERAMBA,AMOL,BARDE,Computer Science and Engineering,Engg  Physics,Division 2
@@ -10222,6 +10222,7 @@ MIS,FirstName,MiddleName,LastName,Branch,Subject,Division
 612505188,SHREYASH,NITIN,SIDURKAR,Electrical Engineering,Linear Algebra,Division 4
 612505189,VAISHNAVI,BABULAL,PAWAR,Electrical Engineering,Linear Algebra,Division 4
 612505190,VEDANT,RAJENDRA,YEUL,Electrical Engineering,Linear Algebra,Division 4
+612515201,PIYUSH,,PATIL,Computer Science and Engineering,Linear Algebra,Division 4
 612515202,POOJA,KIRAN,ROKADE,Computer Science and Engineering,Linear Algebra,Division 4
 612515205,PRACHI,RAMESH,PATIL,Computer Science and Engineering,Linear Algebra,Division 4
 612515206,PRAGNYA,MAKARAND,KULKARNI,Computer Science and Engineering,Linear Algebra,Division 4
@@ -11760,287 +11761,287 @@ MIS,FirstName,MiddleName,LastName,Branch,Subject,Division
 612505093,SHRINIVAS,SANJAY,MULIK,Electrical Engineering,1st and 3rd Sat-PD- Personality Development,Division 4
 612505096,TANISHQ,RAJESH,BANSELE,Electrical Engineering,1st and 3rd Sat-PD- Personality Development,Division 4
 612505104,AMRUTA,VISHNUKUMAR,SHRIRAMJWAR,Electrical Engineering,1st and 3rd Sat-PD- Personality Development,Division 4
-612505108,HARSH,ANSHUMAN,THAKAR,Electrical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612505110,ISHWARI,RAHUL,SUDKE,Electrical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612505111,KHYATI,VIVEKANAND,WAGHMARE,Electrical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612505115,OM,SHIRISH,SHINDE,Electrical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612505119,PRAJWAL,RAVINDRA,BENDRE,Electrical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612505120,PRANAV,ANANDA,SHINDE,Electrical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612505121,PRANJALI,SANTOSH,TEMBHURNE,Electrical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612505125,PRATIK,VIKAS,WAIDANDE,Electrical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612505126,PREM,PRADIP,SONNE,Electrical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612505131,REYANSH,SANJAYKUMAR,RAMTEKE,Electrical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612505132,RUSHIKESH,SANJAY,GAIKWAD,Electrical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612505137,SAHIL,VASANT,LONKAR,Electrical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612505138,SAISH,VIJAY,SARGAR,Electrical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612505142,SANKALP,NAVIN,PATIL,Electrical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612505143,SANKET,SANJAY,PAGAR,Electrical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612505154,SRUSHTI,GAJANAN,HINGMIRE,Electrical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612505157,SWANAND,DHANANJAY,SIRSIKAR,Electrical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612505159,UTKARSH,GIRIDHAR,JHA,Electrical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612505160,VAISHNVI,SANJAY,SONKATALE,Electrical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612505165,VEERPRATAPSINGH,JAGDISHSINGH,THAKUR,Electrical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612505169,YUGA,RUPAK,SHEVATE,Electrical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612505170,AKSHAT,PRASAD,,Electrical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612505172,ARYAN,SANTOSH,DIVEKAR,Electrical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612505173,SHALAKA,SANGRAM,KUDALE,Electrical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612505176,AALAP,HARSHAL,TALEGAONKAR,Electrical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612505177,AMOGH,ABHAY,KULKARNI,Electrical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612505178,ARNAV,ANAND,SAVREKAR,Electrical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612505179,ASTHA,GUPTA,,Electrical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612505180,BHAVIK,RAJESH,KALRA,Electrical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612505181,EHSAN,BAKSHI,S,Electrical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612505182,FAROOQUI,MOHAMMAD ANWAAR,SABIR,Electrical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612505183,GAURAV,GUNDA,KODAG,Electrical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612505187,SHRAVAN,JITENDRA,MORE,Electrical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612505190,VEDANT,RAJENDRA,YEUL,Electrical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612507001,AADITYA,ANILKUMAR,BAGE,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612507005,ABHIJIT,SHANTESHWAR,SWAMI,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612507006,ABHISHEK,DEEPAK,DANDEKAR,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612507010,ADITYA,BARANWAL,,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612507012,ADITYA,GUPTA,,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612507017,AMANKUMAR,SUNILKUMAR,SINHA,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612507018,ANISHA,AVADHUT,KAMBLE,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612507023,ARNAV,TEJAS,PADHYE,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612507024,ARYAN,ASHOK,TIWARI,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612507026,ARYAN,SANJAY,POL,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612507027,ASHUTOSH,KUMAR,,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612507030,ATHARVA,RAVI,DEGALMODE,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612507031,ATHARVA,SACHIN,GOVINDWAR,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612507032,ATHARVA,SANDIP,GADGE,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612507033,AVADHUT,SANJAY,YADAV,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612507037,CHAITANYA,SUNIL,PATIL,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612507038,CHINMAY,PRADEEP,MUDGALKAR,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612507040,DHANANJAY,SUNIL,KASULE,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612507042,DIVYA,BABAN,SAMBHERAO,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612507046,HARSHVARDHAN,YUVRAJ,PATIL,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612507050,ISHAAN,SHRIKANT,MUDKHEDKAR,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612507051,ISHANT,DEVENDRA,NAHAR,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612507054,JITYA,NITIN,HASANI,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612507059,KRISHNA,BHIKAN,PATIL,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612507060,KRISHNA,DEEPAK,BHISE,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612507066,LOKESH,DHARGAVE,,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612507069,MANSI,VIJAYKUMAR,JADHAV,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612507070,MAYURESH,RAJARAM,ZORE,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612507071,MEET,VINAY,GUPTA,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612507083,ONKAR,ASHOK,WAGH,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612507092,PAYAL,KISAN,JADHAV,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612507093,PRABHA,SHARMA,,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612507095,PRANAV,GANESH,KHAIRNAR,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612507096,PRANJAL,MAHESHKUMAR,PATIL,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612507099,PRITHVIRAJ,SIDDHARTH,KAMBLE,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612507104,RAMMYA,JANARDAN,SHETE,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612507110,RISHIT,SHAILESHSHETTY,,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612507111,RITESH,NAGNATH,KAYATE,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612507112,RIYA,ABHINANDAN,SOUNDATTE,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612507113,ROHAN,VINAYAK,VAIDYA,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612507114,RONNIT,YOGESH,KASAT,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 5
-612507115,RUCHA,GANESH,DASNAM,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612507116,RUGVED,DINESH,NANDEDKAR,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612507124,SAMYAK,TULJANAND,KHANAPURKAR,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612507125,SANCHIT,PRASHANT,JOSHI,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612507127,SANKET,VIRBHADRA,BAWAGE,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612507129,SARTHAKI,DEVANAND,BUDHWANT,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612507130,SARVESH,MAHESH,KULKARNI,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612507131,SAVANI,VIJAY,REDEKAR,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612507132,SHAIKHHAYYAN,HAYYUR,REHMAN,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612507133,SHAMAN,SUDHEER,RAI,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612507134,SHARVARI,SHRIPADRAO,MULEY,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612507136,SHOURYASAMARTH,SACHIN,ICHALKARANJE,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612507139,SHREYA,DHANRAJ,DADMAL,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612507140,SHREYASH,SANJAY,PAWAR,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612507144,SIDDHI,BHAGWAT,KOLEKAR,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612507146,SNEHAL,BABURAO,AMBRE,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612507150,SUJAL,SHASHIKANT,CHANDANE,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612507156,SWARA,SACHIN,KADAM,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612507161,TANVI,AJAY,MEHENDALE,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612507167,VEDANT,SHRIHARI,YENCHEWAD,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612507170,VISHWAJEET,SOMANATH,MOHITE,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612507172,YUWANSH,DAHIKAR,,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612507185,SHRUTI,SANTOSH,LONKAR,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612507186,SWARALI,JAYDEEP,JOSHI,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612507188,AKSHITA,SHARMA,,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612507192,RANVEER,SIDDHARTH,AJINKYA,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612509002,AGRAJ,SANJAY,RAUT,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612509003,AMAN,KHANDELWAL,,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612509004,AMEY,AJAY,KSHIRSAGAR,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612509006,ANANNYA,TUSHAR,MIRKUTE,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612509009,ASHVIN,VISHNU,WANJARE,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612509010,ASHWIN,PREM,PATHAK,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612509013,CHINMAY,ANIL,DHEKANE,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612509016,DHANANJAY,SARVE,MALHAR,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612509018,DNYANESHWARI,JALINDAR,JADHAV,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612509019,DUSHYANT,KAILAS,MARATHE,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612509020,HARSH,SACHIN,VATHARE,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612509022,JANHAVI,GHOSE,,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612509026,MEET,AMOL,PATIL,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612509027,MRUNMAYI,ANANDKUMAR,LONDHE,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612509029,NIKHIL,SHRIPAD,PATANKAR,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612509033,PRANAY,MANIK,RATHOD,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612509035,RACHIT,MAHENDRA,DONGRE,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612509041,SAMARTH,SAMADHAN,GALANDE,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612509042,SANCHIT,DANGONDA,PATIL,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612509043,SARANG,PRANAV,JAIRAM,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612509044,SARTHAK,MAHADEV,BHAWAR,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612509045,SHARWARI,RAJESH,JAWADE,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612509048,SOUMYASHREE,SIDDHARUDHA,HOLIKATTI,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612509051,SUJAL,EKNATH,JADHAO,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612509055,TANMAY,SHRIKANT,JOSHI,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612509057,TEJAS,SHRIKANT,TAVADARKAR,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612509059,VAIBHAV,VIKRAM,INAMDAR,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612509064,VIRUPAKSHA,DNYANOBA,DHAGE,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612509066,YASHODEEP,MAHENDRA,GAIKWAD,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612509069,NAKSHATRA,ROHITKUMAR,PATIL,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612509070,SANAT,NIKESH,NAGPURKAR,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612509071,GURUKANT,TIWARI,,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612509073,OMKAAR,SACHIN,PATWARDHAN,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612513004,AANCHAL,SOURABH,KULKARNI,Manufacturing Science and Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612513006,ADITYA,HANMANT,SHETE,Manufacturing Science and Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612513007,ADITYA,PRASHANT,JADHAV,Manufacturing Science and Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612513009,AKANKSHA,GORAKHNATH,HANGE,Manufacturing Science and Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612513016,AYUSH,AMOL,POTDAR,Manufacturing Science and Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612513023,GANVITA,ANKUSH,DHURVE,Manufacturing Science and Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612513028,HARSH,RATHI,,Manufacturing Science and Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612513029,HARSHAL,WAMAN,CHUDHARI,Manufacturing Science and Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612513030,HIMANSHU,BHAGAWAT,PATIL,Manufacturing Science and Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612513031,HIMANSHU,NITIN,SARODE,Manufacturing Science and Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612513038,MAITHILI,UMASHANKAR,KOCHE,Manufacturing Science and Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612513040,MAYURI,DNYANESHWAR,PAWAR,Manufacturing Science and Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612513054,SAMYAK,ATUL,JAIN,Manufacturing Science and Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612513057,SAYYAM,PRASHANT,BADGUJAR,Manufacturing Science and Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612513058,SHANTANU,SANJAY,KANBALE,Manufacturing Science and Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612513061,SHLOK,RAKESHKUMAR,BHANGDIYA,Manufacturing Science and Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 6
-612513065,SHREYA,DATTATRAYA,DAGADE,Manufacturing Science and Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612513066,SHREYA,SACHIN,GAIKWAD,Manufacturing Science and Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612513070,SHRIRAM,SUHAS,DHAMNE,Manufacturing Science and Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612513071,SIDDESH,PRAMOD,INGOLE,Manufacturing Science and Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612513072,SIDDHESH,SATHIK,,Manufacturing Science and Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612513077,SURAJ,SAKHARAM,BINNAR,Manufacturing Science and Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612513081,UTKARSH,UMASHANKAR,GUPTA,Manufacturing Science and Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612513082,VAISHNAVI,VITTHAL,LABADE,Manufacturing Science and Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612513083,VARAD,MURLIDHAR,DESHMUKH,Manufacturing Science and Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612513087,YASHWANT,SUBHASH,CHANDANE,Manufacturing Science and Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612513089,ARNAV,NIRMAL,NEHETE,Manufacturing Science and Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612513091,JYOTIRADITYA,VIJAYKUMAR,PALWE,Manufacturing Science and Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612513093,MADHUR,CHANDRASHEKHAR,BARAPATRE,Manufacturing Science and Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612513094,PAYAL,SAHADEV,DHAYBAR,Manufacturing Science and Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612513098,VEDANT,DEEPAK,PATIL,Manufacturing Science and Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612510004,ACHYUT,NISHIKANT,KAMBLE,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612510007,ADITYA,VITTHAL,SHINDE,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612510008,ADWAIT,ASHISH,BHADANG,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612510009,AGASTYA,PRABHANJAN,WANDREKAR,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612510014,ANIKET,VIJAY,PATIL,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612510017,ANUSHKA,MANISH,PARIHAR,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612510018,ARANYASIDDH,SADASHIV,KAGWADE,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612510023,ARYAN,GANESH,BANDAL,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612510026,ATHARV,TUKARAM,JADHAV,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612510027,ATHARVA,KISHOR,MANKAR,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612510028,ATMAJA,DEY,,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612510031,AYUSH,SHAILESH,KATE,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612510040,ESHAAN,ROHIT,NERLEKAR,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612510043,HARSHIT,VIVEK,SURYAWANSHI,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612510044,HASNAIN,BOHARI,,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612510047,JAY,DHANYAKUMAR,SAWALWADE,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612510048,KARAN,MAHADEV,KADAM,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612510049,KARAN,RAMCHANDRA,JAGDALE,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612510050,KAUSTUBH,TUSHAR,JOSHI,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612510051,KIRTI,TATYABA,KHARAT,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612510053,KSHIRAJA,PRASHANT,KHADE,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612510055,MANAS,MANOHAR,AVHAD,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612510057,MANAV,PREMKUMAR,PUNJABI,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612510058,MANOJKUMAR,DONIKAR,DEWANSHU,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612510062,PRANALI,SUDHIR,BUVA,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612510067,RIYA,RAHUL,GAIKWAD,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612510070,ROHIT,SUBHASH,BHANUSE,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612510073,SAI,RUPESH,JANGAMSWAMI,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612510074,SAISH,MARUTI,DIVASE,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612510079,SARVESH,PANKAJ,LADDHA,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612510080,SAWANI,SANJAY,DAWALE,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612510084,SHRUTI,DNYANESHWAR,BHUJBAL,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612510085,SOHAM,NITIN,KADAM,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612510087,SWAROOP,SANTOSH,BAGAL,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612510093,VEDANT,SACHIN,MAHAJAN,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612510096,VIRAJ,VILAS,KHADE,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612510101,AASTHA,RAJESH,PATANGE,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612510103,ADARSH,BALASAHEB,SANAP,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612510109,DHAWALSHREE,MILIND,NAVANALE,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612510111,GAURAV,AMBRISH,TIWARI,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612510113,ISHITA,SUNIL,PARDESI,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612510114,JAY,SUNIL,VARHADE,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612510115,KAUSTUBH,VINAYAK,NAGAVKAR,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612510119,MONAL,PRASHANT,VASAIKAR,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612510124,OM,SALKUTE,,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612510126,OMKAR,JAGAN,SANGADE,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612510128,PARTH,PRADEEP,KAMBLE,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612510129,PARTH,SRINIVASAN,,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612510130,PRANAV,HARISH,PATEL,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612510132,PRATIMA,NAGORAO,RAUT,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612510133,PRERNA,VINAYAK,PONDKULE,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612510137,RISHABH,AMARISH,KARNIK,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612510139,ROBIN,XAVIER,,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612510140,ROHAN,SANTOSH,HARDE,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612510141,ROHAN,SANTOSH,SALUNKHE,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612510142,S,LEELA,VEDANT REDDY,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612510144,SAMIP,SUMEDH,SHIRSAT,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612510145,SARTH,VINAYAK,SHINDE,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612510149,SAYYED,OWAIS,AHMED,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612510150,SHANTANU,VIJAY,VAIDYA,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 7
-612510152,SHLOK,RUTUPARNA,PEDNEKAR,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 8
-612510153,SHLOK,VINODSINGH,THAKUR,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 8
-612510155,SHREERAM,SAMEER,SAWARKAR,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 8
-612510158,SHUBHAM,UTTAM,POWAR,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 8
-612510159,SHUKLA,VAISHNAV,AKALPIT,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 8
-612510164,SWARA,SHAMKANT,BHOR,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 8
-612510168,UNAMTEEPHRANG,TARIANG,,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 8
-612510169,VARAD,SANJAY,GAIKWAD,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 8
-612510170,VEDANSH,HRISHIKESH,BARGE,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 8
-612510171,VINISHA,SAMPATH,MUDALIAR,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 8
-612510186,KHUSHI,BANSAL,,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 8
-612510187,KSHITIJ,SUNIL,KUMBHAR,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 8
-612510189,VIDHIKA,SANJAY,SHARMA,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 8
-612510190,YASHODHAN,DAYANAND,KAMATH,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 8
-612510191,PRANAV,DAVE,,Mechanical Engineering,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 8
-612511001,ABHIRAM,ANAND,MAIRAL,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 8
-612511005,ANJALI,SHANKAR,KALMENGHE,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 8
-612511006,ARNAV,MANISH,GAWANDE,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 8
-612511010,AYUSH,SUNIL,CHOUGULE,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 8
-612511012,CHAITANYA,LAKSHMI,NARAYAN,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 8
-612511014,CHETAN,KUMBHARE,,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 8
-612511015,HARSHAD,SURYAKANT,PATIL,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 8
-612511018,ISHWARI,PRASANNA,WALKE,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 8
-612511021,KARAN,SUNIL,LAMKHEDE,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 8
-612511022,KARUNA,SANJAY,SASANE,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 8
-612511023,KAVISH,BRAJESH,BANG,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 8
-612511024,KHUSHI,PUSHPAM,GUPTA,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 8
-612511025,KRISH,SHRIKANT,SANKALE,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 8
-612511031,PARAS,AJIT,SHAH,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 8
-612511033,PIYUSHA,PRADEEP,MADDE,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 8
-612511034,PRACHI,GANESH,GORE,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 8
-612511035,PRAGYA,GUPTA,,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 8
-612511036,PRANAV,NITIN,JAGTAP,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 8
-612511037,PRANJAL,PRAMOD,PALHAL,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 8
-612511038,PRATHAMESH,PURUSHOTTAM,THOMBRE,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 8
-612511040,PUSHKAR,SANJAY,UDAWANT,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 8
-612511042,RAHUL,PRALHAD,SHINDE,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 8
-612511044,RAJWARDHAN,RANJIT,MOHITE,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 8
-612511046,RASIKA,MAHESH,TONDGAONKAR,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 8
-612511054,SAGAL,SITARAM,SONAWALE,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 8
-612511055,SAMEER,BAGWAN,ANAS,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 8
-612511056,SAMRUDDHA,RAVINDRA,MOKAL,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 8
-612511057,SANIKA,NIVAS,SHINDE,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 8
-612511059,SHASTRI,RUJUL,RAJVEER,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 8
-612511060,SHIKALGAR,WASIF,FIROZ,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 8
-612511061,SHREYA,ABHIJIT,KESKAR,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 8
-612511062,SHREYASH,SANJAY,MORE,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 8
-612511063,SHRISH,MAHESH,YEOLEKAR,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 8
-612511071,SWARALI,NITESH,RAJPURKAR,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 8
-612511074,TANISHA,AMOL,KHISTE,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 8
-612511075,TANVI,JEETENDRA,PATIL,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 8
-612511081,VIPASHYA,RAJESH,SAPKAL,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 8
-612511085,MOHAMMAD,AFFAAN,ZUBAIR,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 8
-612511086,DEVESH,KUMAR,KRISHNA KUMAR SINGH,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 8
-612511088,NIHAR,MANGESH,JADHAO,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 8
-612511093,VARAD,RAJENDRA,KALEL,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd- 11am/ 2nd&4th- 10:45am),Division 8
+612505108,HARSH,ANSHUMAN,THAKAR,Electrical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612505110,ISHWARI,RAHUL,SUDKE,Electrical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612505111,KHYATI,VIVEKANAND,WAGHMARE,Electrical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612505115,OM,SHIRISH,SHINDE,Electrical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612505119,PRAJWAL,RAVINDRA,BENDRE,Electrical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612505120,PRANAV,ANANDA,SHINDE,Electrical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612505121,PRANJALI,SANTOSH,TEMBHURNE,Electrical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612505125,PRATIK,VIKAS,WAIDANDE,Electrical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612505126,PREM,PRADIP,SONNE,Electrical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612505131,REYANSH,SANJAYKUMAR,RAMTEKE,Electrical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612505132,RUSHIKESH,SANJAY,GAIKWAD,Electrical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612505137,SAHIL,VASANT,LONKAR,Electrical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612505138,SAISH,VIJAY,SARGAR,Electrical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612505142,SANKALP,NAVIN,PATIL,Electrical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612505143,SANKET,SANJAY,PAGAR,Electrical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612505154,SRUSHTI,GAJANAN,HINGMIRE,Electrical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612505157,SWANAND,DHANANJAY,SIRSIKAR,Electrical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612505159,UTKARSH,GIRIDHAR,JHA,Electrical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612505160,VAISHNVI,SANJAY,SONKATALE,Electrical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612505165,VEERPRATAPSINGH,JAGDISHSINGH,THAKUR,Electrical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612505169,YUGA,RUPAK,SHEVATE,Electrical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612505170,AKSHAT,PRASAD,,Electrical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612505172,ARYAN,SANTOSH,DIVEKAR,Electrical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612505173,SHALAKA,SANGRAM,KUDALE,Electrical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612505176,AALAP,HARSHAL,TALEGAONKAR,Electrical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612505177,AMOGH,ABHAY,KULKARNI,Electrical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612505178,ARNAV,ANAND,SAVREKAR,Electrical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612505179,ASTHA,GUPTA,,Electrical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612505180,BHAVIK,RAJESH,KALRA,Electrical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612505181,EHSAN,BAKSHI,S,Electrical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612505182,FAROOQUI,MOHAMMAD ANWAAR,SABIR,Electrical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612505183,GAURAV,GUNDA,KODAG,Electrical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612505187,SHRAVAN,JITENDRA,MORE,Electrical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612505190,VEDANT,RAJENDRA,YEUL,Electrical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612507001,AADITYA,ANILKUMAR,BAGE,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612507005,ABHIJIT,SHANTESHWAR,SWAMI,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612507006,ABHISHEK,DEEPAK,DANDEKAR,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612507010,ADITYA,BARANWAL,,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612507012,ADITYA,GUPTA,,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612507017,AMANKUMAR,SUNILKUMAR,SINHA,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612507018,ANISHA,AVADHUT,KAMBLE,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612507023,ARNAV,TEJAS,PADHYE,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612507024,ARYAN,ASHOK,TIWARI,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612507026,ARYAN,SANJAY,POL,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612507027,ASHUTOSH,KUMAR,,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612507030,ATHARVA,RAVI,DEGALMODE,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612507031,ATHARVA,SACHIN,GOVINDWAR,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612507032,ATHARVA,SANDIP,GADGE,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612507033,AVADHUT,SANJAY,YADAV,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612507037,CHAITANYA,SUNIL,PATIL,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612507038,CHINMAY,PRADEEP,MUDGALKAR,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612507040,DHANANJAY,SUNIL,KASULE,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612507042,DIVYA,BABAN,SAMBHERAO,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612507046,HARSHVARDHAN,YUVRAJ,PATIL,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612507050,ISHAAN,SHRIKANT,MUDKHEDKAR,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612507051,ISHANT,DEVENDRA,NAHAR,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612507054,JITYA,NITIN,HASANI,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612507059,KRISHNA,BHIKAN,PATIL,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612507060,KRISHNA,DEEPAK,BHISE,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612507066,LOKESH,DHARGAVE,,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612507069,MANSI,VIJAYKUMAR,JADHAV,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612507070,MAYURESH,RAJARAM,ZORE,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612507071,MEET,VINAY,GUPTA,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612507083,ONKAR,ASHOK,WAGH,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612507092,PAYAL,KISAN,JADHAV,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612507093,PRABHA,SHARMA,,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612507095,PRANAV,GANESH,KHAIRNAR,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612507096,PRANJAL,MAHESHKUMAR,PATIL,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612507099,PRITHVIRAJ,SIDDHARTH,KAMBLE,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612507104,RAMMYA,JANARDAN,SHETE,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612507110,RISHIT,SHAILESHSHETTY,,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612507111,RITESH,NAGNATH,KAYATE,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612507112,RIYA,ABHINANDAN,SOUNDATTE,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612507113,ROHAN,VINAYAK,VAIDYA,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612507114,RONNIT,YOGESH,KASAT,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 5
+612507115,RUCHA,GANESH,DASNAM,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612507116,RUGVED,DINESH,NANDEDKAR,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612507124,SAMYAK,TULJANAND,KHANAPURKAR,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612507125,SANCHIT,PRASHANT,JOSHI,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612507127,SANKET,VIRBHADRA,BAWAGE,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612507129,SARTHAKI,DEVANAND,BUDHWANT,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612507130,SARVESH,MAHESH,KULKARNI,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612507131,SAVANI,VIJAY,REDEKAR,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612507132,SHAIKHHAYYAN,HAYYUR,REHMAN,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612507133,SHAMAN,SUDHEER,RAI,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612507134,SHARVARI,SHRIPADRAO,MULEY,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612507136,SHOURYASAMARTH,SACHIN,ICHALKARANJE,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612507139,SHREYA,DHANRAJ,DADMAL,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612507140,SHREYASH,SANJAY,PAWAR,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612507144,SIDDHI,BHAGWAT,KOLEKAR,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612507146,SNEHAL,BABURAO,AMBRE,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612507150,SUJAL,SHASHIKANT,CHANDANE,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612507156,SWARA,SACHIN,KADAM,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612507161,TANVI,AJAY,MEHENDALE,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612507167,VEDANT,SHRIHARI,YENCHEWAD,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612507170,VISHWAJEET,SOMANATH,MOHITE,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612507172,YUWANSH,DAHIKAR,,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612507185,SHRUTI,SANTOSH,LONKAR,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612507186,SWARALI,JAYDEEP,JOSHI,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612507188,AKSHITA,SHARMA,,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612507192,RANVEER,SIDDHARTH,AJINKYA,Electronics and Telecommunication Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612509002,AGRAJ,SANJAY,RAUT,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612509003,AMAN,KHANDELWAL,,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612509004,AMEY,AJAY,KSHIRSAGAR,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612509006,ANANNYA,TUSHAR,MIRKUTE,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612509009,ASHVIN,VISHNU,WANJARE,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612509010,ASHWIN,PREM,PATHAK,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612509013,CHINMAY,ANIL,DHEKANE,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612509016,DHANANJAY,SARVE,MALHAR,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612509018,DNYANESHWARI,JALINDAR,JADHAV,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612509019,DUSHYANT,KAILAS,MARATHE,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612509020,HARSH,SACHIN,VATHARE,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612509022,JANHAVI,GHOSE,,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612509026,MEET,AMOL,PATIL,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612509027,MRUNMAYI,ANANDKUMAR,LONDHE,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612509029,NIKHIL,SHRIPAD,PATANKAR,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612509033,PRANAY,MANIK,RATHOD,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612509035,RACHIT,MAHENDRA,DONGRE,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612509041,SAMARTH,SAMADHAN,GALANDE,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612509042,SANCHIT,DANGONDA,PATIL,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612509043,SARANG,PRANAV,JAIRAM,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612509044,SARTHAK,MAHADEV,BHAWAR,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612509045,SHARWARI,RAJESH,JAWADE,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612509048,SOUMYASHREE,SIDDHARUDHA,HOLIKATTI,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612509051,SUJAL,EKNATH,JADHAO,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612509055,TANMAY,SHRIKANT,JOSHI,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612509057,TEJAS,SHRIKANT,TAVADARKAR,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612509059,VAIBHAV,VIKRAM,INAMDAR,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612509064,VIRUPAKSHA,DNYANOBA,DHAGE,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612509066,YASHODEEP,MAHENDRA,GAIKWAD,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612509069,NAKSHATRA,ROHITKUMAR,PATIL,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612509070,SANAT,NIKESH,NAGPURKAR,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612509071,GURUKANT,TIWARI,,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612509073,OMKAAR,SACHIN,PATWARDHAN,Instrumentation and Control Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612513004,AANCHAL,SOURABH,KULKARNI,Manufacturing Science and Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612513006,ADITYA,HANMANT,SHETE,Manufacturing Science and Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612513007,ADITYA,PRASHANT,JADHAV,Manufacturing Science and Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612513009,AKANKSHA,GORAKHNATH,HANGE,Manufacturing Science and Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612513016,AYUSH,AMOL,POTDAR,Manufacturing Science and Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612513023,GANVITA,ANKUSH,DHURVE,Manufacturing Science and Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612513028,HARSH,RATHI,,Manufacturing Science and Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612513029,HARSHAL,WAMAN,CHUDHARI,Manufacturing Science and Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612513030,HIMANSHU,BHAGAWAT,PATIL,Manufacturing Science and Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612513031,HIMANSHU,NITIN,SARODE,Manufacturing Science and Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612513038,MAITHILI,UMASHANKAR,KOCHE,Manufacturing Science and Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612513040,MAYURI,DNYANESHWAR,PAWAR,Manufacturing Science and Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612513054,SAMYAK,ATUL,JAIN,Manufacturing Science and Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612513057,SAYYAM,PRASHANT,BADGUJAR,Manufacturing Science and Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612513058,SHANTANU,SANJAY,KANBALE,Manufacturing Science and Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612513061,SHLOK,RAKESHKUMAR,BHANGDIYA,Manufacturing Science and Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 6
+612513065,SHREYA,DATTATRAYA,DAGADE,Manufacturing Science and Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612513066,SHREYA,SACHIN,GAIKWAD,Manufacturing Science and Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612513070,SHRIRAM,SUHAS,DHAMNE,Manufacturing Science and Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612513071,SIDDESH,PRAMOD,INGOLE,Manufacturing Science and Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612513072,SIDDHESH,SATHIK,,Manufacturing Science and Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612513077,SURAJ,SAKHARAM,BINNAR,Manufacturing Science and Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612513081,UTKARSH,UMASHANKAR,GUPTA,Manufacturing Science and Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612513082,VAISHNAVI,VITTHAL,LABADE,Manufacturing Science and Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612513083,VARAD,MURLIDHAR,DESHMUKH,Manufacturing Science and Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612513087,YASHWANT,SUBHASH,CHANDANE,Manufacturing Science and Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612513089,ARNAV,NIRMAL,NEHETE,Manufacturing Science and Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612513091,JYOTIRADITYA,VIJAYKUMAR,PALWE,Manufacturing Science and Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612513093,MADHUR,CHANDRASHEKHAR,BARAPATRE,Manufacturing Science and Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612513094,PAYAL,SAHADEV,DHAYBAR,Manufacturing Science and Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612513098,VEDANT,DEEPAK,PATIL,Manufacturing Science and Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612510004,ACHYUT,NISHIKANT,KAMBLE,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612510007,ADITYA,VITTHAL,SHINDE,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612510008,ADWAIT,ASHISH,BHADANG,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612510009,AGASTYA,PRABHANJAN,WANDREKAR,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612510014,ANIKET,VIJAY,PATIL,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612510017,ANUSHKA,MANISH,PARIHAR,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612510018,ARANYASIDDH,SADASHIV,KAGWADE,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612510023,ARYAN,GANESH,BANDAL,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612510026,ATHARV,TUKARAM,JADHAV,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612510027,ATHARVA,KISHOR,MANKAR,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612510028,ATMAJA,DEY,,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612510031,AYUSH,SHAILESH,KATE,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612510040,ESHAAN,ROHIT,NERLEKAR,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612510043,HARSHIT,VIVEK,SURYAWANSHI,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612510044,HASNAIN,BOHARI,,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612510047,JAY,DHANYAKUMAR,SAWALWADE,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612510048,KARAN,MAHADEV,KADAM,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612510049,KARAN,RAMCHANDRA,JAGDALE,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612510050,KAUSTUBH,TUSHAR,JOSHI,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612510051,KIRTI,TATYABA,KHARAT,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612510053,KSHIRAJA,PRASHANT,KHADE,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612510055,MANAS,MANOHAR,AVHAD,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612510057,MANAV,PREMKUMAR,PUNJABI,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612510058,MANOJKUMAR,DONIKAR,DEWANSHU,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612510062,PRANALI,SUDHIR,BUVA,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612510067,RIYA,RAHUL,GAIKWAD,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612510070,ROHIT,SUBHASH,BHANUSE,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612510073,SAI,RUPESH,JANGAMSWAMI,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612510074,SAISH,MARUTI,DIVASE,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612510079,SARVESH,PANKAJ,LADDHA,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612510080,SAWANI,SANJAY,DAWALE,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612510084,SHRUTI,DNYANESHWAR,BHUJBAL,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612510085,SOHAM,NITIN,KADAM,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612510087,SWAROOP,SANTOSH,BAGAL,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612510093,VEDANT,SACHIN,MAHAJAN,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612510096,VIRAJ,VILAS,KHADE,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612510101,AASTHA,RAJESH,PATANGE,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612510103,ADARSH,BALASAHEB,SANAP,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612510109,DHAWALSHREE,MILIND,NAVANALE,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612510111,GAURAV,AMBRISH,TIWARI,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612510113,ISHITA,SUNIL,PARDESI,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612510114,JAY,SUNIL,VARHADE,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612510115,KAUSTUBH,VINAYAK,NAGAVKAR,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612510119,MONAL,PRASHANT,VASAIKAR,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612510124,OM,SALKUTE,,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612510126,OMKAR,JAGAN,SANGADE,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612510128,PARTH,PRADEEP,KAMBLE,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612510129,PARTH,SRINIVASAN,,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612510130,PRANAV,HARISH,PATEL,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612510132,PRATIMA,NAGORAO,RAUT,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612510133,PRERNA,VINAYAK,PONDKULE,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612510137,RISHABH,AMARISH,KARNIK,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612510139,ROBIN,XAVIER,,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612510140,ROHAN,SANTOSH,HARDE,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612510141,ROHAN,SANTOSH,SALUNKHE,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612510142,S,LEELA,VEDANT REDDY,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612510144,SAMIP,SUMEDH,SHIRSAT,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612510145,SARTH,VINAYAK,SHINDE,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612510149,SAYYED,OWAIS,AHMED,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612510150,SHANTANU,VIJAY,VAIDYA,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 7
+612510152,SHLOK,RUTUPARNA,PEDNEKAR,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 8
+612510153,SHLOK,VINODSINGH,THAKUR,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 8
+612510155,SHREERAM,SAMEER,SAWARKAR,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 8
+612510158,SHUBHAM,UTTAM,POWAR,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 8
+612510159,SHUKLA,VAISHNAV,AKALPIT,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 8
+612510164,SWARA,SHAMKANT,BHOR,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 8
+612510168,UNAMTEEPHRANG,TARIANG,,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 8
+612510169,VARAD,SANJAY,GAIKWAD,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 8
+612510170,VEDANSH,HRISHIKESH,BARGE,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 8
+612510171,VINISHA,SAMPATH,MUDALIAR,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 8
+612510186,KHUSHI,BANSAL,,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 8
+612510187,KSHITIJ,SUNIL,KUMBHAR,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 8
+612510189,VIDHIKA,SANJAY,SHARMA,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 8
+612510190,YASHODHAN,DAYANAND,KAMATH,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 8
+612510191,PRANAV,DAVE,,Mechanical Engineering,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 8
+612511001,ABHIRAM,ANAND,MAIRAL,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 8
+612511005,ANJALI,SHANKAR,KALMENGHE,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 8
+612511006,ARNAV,MANISH,GAWANDE,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 8
+612511010,AYUSH,SUNIL,CHOUGULE,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 8
+612511012,CHAITANYA,LAKSHMI,NARAYAN,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 8
+612511014,CHETAN,KUMBHARE,,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 8
+612511015,HARSHAD,SURYAKANT,PATIL,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 8
+612511018,ISHWARI,PRASANNA,WALKE,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 8
+612511021,KARAN,SUNIL,LAMKHEDE,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 8
+612511022,KARUNA,SANJAY,SASANE,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 8
+612511023,KAVISH,BRAJESH,BANG,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 8
+612511024,KHUSHI,PUSHPAM,GUPTA,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 8
+612511025,KRISH,SHRIKANT,SANKALE,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 8
+612511031,PARAS,AJIT,SHAH,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 8
+612511033,PIYUSHA,PRADEEP,MADDE,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 8
+612511034,PRACHI,GANESH,GORE,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 8
+612511035,PRAGYA,GUPTA,,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 8
+612511036,PRANAV,NITIN,JAGTAP,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 8
+612511037,PRANJAL,PRAMOD,PALHAL,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 8
+612511038,PRATHAMESH,PURUSHOTTAM,THOMBRE,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 8
+612511040,PUSHKAR,SANJAY,UDAWANT,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 8
+612511042,RAHUL,PRALHAD,SHINDE,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 8
+612511044,RAJWARDHAN,RANJIT,MOHITE,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 8
+612511046,RASIKA,MAHESH,TONDGAONKAR,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 8
+612511054,SAGAL,SITARAM,SONAWALE,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 8
+612511055,SAMEER,BAGWAN,ANAS,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 8
+612511056,SAMRUDDHA,RAVINDRA,MOKAL,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 8
+612511057,SANIKA,NIVAS,SHINDE,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 8
+612511059,SHASTRI,RUJUL,RAJVEER,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 8
+612511060,SHIKALGAR,WASIF,FIROZ,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 8
+612511061,SHREYA,ABHIJIT,KESKAR,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 8
+612511062,SHREYASH,SANJAY,MORE,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 8
+612511063,SHRISH,MAHESH,YEOLEKAR,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 8
+612511071,SWARALI,NITESH,RAJPURKAR,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 8
+612511074,TANISHA,AMOL,KHISTE,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 8
+612511075,TANVI,JEETENDRA,PATIL,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 8
+612511081,VIPASHYA,RAJESH,SAPKAL,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 8
+612511085,MOHAMMAD,AFFAAN,ZUBAIR,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 8
+612511086,DEVESH,KUMAR,KRISHNA KUMAR SINGH,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 8
+612511088,NIHAR,MANGESH,JADHAO,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 8
+612511093,VARAD,RAJENDRA,KALEL,Metallurgy and Materials Technology,PD- Personality Development(1st&3rd Sat- 11am/ 2nd&4th Sat- 10:45am),Division 8
 612572002,AARADHYA,PANDEY,,Artificial Intelligence and Machine Learning,2nd & 4th Sat-PD- Personality Development (Till 10:30),Division 1
 612572006,ABHEDYA,SRIVASTAVA,,Artificial Intelligence and Machine Learning,2nd & 4th Sat-PD- Personality Development (Till 10:30),Division 1
 612572010,AJNISH,RAJ,,Artificial Intelligence and Machine Learning,2nd & 4th Sat-PD- Personality Development (Till 10:30),Division 1
@@ -12472,7 +12473,7 @@ MIS,FirstName,MiddleName,LastName,Branch,Subject,Division
 612505128,RAM,SURESH,TIKAR,Electrical Engineering,LAB Batch 2-FEE- fundamentals OF Electrical Engineering,Division 2
 612505130,RAVINDRA,GOPAL,RAUT,Electrical Engineering,LAB Batch 2-FEE- fundamentals OF Electrical Engineering,Division 2
 612505131,REYANSH,SANJAYKUMAR,RAMTEKE,Electrical Engineering,LAB Batch 2-FEE- fundamentals OF Electrical Engineering,Division 2
-612505132,RUSHIKESH,SANJAY,GAIKWAD,Electrical Engineering,LAB Batch 2-FEE- fundamentals OF Electrical Engineering,Division 2
+612505132,RUSHIKESH,SANJAY,GAIKWAD,Electrical Engineering,LAB Batch 3-FEE- fundamentals OF Electrical Engineering,Division 2
 612505133,RUTURAJ,DHOTRE,,Electrical Engineering,LAB Batch 2-FEE- fundamentals OF Electrical Engineering,Division 2
 612505134,SACHIN,MAHADU,RAJPUT,Electrical Engineering,LAB Batch 2-FEE- fundamentals OF Electrical Engineering,Division 2
 612505135,SAGAR,SUSTE,,Electrical Engineering,LAB Batch 2-FEE- fundamentals OF Electrical Engineering,Division 2
@@ -13382,7 +13383,7 @@ MIS,FirstName,MiddleName,LastName,Branch,Subject,Division
 612505116,PANKAJ,RAJENDRA,PUNIYANI,Electrical Engineering,Tut Batch 2-Linear Algebra,Division 4
 612505124,PRATHMESH,DILIP,SHIRSE,Electrical Engineering,Tut Batch 2-Linear Algebra,Division 4
 612505127,PRINCE,,PATIDAR,Electrical Engineering,Tut Batch 2-Linear Algebra,Division 4
-612505132,RUSHIKESH,SANJAY,GAIKWAD,Electrical Engineering,Tut Batch 2-Linear Algebra,Division 4
+612505132,RUSHIKESH,SANJAY,GAIKWAD,Electrical Engineering,Tut Batch 1-Linear Algebra,Division 4
 612505133,RUTURAJ,,DHOTRE,Electrical Engineering,Tut Batch 3-Linear Algebra,Division 4
 612505134,SACHIN,MAHADU,RAJPUT,Electrical Engineering,Tut Batch 3-Linear Algebra,Division 4
 612505137,SAHIL,VASANT,LONKAR,Electrical Engineering,Tut Batch 3-Linear Algebra,Division 4
@@ -13979,7 +13980,7 @@ MIS,FirstName,MiddleName,LastName,Branch,Subject,Division
 612501024,ANKITA,UMESH,PATIL,Civil Engineering,LAB Batch 2-Engg  Physics,Division 2
 612501033,ARYAN,MOHAN,SANGALE,Civil Engineering,LAB Batch 2-Engg  Physics,Division 2
 612501038,ATHARV,SAGAR,PATIL,Civil Engineering,LAB Batch 2-Engg  Physics,Division 2
-612501043,AVANEESH,SUDHIR,MUTHAL,Civil Engineering,LAB Batch 2-Engg  Physics,Division 2
+612501043,AVANEESH,SUDHIR,MUTHAL,Civil Engineering,LAB Batch 2-Engg Chem,Division 1
 612501049,CHESA,KENT,,Civil Engineering,LAB Batch 2-Engg  Physics,Division 2
 612515049,HARSH,JAISING,YADAV,Computer Science and Engineering,LAB Batch 1-Engg  Physics,Division 2
 612515050,HERAMBA,AMOL,BARDE,Computer Science and Engineering,LAB Batch 1-Engg  Physics,Division 2
