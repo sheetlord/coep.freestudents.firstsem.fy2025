@@ -9,13 +9,13 @@
         .container { max-width: 1000px; margin: auto; background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 6px 12px rgba(0,0,0,0.1); }
         h1, h2, h3, h4 { color: #444; } h1 { border-bottom: 2px solid #eee; padding-bottom: 1rem; margin-bottom: 1.5rem;}
         h2.free { color: #28a745; } h2.busy { color: #dc3545; }
-        .tabs { display: flex; border-bottom: 2px solid #eee; margin-bottom: 1.5rem; }
+        .tabs { display: flex; flex-wrap: wrap; border-bottom: 2px solid #eee; margin-bottom: 1.5rem; }
         .tab-button { padding: 1rem 1.5rem; cursor: pointer; border: none; background: none; font-size: 1rem; font-weight: 500; color: #555; border-bottom: 3px solid transparent; }
         .tab-button.active { color: #007bff; border-bottom-color: #007bff; }
         .tab-content { display: none; } .tab-content.active { display: block; }
         form { display: flex; flex-direction: column; gap: 1.5rem; }
         .form-controls { display: flex; gap: 1rem; align-items: center; flex-wrap: wrap; }
-        label { font-weight: 500; }
+        label { font-weight: 500; margin-right: 0.5rem; }
         select, textarea, input[type="submit"] { padding: 0.75rem; border: 1px solid #ddd; border-radius: 4px; font-size: 1rem; }
         textarea { width: 100%; min-height: 100px; }
         .submit-btn { background-color: #007bff; color: white; cursor: pointer; border: none; font-weight: bold; }
@@ -29,23 +29,208 @@
         .success h3 { color: #28a745; }
         .failure h3 { color: #dc3545; }
         .suggestion { background-color: #fff9c4; border: 1px solid #fbc02d; color: #5d4037; } .suggestion h3 { color: #f57f17; }
-        .option-card { border-left: 4px solid #007bff; padding-left: 1.5rem; margin-bottom: 1.5rem; }
+        .option-card { border-left: 4px solid #007bff; padding: 1.5rem; margin-top: 1.5rem; background: #f8f9fa; border-radius: 4px; }
+        .batch-item { margin-bottom: 1rem; }
+        .batch-item.failed-constraint { border-left: 4px solid #dc3545; padding-left: 10px; background: #fff5f5; }
         .view-list-btn { background: #e9ecef; border: 1px solid #ced4da; color: #495057; padding: 5px 10px; border-radius: 4px; cursor: pointer; margin-left: 10px; }
+        
+        /* ## --- NEW --- ## */
+        .download-list-btn { background: #28a745; border: 1px solid #218838; color: white; padding: 5px 10px; border-radius: 4px; cursor: pointer; margin-left: 10px; font-weight: 500; }
+        
         .details-list { display: none; margin-top: 1rem; }
         .footer { text-align: center; margin-top: 2rem; color: #888; font-size: 0.9rem; }
+        .student-input-container { border: 1px solid #eee; padding: 1rem; border-radius: 8px; }
+        .student-input-tabs { display: flex; gap: 0.5rem; margin-bottom: 1rem; }
+        .student-tab-btn { padding: 0.5rem 1rem; background: #eee; border: none; border-radius: 4px; cursor: pointer; }
+        .student-tab-btn.active { background: #007bff; color: white; }
+        .student-tab-content { display: none; } .student-tab-content.active { display: block; }
+        .filter-block { border: 1px dashed #ccc; padding: 1rem; border-radius: 8px; margin-top: 1rem; }
+        select[multiple] { height: 150px; padding: 0.5rem; width: 100%; }
+        #excluded-list-display li { display: flex; justify-content: space-between; align-items: center; background: #f1f3f5; padding: 8px 12px; border-radius: 4px; margin-bottom: 5px; }
+        .remove-excluded-btn { background: #fa5252; color: white; border: none; border-radius: 4px; padding: 4px 8px; cursor: pointer; font-weight: bold; }
+        .day-selector-container { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+        .day-selector { background: #f1f3f5; border: 2px solid #f1f3f5; color: #555; padding: 0.5rem 1rem; border-radius: 6px; cursor: pointer; font-weight: 500; transition: all 0.2s ease; }
+        .day-selector.selected { background: #e6f7ff; border-color: #007bff; color: #0056b3; }
+        .day-selector-hidden-input { display: none; }
+        .suggestion-container { display: flex; flex-wrap: wrap; gap: 1.5rem; }
+        .suggestion-column { flex: 1; min-width: 300px; background: #f8f9fa; border: 1px solid #e0e0e0; border-radius: 8px; padding: 1.5rem; }
+        .suggestion-column h3 { margin-top: 0; color: #f57f17; }
+        .suggestion-column ul { padding-left: 20px; }
+        .suggestion-column li { font-weight: 500; }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>🎓 COEP Tech Suite</h1>
         <div class="tabs">
-            <button class="tab-button active" data-tab="mode-check">Check Single Slot</button>
-            <button class="tab-button" data-tab="mode-group">Find Slot by Group</button>
-            <button class="tab-button" data-tab="mode-mis">Find Slot by MIS List</button>
+            <button class="tab-button active" data-tab="mode-1">Clashchecker</button>
+            <button class="tab-button" data-tab="mode-2">Batch Finder</button>
+            <button class="tab-button" data-tab="mode-3">Advanced Finder</button>
+            <button class="tab-button" data-tab="mode-4">Advanced Planner</button>
+            <button class="tab-button" data-tab="mode-5">Day Finder</button>
         </div>
-        <div id="mode-check" class="tab-content active"><form id="check-form"></form></div>
-        <div id="mode-group" class="tab-content"><form id="group-form"></form></div>
-        <div id="mode-mis" class="tab-content"><form id="mis-form"></form></div>
+        
+        <div id="mode-1" class="tab-content active">
+            <form id="form-mode-1">
+                <textarea name="mis_numbers" placeholder="Paste student MIS numbers..." required></textarea>
+                <div class="form-controls">
+                    <div><label>Day:</label><select name="day" required><option value="" disabled selected>Select</option>{% for day in all_days %}<option value="{{ day }}">{{ day }}</option>{% endfor %}</select></div>
+                    <div><label>Time:</label><select name="time" required><option value="" disabled selected>Select</option>{% for time in times_full %}<option value="{{ time }}">{{ time }}</option>{% endfor %}</select></div>
+                    <input type="submit" value="Check Availability" class="submit-btn">
+                </div>
+            </form>
+        </div>
+        
+        <div id="mode-2" class="tab-content">
+            <form id="form-mode-2">
+                <div class="student-input-container">
+                    <div class="student-input-tabs">
+                        <button type="button" class="student-tab-btn active" data-target="m2-group">By Group</button>
+                        <button type="button" class="student-tab-btn" data-target="m2-mis">By MIS List</button>
+                    </div>
+                    <div class="student-tab-content active" data-content="m2-group">
+                        <input type="hidden" name="student_mode" value="by_group">
+                        <div class="form-controls">
+                            <div><label>Subject:</label><select name="subject" class="subject-selector" required><option value="" disabled selected>Select</option>{% for subject in subjects %}<option value="{{ subject }}">{{ subject }}</option>{% endfor %}</select></div>
+                            <div><label>Division:</label><select name="division" class="division-selector" required><option value="" disabled selected>Select a Subject First</option></select></div>
+                        </div>
+                    </div>
+                    <div class="student-tab-content" data-content="m2-mis">
+                        <textarea name="mis_numbers" placeholder="Paste student MIS numbers..."></textarea>
+                    </div>
+                </div>
+                <div class="form-controls">
+                    <label>Requested Batches:</label>
+                    <select name="num_batches">
+                        {% for i in range(1, 6) %}<option value="{{ i }}">{{ i }}</option>{% endfor %}
+                    </select>
+                </div>
+                <div class="filter-block">
+                    <label>Exclude Slots (Optional):</label>
+                    <div class="form-controls">
+                        <select id="exclude-day-select" style="flex: 1;">
+                            <option value="" disabled selected>Select Day</option>
+                            {% for day in all_days %}<option value="{{ day }}">{{ day }}</option>{% endfor %}
+                        </select>
+                        <select id="exclude-time-select" style="flex: 1;">
+                            <option value="" disabled selected>Select Time</option>
+                            {% for time in times_full %}<option value="{{ time }}">{{ time }}</option>{% endfor %}
+                        </select>
+                        <button type="button" id="add-exclude-btn" class="submit-btn" style="padding: 0.75rem 1.2rem;">+</button>
+                    </div>
+                    <ul id="excluded-list-display" style="list-style: none; padding-left: 0; margin-top: 1rem;"></ul>
+                    <div id="excluded-slots-hidden-inputs"></div>
+                </div>
+                <input type="submit" value="Find All Options" class="submit-btn">
+            </form>
+        </div>
+        
+        <div id="mode-3" class="tab-content">
+            <form id="form-mode-3">
+                <div class="student-input-container">
+                    <div class="student-input-tabs">
+                        <button type="button" class="student-tab-btn active" data-target="m3-group">By Group</button>
+                        <button type="button" class="student-tab-btn" data-target="m3-mis">By MIS List</button>
+                    </div>
+                    <div class="student-tab-content active" data-content="m3-group">
+                        <input type="hidden" name="student_mode" value="by_group">
+                        <div class="form-controls">
+                            <div><label>Subject:</label><select name="subject" class="subject-selector" required><option value="" disabled selected>Select</option>{% for subject in subjects %}<option value="{{ subject }}">{{ subject }}</option>{% endfor %}</select></div>
+                            <div><label>Division:</label><select name="division" class="division-selector" required><option value="" disabled selected>Select a Subject First</option></select></div>
+                        </div>
+                    </div>
+                    <div class="student-tab-content" data-content="m3-mis">
+                        <textarea name="mis_numbers" placeholder="Paste student MIS numbers..."></textarea>
+                    </div>
+                </div>
+                <div class="form-controls">
+                    <label>Requested Batches:</label>
+                    <select name="num_batches">
+                        {% for i in range(1, 6) %}<option value="{{ i }}">{{ i }}</option>{% endfor %}
+                    </select>
+                </div>
+                <div class="filter-block">
+                    <h4>Filter by a single time block:</h4>
+                    <div class="form-controls">
+                        <label>Days:</label>
+                        <div class="day-selector-container">
+                            {% for day in all_days %}
+                            <input type="checkbox" name="m3_days" value="{{ day }}" id="m3_day_{{day}}" class="day-selector-hidden-input">
+                            <label for="m3_day_{{day}}" class="day-selector">{{ day[:3] }}</label>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    <div class="form-controls">
+                        <label>From:</label><select name="m3_time_start"><option value="" selected>Start</option>{% for display, value in times_formatted %}<option value="{{ value }}">{{ display }}</option>{% endfor %}</select>
+                        <label>To:</label><select name="m3_time_end"><option value="" selected>End</option>{% for display, value in times_formatted_end %}<option value="{{ value }}">{{ display }}</option>{% endfor %}</select>
+                    </div>
+                </div>
+                <input type="submit" value="Find Filtered Options" class="submit-btn">
+            </form>
+        </div>
+
+        <div id="mode-4" class="tab-content">
+            <form id="form-mode-4">
+                <div class="student-input-container">
+                    <div class="student-input-tabs">
+                        <button type="button" class="student-tab-btn active" data-target="m4-group">By Group</button>
+                        <button type="button" class="student-tab-btn" data-target="m4-mis">By MIS List</button>
+                    </div>
+                    <div class="student-tab-content active" data-content="m4-group">
+                        <input type="hidden" name="student_mode" value="by_group">
+                        <div class="form-controls">
+                            <div><label>Subject:</label><select name="subject" class="subject-selector" required><option value="" disabled selected>Select</option>{% for subject in subjects %}<option value="{{ subject }}">{{ subject }}</option>{% endfor %}</select></div>
+                            <div><label>Division:</label><select name="division" class="division-selector" required><option value="" disabled selected>Select a Subject First</option></select></div>
+                        </div>
+                    </div>
+                    <div class="student-tab-content" data-content="m4-mis">
+                        <textarea name="mis_numbers" placeholder="Paste student MIS numbers..."></textarea>
+                    </div>
+                </div>
+                <div class="form-controls">
+                    <label>Requested Batches:</label>
+                    <select name="num_batches" class="batch-count-selector" data-target="m4-batch-filters">
+                        {% for i in range(1, 6) %}<option value="{{ i }}">{{ i }}</option>{% endfor %}
+                    </select>
+                </div>
+                <div id="m4-batch-filters"></div>
+                <input type="submit" value="Check This Plan" class="submit-btn">
+            </form>
+        </div>
+
+        <div id="mode-5" class="tab-content">
+            <form id="form-mode-5">
+                <div class="student-input-container">
+                    <div class="student-input-tabs">
+                        <button type="button" class="student-tab-btn active" data-target="m5-group">By Group</button>
+                        <button type="button" class="student-tab-btn" data-target="m5-mis">By MIS List</button>
+                    </div>
+                    <div class="student-tab-content active" data-content="m5-group">
+                        <input type="hidden" name="student_mode" value="by_group">
+                        <div class="form-controls">
+                            <div><label>Subject:</label><select name="subject" class="subject-selector" required><option value="" disabled selected>Select</option>{% for subject in subjects %}<option value="{{ subject }}">{{ subject }}</option>{% endfor %}</select></div>
+                            <div><label>Division:</label><select name="division" class="division-selector" required><option value="" disabled selected>Select a Subject First</option></select></div>
+                        </div>
+                    </div>
+                    <div class="student-tab-content" data-content="m5-mis">
+                        <textarea name="mis_numbers" placeholder="Paste student MIS numbers..."></textarea>
+                    </div>
+                </div>
+                <div class="form-controls">
+                    <label>Requested Batches:</label>
+                    <select name="num_batches">
+                        {% for i in range(1, 6) %}<option value="{{ i }}">{{ i }}</option>{% endfor %}
+                    </select>
+                    <label>Required Day:</label>
+                    <select name="m5_day" required>
+                        <option value="" disabled selected>Select a Day</option>
+                        {% for day in all_days %}<option value="{{ day }}">{{ day }}</option>{% endfor %}
+                    </select>
+                </div>
+                <input type="submit" value="Find Slots on This Day" class="submit-btn">
+            </form>
+        </div>
+
         <div id="results-container"></div>
         <div class="footer">
             Created by Rushikesh ⚡⚡
@@ -53,86 +238,93 @@
     </div>
 
     <script>
+        const SUBJECT_DIVISION_MAP = {{ subject_division_map|tojson }};
+    </script>
+    
+    <script>
+        // Global variable to hold response data
         let responseData = {};
 
-        document.addEventListener('DOMContentLoaded', function() {
-            document.getElementById('check-form').innerHTML = createFormHTML('check');
-            document.getElementById('group-form').innerHTML = createFormHTML('group');
-            document.getElementById('mis-form').innerHTML = createFormHTML('mis');
-            
-            document.querySelectorAll('.tab-button').forEach(tab => {
-                tab.addEventListener('click', () => {
-                    document.querySelectorAll('.tab-button, .tab-content').forEach(el => el.classList.remove('active'));
-                    tab.classList.add('active');
-                    document.getElementById(tab.dataset.tab).classList.add('active');
-                    document.getElementById('results-container').innerHTML = '';
+        // ### UTILITY FUNCTIONS (SHARED) ###
+
+        function updateDivisionDropdown(event) {
+            const subject = event.target.value;
+            const form = event.target.closest('form');
+            const divisionSelect = form.querySelector('.division-selector');
+            if (!divisionSelect) return;
+            const divisions = SUBJECT_DIVISION_MAP[subject] || [];
+            divisionSelect.innerHTML = '';
+            if (divisions.length === 0) {
+                divisionSelect.innerHTML = '<option value="" disabled selected>No divisions found</option>';
+            } else {
+                divisionSelect.innerHTML = '<option value="" disabled selected>Select Division</option>';
+                divisions.forEach(division => {
+                    const option = document.createElement('option');
+                    option.value = division;
+                    option.textContent = division;
+                    divisionSelect.appendChild(option);
                 });
-            });
+            }
+        }
+        
+        const m4_FilterBlockHTML = (index) => `
+            <div class="filter-block">
+                <h4>Constraints for Batch ${index + 1}</h4>
+                <div class="form-controls">
+                    <label>Days:</label>
+                    <div class="day-selector-container">
+                        {% for day in all_days %}
+                        <input type="checkbox" name="m4_batch_${index}_days" value="{{ day }}" id="m4_b${index}_day_{{day}}" class="day-selector-hidden-input">
+                        <label for="m4_b${index}_day_{{day}}" class="day-selector">{{ day[:3] }}</label>
+                        {% endfor %}
+                    </div>
+                </div>
+                <div class="form-controls">
+                    <label>From:</label><select name="m4_batch_${index}_time_start"><option value="" selected>Start</option>{% for display, value in times_formatted %}<option value="{{ value }}">{{ display }}</option>{% endfor %}</select>
+                    <label>To:</label><select name="m4_batch_${index}_time_end"><option value="" selected>End</option>{% for display, value in times_formatted_end %}<option value="{{ value }}">{{ display }}</option>{% endfor %}</select>
+                </div>
+            </div>`;
 
-            document.getElementById('check-form').addEventListener('submit', (e) => handleFormSubmit(e, '/check_availability', renderCheckResults));
-            document.getElementById('group-form').addEventListener('submit', (e) => handleFormSubmit(e, '/find_best_slots', renderSchedulerResults));
-            document.getElementById('mis-form').addEventListener('submit', (e) => handleFormSubmit(e, '/find_best_slots', renderSchedulerResults));
-        });
-
+        // Generic form handler
         const handleFormSubmit = (event, endpoint, renderer) => {
             event.preventDefault();
             const resultsContainer = document.getElementById('results-container');
-            resultsContainer.innerHTML = `<p class="message">Finding the best options... 🧠</p>`;
+            resultsContainer.innerHTML = `<p class="message">Working on it... 🧠</p>`;
             fetch(endpoint, { method: 'POST', body: new FormData(event.target) })
                 .then(response => response.ok ? response.json() : Promise.reject(`HTTP error! status: ${response.status}`))
-                .then(data => { responseData = data; renderer(data); })
+                .then(data => { 
+                    responseData = data; // Store data globally
+                    renderer(data); 
+                })
                 .catch(error => { console.error('Error:', error); resultsContainer.innerHTML = `<p class="message error">An unexpected error occurred. Check the console.</p>`; });
         };
-        
-        const renderCheckResults = (data) => {
-            const resultsContainer = document.getElementById('results-container');
-            if (data.error) { resultsContainer.innerHTML = `<p class="message error">${data.error}</p>`; return; }
-            let html = '';
-            if (data.busy_results?.length) html += `<h2 class="busy">Busy Students (${data.busy_results.length})</h2>` + createStudentTable(data.busy_results, ['MIS', 'Name', 'Subject', 'Room']);
-            if (data.free_results?.length) html += `<h2 class="free">Free Students (${data.free_results.length})</h2>` + createStudentTable(data.free_results, ['MIS', 'Name', 'Branch']);
-            resultsContainer.innerHTML = html || `<p class="message">No results to display.</p>`;
+
+        // Generic table/list creators
+        const createStudentTable = (students, headers) => {
+            let table = `<table><thead><tr>${headers.map(h => `<th>${h}</th>`).join('')}</tr></thead><tbody>`;
+            students.forEach(s => { table += `<tr>${headers.map(h => `<td>${s[h] || ''}</td>`).join('')}</tr>`; });
+            return table + '</tbody></table>';
         };
 
-        const renderSchedulerResults = (data) => {
-            const resultsContainer = document.getElementById('results-container');
-            if (data.error) { resultsContainer.innerHTML = `<p class="message error">${data.error}</p>`; return; }
-            let html = '';
-
-            if (data.status === 'success') {
-                html = `<div class="result-card success"><h3>✅ Success! Found ${data.solutions.length} excellent options for ${data.solutions[0].length} batches.</h3>`;
-                data.solutions.forEach((solution, index) => {
-                    html += `<div class="option-card"><h4>Option ${index + 1}</h4>`;
-                    html += createBatchList(solution, `success-${index}`);
-                    html += `</div>`;
-                });
-                html += `</div>`;
-            } else if (data.status === 'failure_with_suggestion') {
-                html = `<div class="result-card failure"><h3>💥 Request Failed</h3><p>Unable to fit all students into the requested <strong>${data.requested_batches} batches</strong>.</p></div>`;
-                html += `<div class="result-card suggestion"><h3>💡 SUGGESTION: Found ${data.suggestion.solutions.length} options using ${data.suggestion.solutions[0].length} batches.</h3>`;
-                data.suggestion.solutions.forEach((solution, index) => {
-                    html += `<div class="option-card"><h4>Option ${index + 1}</h4>`;
-                    html += createBatchList(solution, `suggestion-${index}`);
-                    html += `</div>`;
-                });
-                html += `</div>`;
-            } else if (data.status === 'failure_no_solution') {
-                 html = `<div class="result-card failure"><h3>❌ No Solution Found</h3><p>Could not find a way to schedule all students, even after trying up to 8 batches.</p></div>`;
-            }
-            
-            resultsContainer.innerHTML = html || `<p class="message">Could not find a suitable solution.</p>`;
-            document.querySelectorAll('.view-list-btn').forEach(btn => btn.addEventListener('click', toggleBatchList));
-        };
-        
         const createBatchList = (batches, typePrefix) => {
-            let listHtml = '<ul>';
+            let listHtml = '';
             batches.forEach((batch, index) => {
-                const availableRooms = batch.available_rooms.length > 0 ? batch.available_rooms.join(', ') : 'None Available';
-                listHtml += `<li><strong>Batch ${String.fromCharCode(65 + index)} (${batch.students.length} Students):</strong> ${batch.day} at ${batch.time} <br><small><strong>Available Rooms:</strong> ${availableRooms}</small> <button class="view-list-btn" data-type-prefix="${typePrefix}" data-batch-index="${index}">View List</button></li>
-                             <div id="list-${typePrefix}-${index}" class="details-list"></div>`;
+                const availableRooms = batch.available_rooms.length > 0 ? batch.available_rooms.join(', ') : '<strong style="color:red;">None Available</strong>';
+                const displayTime = batch.time.split(' - ')[0].trimStart('0');
+                listHtml += `<div class="batch-item">
+                                <strong>Batch ${String.fromCharCode(65 + index)} (${batch.students.length} Students):</strong> ${batch.day} at ${displayTime} 
+                                <br><small><strong>Available Rooms:</strong> ${availableRooms}</small>
+                                
+                                <button type="button" class="view-list-btn" data-type-prefix="${typePrefix}" data-batch-index="${index}">View List</button>
+                                <button type="button" class="download-list-btn" data-type-prefix="${typePrefix}" data-batch-index="${index}">Download List</button>
+                                
+                                <div id="list-${typePrefix}-${index}" class="details-list"></div>
+                               </div>`;
             });
-            return listHtml + '</ul>';
+            return listHtml;
         };
 
+        // Universal toggle function
         const toggleBatchList = (event) => {
             const { typePrefix, batchIndex } = event.target.dataset;
             const listContainer = document.getElementById(`list-${typePrefix}-${batchIndex}`);
@@ -141,32 +333,405 @@
             } else {
                 const [type, optionIndex] = typePrefix.split('-');
                 let studentData;
-                if (type === 'success') {
-                    studentData = responseData.solutions[optionIndex][batchIndex].students;
-                } else { // suggestion
-                    studentData = responseData.suggestion.solutions[optionIndex][batchIndex].students;
+                
+                try {
+                    if (type === 'success') {
+                        studentData = responseData.solutions[optionIndex][batchIndex].students;
+                    } else if (type === 'suggestion') { // For Mode 2 & 4
+                        studentData = responseData.suggestion.solutions[optionIndex][batchIndex].students;
+                    } else if (type === 'sugg_mixed') { // For Mode 5
+                        studentData = responseData.suggestion_mixed.solutions[optionIndex][batchIndex].students;
+                    } else if (type === 'sugg_more') { // For Mode 3
+                        studentData = responseData.suggestion_more_batches.solutions[optionIndex][batchIndex].students;
+                    } else if (type === 'sugg_relaxed') { // For Mode 3
+                        studentData = responseData.suggestion_relaxed_slots.solutions[optionIndex][batchIndex].students;
+                    }
+                } catch (e) {
+                    console.error("Error finding student data:", e, typePrefix, batchIndex, responseData);
+                    listContainer.innerHTML = "<p>Error loading student list.</p>";
+                    return;
                 }
-                listContainer.innerHTML = createStudentTable(studentData, ['MIS', 'Name', 'Branch']);
-                listContainer.style.display = 'block'; event.target.textContent = 'Hide List';
+                
+                if (studentData) {
+                    listContainer.innerHTML = createStudentTable(studentData, ['MIS', 'Name', 'Branch']);
+                    listContainer.style.display = 'block'; event.target.textContent = 'Hide List';
+                }
             }
         };
 
-        const createStudentTable = (students, headers) => {
-            let table = `<table><thead><tr>${headers.map(h => `<th>${h}</th>`).join('')}</tr></thead><tbody>`;
-            students.forEach(s => { table += `<tr>${headers.map(h => `<td>${s[h] || ''}</td>`).join('')}</tr>`; });
-            return table + '</tbody></table>';
+        // ## --- NEW --- ##
+        // Function to handle the download button click
+        const handleDownloadList = (event) => {
+            const { typePrefix, batchIndex } = event.target.dataset;
+            const [type, optionIndex] = typePrefix.split('-');
+            let studentData;
+
+            // 1. Get the student data (same logic as toggleBatchList)
+            try {
+                if (type === 'success') {
+                    studentData = responseData.solutions[optionIndex][batchIndex].students;
+                } else if (type === 'suggestion') { // For Mode 2 & 4
+                    studentData = responseData.suggestion.solutions[optionIndex][batchIndex].students;
+                } else if (type === 'sugg_mixed') { // For Mode 5
+                    studentData = responseData.suggestion_mixed.solutions[optionIndex][batchIndex].students;
+                } else if (type === 'sugg_more') { // For Mode 3
+                    studentData = responseData.suggestion_more_batches.solutions[optionIndex][batchIndex].students;
+                } else if (type === 'sugg_relaxed') { // For Mode 3
+                    studentData = responseData.suggestion_relaxed_slots.solutions[optionIndex][batchIndex].students;
+                }
+            } catch (e) {
+                alert("Error preparing download data.");
+                return;
+            }
+
+            if (!studentData || studentData.length === 0) {
+                alert("No students in this batch to download.");
+                return;
+            }
+
+            // 2. Extract MIS numbers
+            const misList = studentData.map(student => student.MIS);
+            const originalBtn = event.target;
+            originalBtn.textContent = "Creating...";
+            originalBtn.disabled = true;
+
+            // 3. Send MIS list to the backend
+            fetch('/download_list', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ mis_list: misList })
+            })
+            .then(resp => {
+                if (resp.ok) return resp.blob();
+                throw new Error('Network response was not ok.');
+            })
+            .then(blob => {
+                // 4. Create a temporary link to trigger the download
+                const url = window.URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.style.display = 'none';
+                a.href = url;
+                a.download = `student_list_batch_${typePrefix}_${batchIndex}.xlsx`;
+                document.body.appendChild(a);
+                a.click();
+                window.URL.revokeObjectURL(url);
+                a.remove();
+            })
+            .catch(err => {
+                console.error('Download failed:', err);
+                alert('An error occurred while preparing your download.');
+            })
+            .finally(() => {
+                originalBtn.textContent = "Download List";
+                originalBtn.disabled = false;
+            });
         };
 
-        const createFormHTML = (type) => {
-            const mis_textarea = `<textarea name="mis_numbers" placeholder="Paste student MIS numbers..." required></textarea>`;
-            const day_select = `<div><label>Day:</label><select name="day" required><option value="" disabled selected>Select</option>{% for day in days %}<option value="{{ day }}">{{ day }}</option>{% endfor %}</select></div>`;
-            const time_select = `<div><label>Time:</label><select name="time" required><option value="" disabled selected>Select</option>{% for time in times %}<option value="{{ time }}">{{ time }}</option>{% endfor %}</select></div>`;
-            const group_select = `<div class="form-controls"><label>Subject:</label><select name="subject" required><option value="" disabled selected>Select</option>{% for subject in subjects %}<option value="{{ subject }}">{{ subject }}</option>{% endfor %}</select><label>Division:</label><select name="division" required><option value="" disabled selected>Select</option>{% for division in divisions %}<option value="{{ division }}">{{ division }}</option>{% endfor %}</select></div>`;
-            const batch_select = `<div class="form-controls"><label>Requested Batches:</label><select name="num_batches">${Array.from({length: 8}, (_, i) => `<option value="${i + 1}">${i + 1}</option>`).join('')}</select></div>`;
-            if (type === 'check') return `<form id="check-form">${mis_textarea}<div class="form-controls">${day_select}${time_select}<input type="submit" value="Check" class="submit-btn"></div></form>`;
-            if (type === 'group') return `<form id="group-form"><input type="hidden" name="mode" value="by_group">${group_select}${batch_select}<input type="submit" value="Find Options" class="submit-btn"></form>`;
-            if (type === 'mis') return `<form id="mis-form"><input type="hidden" name="mode" value="by_mis">${mis_textarea}${batch_select}<input type="submit" value="Find Options" class="submit-btn"></form>`;
+
+        // ### PAGE INITIALIZATION ###
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            // Activate student sub-mode tabs
+            document.querySelectorAll('.student-tab-btn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const container = btn.closest('.student-input-container');
+                    container.querySelectorAll('.student-tab-btn, .student-tab-content').forEach(el => el.classList.remove('active'));
+                    btn.classList.add('active');
+                    const targetContent = container.querySelector(`[data-content="${btn.dataset.target}"]`);
+                    targetContent.classList.add('active');
+                    const parentForm = btn.closest('form');
+                    let inputMode = parentForm.querySelector('input[name="student_mode"]');
+                    
+                    if (btn.dataset.target.endsWith('group')) {
+                        inputMode.value = 'by_group';
+                    } else {
+                        inputMode.value = 'mis';
+                    }
+                    container.querySelector('[data-content$="group"]').querySelectorAll('select').forEach(s => s.required = (btn.dataset.target.endsWith('group')));
+                    container.querySelector('[data-content$="mis"]').querySelector('textarea').required = (btn.dataset.target.endsWith('mis'));
+                });
+                const container = btn.closest('.student-input-container');
+                container.querySelector('[data-content$="group"]').querySelectorAll('select').forEach(s => s.required = true);
+                container.querySelector('[data-content$="mis"]').querySelector('textarea').required = false;
+            });
+
+            // Activate main mode tabs
+            document.querySelectorAll('.tabs .tab-button').forEach(tab => {
+                tab.addEventListener('click', () => {
+                    document.querySelectorAll('.tabs .tab-button, .tab-content').forEach(el => el.classList.remove('active'));
+                    tab.classList.add('active');
+                    document.getElementById(tab.dataset.tab).classList.add('active');
+                    document.getElementById('results-container').innerHTML = '';
+                });
+            });
+            
+            // Activate subject-division dropdowns
+            document.querySelectorAll('.subject-selector').forEach(selector => {
+                selector.addEventListener('change', updateDivisionDropdown);
+            });
+
+            // Activate Mode 4 dynamic batch filter generator
+            const m4_selector = document.querySelector('.batch-count-selector[data-target="m4-batch-filters"]');
+            const m4_container = document.getElementById('m4-batch-filters');
+            m4_selector.addEventListener('change', (e) => {
+                const count = parseInt(e.target.value, 10);
+                m4_container.innerHTML = '';
+                for (let i = 0; i < count; i++) {
+                    m4_container.innerHTML += m4_FilterBlockHTML(i);
+                }
+                attachDayBoxListeners();
+            });
+            m4_selector.dispatchEvent(new Event('change'));
+
+            // Activate custom day-selector checkboxes
+            function attachDayBoxListeners() {
+                document.querySelectorAll('.day-selector').forEach(label => {
+                    if (label.dataset.listenerAttached) return;
+                    label.addEventListener('click', (e) => {
+                        e.preventDefault(); 
+                        const checkboxId = e.currentTarget.getAttribute('for');
+                        const checkbox = document.getElementById(checkboxId);
+                        checkbox.checked = !checkbox.checked; 
+                        e.currentTarget.classList.toggle('selected', checkbox.checked);
+                    });
+                    label.dataset.listenerAttached = true;
+                });
+            }
+            attachDayBoxListeners(); 
+
+            // Activate Mode 2 Slot Excluder
+            const addExcludeBtn = document.getElementById('add-exclude-btn');
+            if (addExcludeBtn) {
+                addExcludeBtn.addEventListener('click', () => {
+                    const daySelect = document.getElementById('exclude-day-select');
+                    const timeSelect = document.getElementById('exclude-time-select');
+                    const dayVal = daySelect.value;
+                    const timeVal = timeSelect.value;
+                    if (!dayVal || !timeVal) { alert("Please select both a day and a time to exclude."); return; }
+                    const slotValue = `${dayVal}|${timeVal}`;
+                    const slotText = `${dayVal} at ${timeVal}`;
+                    const hiddenInputsContainer = document.getElementById('excluded-slots-hidden-inputs');
+                    const listDisplayContainer = document.getElementById('excluded-list-display');
+                    if (document.querySelector(`input[name="excluded_slots"][value="${slotValue}"]`)) {
+                        alert(slotText + " is already on the excluded list."); return;
+                    }
+                    const li = document.createElement('li');
+                    li.textContent = slotText;
+                    li.dataset.value = slotValue;
+                    const removeBtn = document.createElement('button');
+                    removeBtn.type = 'button';
+                    removeBtn.textContent = 'X';
+                    removeBtn.className = 'remove-excluded-btn';
+                    removeBtn.onclick = () => {
+                        li.remove();
+                        hiddenInputsContainer.querySelector(`input[value="${slotValue}"]`).remove();
+                    };
+                    li.appendChild(removeBtn);
+                    listDisplayContainer.appendChild(li);
+                    const hiddenInput = document.createElement('input');
+                    hiddenInput.type = 'hidden';
+                    hiddenInput.name = 'excluded_slots';
+                    hiddenInput.value = slotValue;
+                    hiddenInputsContainer.appendChild(hiddenInput);
+                    daySelect.selectedIndex = 0;
+                    timeSelect.selectedIndex = 0;
+                });
+            }
+
+            // --- Form Submit Handlers (SEPARATED) ---
+            document.getElementById('form-mode-1').addEventListener('submit', (e) => handleFormSubmit(e, '/check_availability', renderMode1Results));
+            document.getElementById('form-mode-2').addEventListener('submit', (e) => handleFormSubmit(e, '/mode_2_batch_finder', renderMode2Results));
+            document.getElementById('form-mode-3').addEventListener('submit', (e) => handleFormSubmit(e, '/mode_3_advanced_finder', renderMode3Results));
+            document.getElementById('form-mode-4').addEventListener('submit', (e) => handleFormSubmit(e, '/mode_4_planner', renderMode4Results));
+            document.getElementById('form-mode-5').addEventListener('submit', (e) => handleFormSubmit(e, '/mode_5_day_finder', renderMode5Results));
+        
+            // ## --- NEW --- ##
+            // Event listener for *both* view and download buttons
+            document.getElementById('results-container').addEventListener('click', function(event) {
+                if (event.target.classList.contains('view-list-btn')) {
+                    toggleBatchList(event);
+                } else if (event.target.classList.contains('download-list-btn')) {
+                    handleDownloadList(event);
+                }
+            });
+        });
+
+        // ### SEPARATE RENDER FUNCTIONS (Unchanged from previous correct version) ###
+
+        // --- RENDERER FOR MODE 1 ---
+        const renderMode1Results = (data) => {
+            const resultsContainer = document.getElementById('results-container');
+            if (data.error) { resultsContainer.innerHTML = `<p class="message error">${data.error}</p>`; return; }
+            let html = '';
+            if (data.busy_results?.length) html += `<h2 class="busy">Busy Students (${data.busy_results.length})</h2>` + createStudentTable(data.busy_results, ['MIS', 'Name', 'Subject', 'Room']);
+            if (data.free_results?.length) html += `<h2 class="free">Free Students (${data.free_results.length})</h2>` + createStudentTable(data.free_results, ['MIS', 'Name', 'Branch']);
+            resultsContainer.innerHTML = html || `<p class="message">No students to display.</p>`;
         };
+
+        // --- RENDERER FOR MODE 2 ---
+        const renderMode2Results = (data) => {
+            const resultsContainer = document.getElementById('results-container');
+            if (data.error) { resultsContainer.innerHTML = `<p class="message error">${data.error}</p>`; return; }
+            let html = '';
+
+            if (data.status === 'success') {
+                html = `<div class="result-card success"><h3>✅ Success! Found ${data.solutions.length} balanced options.</h3><p>Showing top 10 options, ranked by best balance.</p>`;
+                data.solutions.forEach((solution, index) => {
+                    html += `<div class="option-card"><h4>Option ${index + 1}</h4>`;
+                    html += createBatchList(solution, `success-${index}`);
+                    html += `</div>`;
+                });
+            } else if (data.status === 'failure_with_suggestion') {
+                html = `<div class="result-card failure"><h3>💥 Request Failed</h3><p>Unable to fit all students with ${data.requested_batches} batches.</p></div>`;
+                if (data.suggestion && data.suggestion.solutions && data.suggestion.solutions.length > 0) {
+                    html += `<div class="result-card suggestion"><h3>💡 SUGGESTION: Found ${data.suggestion.solutions.length} options using ${data.suggestion.solutions[0].length} batches.</h3><p>These results show the Top 10 possibilities.</p>`;
+                    data.suggestion.solutions.forEach((solution, index) => {
+                        html += `<div class="option-card"><h4>Option ${index + 1}</h4>`;
+                        html += createBatchList(solution, `suggestion-${index}`); // Uses "suggestion" prefix
+                        html += `</div>`;
+                    });
+                    html += `</div>`;
+                }
+            } else if (data.status === 'failure_no_solution') {
+                html = `<div class="result-card failure"><h3>❌ No Solution Found</h3><p>Could not find any way to schedule all students, even with more batches.</p></div>`;
+            }
+            resultsContainer.innerHTML = html || `<p class="message">Could not find a suitable solution.</p>`;
+        };
+
+        // --- RENDERER FOR MODE 3 ---
+        const renderMode3Results = (data) => {
+            const resultsContainer = document.getElementById('results-container');
+            if (data.error) { resultsContainer.innerHTML = `<p class="message error">${data.error}</p>`; return; }
+            let html = '';
+
+            if (data.status === 'success') {
+                html = `<div class="result-card success"><h3>✅ Success! Found ${data.solutions.length} balanced options.</h3><p>Showing top 10 options matching your filters, ranked by best balance.</p>`;
+                data.solutions.forEach((solution, index) => {
+                    html += `<div class="option-card"><h4>Option ${index + 1}</h4>`;
+                    html += createBatchList(solution, `success-${index}`);
+                    html += `</div>`;
+                });
+            } else if (data.status === 'failure_with_suggestion') {
+                html = `<div class="result-card failure"><h3>💥 Request Failed</h3><p>Unable to fit <strong>${data.requested_batches} batches</strong> with your exact day/time filters.</p></div>
+                        <div class="suggestion-container">`;
+                
+                // Left Column (More Batches)
+                html += `<div class="suggestion-column">`;
+                if (data.suggestion_more_batches && data.suggestion_more_batches.solutions && data.suggestion_more_batches.solutions.length > 0) {
+                    html += `<h3>💡 Suggestion 1: Try More Batches</h3><p>Found <strong>${data.suggestion_more_batches.solutions.length} options</strong> for <strong>${data.suggestion_more_batches.batch_count} batches</strong> matching your *original* day/time filters.</p>`;
+                    data.suggestion_more_batches.solutions.forEach((solution, index) => {
+                        html += `<div class="option-card"><h4>Option ${index + 1}</h4>`;
+                        html += createBatchList(solution, `sugg_more-${index}`); // Uses "sugg_more" prefix
+                        html += `</div>`;
+                    });
+                } else {
+                    html += `<h3>❌ No Solution Found by Adding Batches</h3><p>No solutions found, even with more batches, in your selected day/time window.</p>`;
+                }
+                html += `</div>`;
+                
+                // Right Column (Relax Filters)
+                html += `<div class="suggestion-column">`;
+                if (data.suggestion_relaxed_slots && data.suggestion_relaxed_slots.solutions && data.suggestion_relaxed_slots.solutions.length > 0) {
+                    if (data.suggestion_relaxed_slots.type === 'days') {
+                         html += `<h3>💡 Suggestion 2: Relax Time Filter</h3><p>Found <strong>${data.suggestion_relaxed_slots.solutions.length} options</strong> for <strong>${data.requested_batches} batches</strong> by searching *all times* on your *selected days*.</p>`;
+                    } else { // type == 'all'
+                         html += `<h3>💡 Suggestion 2: Relax All Filters</h3><p>Found <strong>${data.suggestion_relaxed_slots.solutions.length} options</strong> for <strong>${data.requested_batches} batches</strong> by searching *all times* on *all days*.</p>`;
+                    }
+                    data.suggestion_relaxed_slots.solutions.forEach((solution, index) => {
+                        html += `<div class="option-card"><h4>Option ${index + 1}</h4>`;
+                        html += createBatchList(solution, `sugg_relaxed-${index}`); // Uses "sugg_relaxed" prefix
+                        html += `</div>`;
+                    });
+                } else {
+                    html += `<h3>❌ No Solution Found by Relaxing Filters</h3><p>No solutions found for ${data.requested_batches} batches even on other days/times.</p>`;
+                }
+                html += `</div></div>`;
+            } else if (data.status === 'failure_no_solution') {
+                html = `<div class="result-card failure"><h3>❌ No Solution Found</h3><p>Could not find any way to schedule all students that matches your request.</p></div>`;
+            }
+            resultsContainer.innerHTML = html || `<p class="message">Could not find a suitable solution.</p>`;
+        };
+
+        // --- RENDERER FOR MODE 4 ---
+        const renderMode4Results = (data) => {
+            const resultsContainer = document.getElementById('results-container');
+            if (data.error) { resultsContainer.innerHTML = `<p class="message error">${data.error}</p>`; return; }
+            let html = '';
+
+            if (data.status === 'success') {
+                html = `<div class="result-card success"><h3>✅ Plan Successful! Found ${data.solutions.length} options.</h3><p>Showing top 10 balanced options that match your exact per-batch plan.</p>`;
+                data.solutions.forEach((solution, index) => {
+                    html += `<div class="option-card"><h4>Option ${index + 1}</h4>`;
+                    html += createBatchList(solution, `success-${index}`);
+                    html += `</div>`;
+                });
+            } else if (data.status === 'failure_with_suggestion') {
+                html = `<div class="result-card failure"><h3>💥 Plan Failed</h3><p>Unable to fit all students with your per-batch constraints.</p></div>`;
+                if (data.suggestion && data.suggestion.solutions && data.suggestion.solutions.length > 0) {
+                    html += `<div class="result-card suggestion"><h3>💡 SUGGESTION: Found ${data.suggestion.solutions.length} general options for ${data.suggestion.solutions[0].length} batches.</h3><p>These results ignore your plan and show the best options on any day/time.</p>`;
+                    data.suggestion.solutions.forEach((solution, index) => {
+                        html += `<div class="option-card"><h4>Option ${index + 1}</h4>`;
+                        html += createBatchList(solution, `suggestion-${index}`); // Uses "suggestion" prefix
+                        html += `</div>`;
+                    });
+                    html += `</div>`;
+                }
+            } else if (data.status === 'failure_no_solution') {
+                html = `<div class="result-card failure"><h3>❌ No Solution Found</h3><p>Could not find any way to schedule all students, even after ignoring your plan.</p></div>`;
+            }
+            resultsContainer.innerHTML = html || `<p class="message">Could not find a suitable solution.</p>`;
+        };
+
+        // --- RENDERER FOR MODE 5 ---
+        const renderMode5Results = (data) => {
+            const resultsContainer = document.getElementById('results-container');
+            if (data.error) { resultsContainer.innerHTML = `<p class="message error">${data.error}</p>`; return; }
+            let html = '';
+
+            if (data.status === 'success') {
+                html = `<div class="result-card success"><h3>✅ Success! Found ${data.solutions.length} balanced options.</h3><p>Showing top 10 options for <strong>${data.solutions[0][0].day}</strong>, ranked by best balance.</p>`;
+                data.solutions.forEach((solution, index) => {
+                    html += `<div class="option-card"><h4>Option ${index + 1}</h4>`;
+                    html += createBatchList(solution, `success-${index}`);
+                    html += `</div>`;
+                });
+            } else if (data.status === 'failure_with_suggestion') {
+                html = `<div class="result-card failure"><h3>💥 Request Failed</h3><p>Unable to fit all students on <strong>${data.requested_day}</strong>.</p></div>
+                        <div class="suggestion-container">`;
+                
+                // Left Column (Mixed)
+                html += `<div class="suggestion-column">`;
+                if (data.suggestion_mixed && data.suggestion_mixed.solutions && data.suggestion_mixed.solutions.length > 0) {
+                    html += `<h3>💡 Suggestion 1: Mixed-Day Options</h3><p>Top ${data.suggestion_mixed.solutions.length} balanced options spread across other days.</p>`;
+                    data.suggestion_mixed.solutions.forEach((solution, index) => {
+                        html += `<div class="option-card"><h4>Option ${index + 1}</h4>`;
+                        html += createBatchList(solution, `sugg_mixed-${index}`); // Uses "sugg_mixed" prefix
+                        html += `</div>`;
+                    });
+                } else {
+                    html += `<h3>❌ No Mixed-Day Options Found</h3>`;
+                }
+                html += `</div>`;
+                
+                // Right Column (Single Day)
+                html += `<div class="suggestion-column">`;
+                if (data.suggestion_days && data.suggestion_days.length > 0) {
+                    let batchCount = data.suggestion_mixed ? data.suggestion_mixed.solutions[0].length : data.requested_batches;
+                    html += `<h3>💡 Suggestion 2: Single-Day Alternatives</h3><p>These days can successfully host all ${batchCount} batches:</p><ul>`;
+                    data.suggestion_days.forEach(day => {
+                        html += `<li><strong>${day}</strong></li>`;
+                    });
+                    html += `</ul>`;
+                } else {
+                    html += `<h3>❌ No Single-Day Alternatives Found</h3>`;
+                }
+                html += `</div></div>`;
+            } else if (data.status === 'failure_no_solution') {
+                html = `<div class="result-card failure"><h3>❌ No Solution Found</h3><p>Could not find any way to schedule all students on <strong>${data.requested_day}</strong> or any other day.</p></div>`;
+            }
+            resultsContainer.innerHTML = html || `<p class="message">Could not find a suitable solution.</p>`;
+        };
+
     </script>
 </body>
 </html>
