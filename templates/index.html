@@ -33,10 +33,7 @@
         .batch-item { margin-bottom: 1rem; }
         .batch-item.failed-constraint { border-left: 4px solid #dc3545; padding-left: 10px; background: #fff5f5; }
         .view-list-btn { background: #e9ecef; border: 1px solid #ced4da; color: #495057; padding: 5px 10px; border-radius: 4px; cursor: pointer; margin-left: 10px; }
-        
-        /* ## --- NEW --- ## */
         .download-list-btn { background: #28a745; border: 1px solid #218838; color: white; padding: 5px 10px; border-radius: 4px; cursor: pointer; margin-left: 10px; font-weight: 500; }
-        
         .details-list { display: none; margin-top: 1rem; }
         .footer { text-align: center; margin-top: 2rem; color: #888; font-size: 0.9rem; }
         .student-input-container { border: 1px solid #eee; padding: 1rem; border-radius: 8px; }
@@ -314,10 +311,8 @@
                 listHtml += `<div class="batch-item">
                                 <strong>Batch ${String.fromCharCode(65 + index)} (${batch.students.length} Students):</strong> ${batch.day} at ${displayTime} 
                                 <br><small><strong>Available Rooms:</strong> ${availableRooms}</small>
-                                
                                 <button type="button" class="view-list-btn" data-type-prefix="${typePrefix}" data-batch-index="${index}">View List</button>
                                 <button type="button" class="download-list-btn" data-type-prefix="${typePrefix}" data-batch-index="${index}">Download List</button>
-                                
                                 <div id="list-${typePrefix}-${index}" class="details-list"></div>
                                </div>`;
             });
@@ -359,7 +354,6 @@
             }
         };
 
-        // ## --- NEW --- ##
         // Function to handle the download button click
         const handleDownloadList = (event) => {
             const { typePrefix, batchIndex } = event.target.dataset;
@@ -455,15 +449,58 @@
                 container.querySelector('[data-content$="mis"]').querySelector('textarea').required = false;
             });
 
-            // Activate main mode tabs
+            // ## --- THIS IS THE FIX --- ##
+            // Activate main mode tabs (with full reset logic)
             document.querySelectorAll('.tabs .tab-button').forEach(tab => {
                 tab.addEventListener('click', () => {
+                    // 1. Activate the correct tabs
                     document.querySelectorAll('.tabs .tab-button, .tab-content').forEach(el => el.classList.remove('active'));
                     tab.classList.add('active');
                     document.getElementById(tab.dataset.tab).classList.add('active');
+                    
+                    // 2. Clear all results
                     document.getElementById('results-container').innerHTML = '';
+
+                    // 3. Reset all forms to their default state
+                    document.querySelectorAll('.tab-content form').forEach(form => {
+                        form.reset();
+                    });
+
+                    // 4. Re-trigger dynamic elements to reset them
+                    // Reset Mode 4 batch generator
+                    const m4_selector = document.querySelector('.batch-count-selector[data-target="m4-batch-filters"]');
+                    if (m4_selector) m4_selector.dispatchEvent(new Event('change'));
+
+                    // Reset all "By Group" / "By MIS" tabs to default
+                    document.querySelectorAll('.student-input-container').forEach(container => {
+                        container.querySelectorAll('.student-tab-btn, .student-tab-content').forEach(el => el.classList.remove('active'));
+                        container.querySelector('.student-tab-btn[data-target$="-group"]').classList.add('active');
+                        container.querySelector('.student-tab-content[data-content$="-group"]').classList.add('active');
+                        
+                        let inputMode = container.querySelector('input[name="student_mode"]');
+                        if (inputMode) inputMode.value = 'by_group';
+                        container.querySelector('[data-content$="group"]').querySelectorAll('select').forEach(s => s.required = true);
+                        container.querySelector('[data-content$="mis"]').querySelector('textarea').required = false;
+                    });
+
+                    // Clear Mode 2 excluded slots list
+                    const excludedList = document.getElementById('excluded-list-display');
+                    const hiddenInputs = document.getElementById('excluded-slots-hidden-inputs');
+                    if (excludedList) excludedList.innerHTML = '';
+                    if (hiddenInputs) hiddenInputs.innerHTML = '';
+
+                    // De-select all custom day-selector boxes
+                    document.querySelectorAll('.day-selector.selected').forEach(label => {
+                        label.classList.remove('selected');
+                    });
+
+                    // Reset all division dropdowns
+                    document.querySelectorAll('.division-selector').forEach(divSelect => {
+                        divSelect.innerHTML = '<option value="" disabled selected>Select a Subject First</option>';
+                    });
                 });
             });
+            // ## --- END OF FIX --- ##
             
             // Activate subject-division dropdowns
             document.querySelectorAll('.subject-selector').forEach(selector => {
@@ -545,7 +582,6 @@
             document.getElementById('form-mode-4').addEventListener('submit', (e) => handleFormSubmit(e, '/mode_4_planner', renderMode4Results));
             document.getElementById('form-mode-5').addEventListener('submit', (e) => handleFormSubmit(e, '/mode_5_day_finder', renderMode5Results));
         
-            // ## --- NEW --- ##
             // Event listener for *both* view and download buttons
             document.getElementById('results-container').addEventListener('click', function(event) {
                 if (event.target.classList.contains('view-list-btn')) {
@@ -556,7 +592,7 @@
             });
         });
 
-        // ### SEPARATE RENDER FUNCTIONS (Unchanged from previous correct version) ###
+        // ### SEPARATE RENDER FUNCTIONS ###
 
         // --- RENDERER FOR MODE 1 ---
         const renderMode1Results = (data) => {
@@ -716,7 +752,7 @@
                 // Right Column (Single Day)
                 html += `<div class="suggestion-column">`;
                 if (data.suggestion_days && data.suggestion_days.length > 0) {
-                    let batchCount = data.suggestion_mixed ? data.suggestion_mixed.solutions[0].length : data.requested_batches;
+                    let batchCount = (data.suggestion_mixed && data.suggestion_mixed.solutions.length > 0) ? data.suggestion_mixed.solutions[0].length : data.requested_batches;
                     html += `<h3>💡 Suggestion 2: Single-Day Alternatives</h3><p>These days can successfully host all ${batchCount} batches:</p><ul>`;
                     data.suggestion_days.forEach(day => {
                         html += `<li><strong>${day}</strong></li>`;

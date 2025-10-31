@@ -23,6 +23,10 @@ TIMES_OPTIONS_FORMATTED_END = []
 student_schedule_map = {}
 subject_division_map = {} 
 
+# ## --- NEW LISTS TO EXCLUDE SATURDAY BY DEFAULT --- ##
+all_possible_slots_NO_SATURDAY = []
+ALL_DAYS_OPTIONS_NO_SATURDAY = []
+
 def to_float_time(time_str):
     if not time_str: return 0
     try:
@@ -38,7 +42,7 @@ def load_and_prepare_data():
     """
     Loads all data, performs cleaning, and pre-computes schedules for maximum speed.
     """
-    global students_df_global, timetable_clash_global, room_occupancy, all_possible_slots, SUBJECT_OPTIONS, DIVISION_OPTIONS, DAYS_OPTIONS, TIMES_OPTIONS_FORMATTED, TIMES_OPTIONS_FORMATTED_END, TIMES_OPTIONS_FULL, ALL_DAYS_OPTIONS, student_schedule_map, subject_division_map
+    global students_df_global, timetable_clash_global, room_occupancy, all_possible_slots, all_possible_slots_NO_SATURDAY, SUBJECT_OPTIONS, DIVISION_OPTIONS, DAYS_OPTIONS, ALL_DAYS_OPTIONS_NO_SATURDAY, TIMES_OPTIONS_FORMATTED, TIMES_OPTIONS_FORMATTED_END, TIMES_OPTIONS_FULL, ALL_DAYS_OPTIONS, student_schedule_map, subject_division_map
     try:
         students_df = pd.read_csv(STUDENTS_CSV_PATH, encoding='latin1', dtype={'MIS': str})
         timetable_df = pd.read_csv(TIMETABLE_CSV_PATH, encoding='latin1')
@@ -69,9 +73,13 @@ def load_and_prepare_data():
             subject_division_map[subject] = sorted(list(subject_divisions))
         
         # 6. Create Full Timetable (for Mode 1 and Busy Map)
-        timetable_clash_global = timetable_df.copy()
+        timetable_clash_global = timetable_df.copy() # Includes Saturday
         ALL_DAYS_OPTIONS = sorted(timetable_clash_global['Day'].unique().tolist())
         DAYS_OPTIONS = sorted(timetable_clash_global['Day'].unique().tolist())
+        
+        # ## --- NEW "NO SATURDAY" LIST --- ##
+        ALL_DAYS_OPTIONS_NO_SATURDAY = [day for day in ALL_DAYS_OPTIONS if day.lower() != 'saturday']
+
 
         # 7. Build Global Lookups
         # List 2: For Modes 1, 2 (Display & Value: "08:30 - 09:30")
@@ -99,7 +107,12 @@ def load_and_prepare_data():
         
         # 11. Build Schedulable Slots Pool (FOR MODES 2-5)
         records_list = timetable_schedulable[['Day', 'Time']].drop_duplicates().to_records(index=False).tolist()
+        # This is the MASTER list that INCLUDES Saturday for "opt-in"
         all_possible_slots = sorted(list(set(records_list)), key=lambda x: (ALL_DAYS_OPTIONS.index(x[0]), to_float_time(x[1])))
+
+        # ## --- NEW "NO SATURDAY" LIST --- ##
+        # This is the DEFAULT list for suggestions and Mode 2
+        all_possible_slots_NO_SATURDAY = [slot for slot in all_possible_slots if slot[0].lower() != 'saturday']
 
         # Build room occupancy based on SCHEDULABLE slots only
         for slot in all_possible_slots:
@@ -185,11 +198,12 @@ def _parse_slot_filters(form_data, prefix=""):
     days = form_data.getlist(f'{prefix}days')
     time_start_str, time_end_str = form_data.get(f'{prefix}time_start'), form_data.get(f'{prefix}time_end')
     
+    # This correctly uses all_possible_slots (which includes Sat)
+    # This is what allows "opt-in" for Saturday
     if not days or not time_start_str or not time_end_str: return [tuple(slot) for slot in all_possible_slots] 
     
     time_start, time_end = to_float_time(time_start_str), to_float_time(time_end_str)
     filtered_slots = []
-    # This correctly checks against the "schedulable" slots
     for slot in all_possible_slots:
         day, time_str = slot
         if day in days:
@@ -204,7 +218,7 @@ def check_availability():
     target_mis_set = {mis for mis in re.split(r'[\s,]+', request.form.get('mis_numbers', '').strip()) if mis}
     if not all([selected_day, selected_time, target_mis_set]): return jsonify({'error': 'All fields are required.'}), 400
     
-    # This uses timetable_clash_global, which *includes* lunch, so it's correct.
+    # This uses timetable_clash_global, which *includes* Saturday, so it's correct.
     busy_schedule = timetable_clash_global[(timetable_clash_global['Day'] == selected_day) & (timetable_clash_global['Time'] == selected_time)]
     busy_mis_set, busy_students_details = set(), []
     for _, busy_class in busy_schedule.iterrows():
@@ -231,12 +245,16 @@ def mode_2_batch_finder():
     excluded_slot_strings = request.form.getlist('excluded_slots')
     excluded_slots = {tuple(s.split('|')) for s in excluded_slot_strings}
     
-    # This uses all_possible_slots, which *excludes* lunch, so it's correct.
-    allowed_slot_pool = [slot for slot in all_possible_slots if slot not in excluded_slots]
+    # ## --- THIS IS THE FIX --- ##
+    # Mode 2 now *only* searches the NO_SATURDAY list
+    allowed_slot_pool = [slot for slot in all_possible_slots_NO_SATURDAY if slot not in excluded_slots]
+    
     availability_map = _get_student_availability_map(target_mis_set, allowed_slot_pool)
     solutions = _find_balanced_solutions(target_mis_set, requested_batches, availability_map)
     if solutions:
         return jsonify({'status': 'success', 'solutions': solutions})
+    
+    # The suggestion logic also correctly uses the same (NO_SATURDAY) availability_map
     for i in range(requested_batches + 1, MAX_BATCH_OPTIONS + 1):
         suggestion_solutions = _find_balanced_solutions(target_mis_set, i, availability_map)
         if suggestion_solutions:
@@ -250,7 +268,7 @@ def mode_3_advanced_finder():
     requested_batches = int(request.form.get('num_batches', 1))
     if not target_mis_set: return jsonify({'error': 'No students found.'}), 400
     
-    # 1. Try to find a solution with the user's exact filters
+    # 1. This is correct: it uses all_possible_slots, so it finds Sat *if checked*
     constrained_slot_pool = _parse_slot_filters(request.form, prefix="m3_")
     if not constrained_slot_pool:
         pass 
@@ -261,22 +279,27 @@ def mode_3_advanced_finder():
     if solutions:
         return jsonify({'status': 'success', 'solutions': solutions})
 
-    # 2. If it fails, start the two-column suggestion logic
+    # 2. Start suggestion logic
     suggestion_more_batches = None
     suggestion_relaxed_slots = None
 
-    # Suggestion 1: "More Batches" (using the *original* constrained availability_map)
+    # Suggestion 1: Correctly uses the original map (which might have Sat if opted-in)
     for i in range(requested_batches + 1, MAX_BATCH_OPTIONS + 1):
         sugg_more = _find_balanced_solutions(target_mis_set, i, availability_map)
         if sugg_more:
             suggestion_more_batches = {'solutions': sugg_more, 'batch_count': i}
             break 
 
-    # Suggestion 2: "Relaxed Slots" (using the *original* requested_batches)
+    # Suggestion 2: "Relaxed Slots"
     requested_days = request.form.getlist('m3_days')
-    if not requested_days: 
-        requested_days = DAYS_OPTIONS
     
+    # ## --- THIS IS THE FIX --- ##
+    # If no days were checked, default to the NO_SATURDAY list
+    if not requested_days: 
+        requested_days = ALL_DAYS_OPTIONS_NO_SATURDAY
+    
+    # This pool is correct: it searches all slots *only* on the days the user picked
+    # (or the NO_SATURDAY default list)
     day_constrained_pool = [slot for slot in all_possible_slots if slot[0] in requested_days]
     day_constrained_map = _get_student_availability_map(target_mis_set, day_constrained_pool)
     sugg_relaxed = _find_balanced_solutions(target_mis_set, requested_batches, day_constrained_map)
@@ -284,12 +307,14 @@ def mode_3_advanced_finder():
     if sugg_relaxed:
         suggestion_relaxed_slots = {'solutions': sugg_relaxed, 'type': 'days'}
     else:
-        full_availability_map = _get_student_availability_map(target_mis_set, all_possible_slots)
+        # ## --- THIS IS THE FIX --- ##
+        # Fallback suggestion MUST use the NO_SATURDAY list
+        full_availability_map = _get_student_availability_map(target_mis_set, all_possible_slots_NO_SATURDAY)
         sugg_full = _find_balanced_solutions(target_mis_set, requested_batches, full_availability_map)
         if sugg_full:
             suggestion_relaxed_slots = {'solutions': sugg_full, 'type': 'all'}
 
-    # 3. Return both suggestions (or neither)
+    # 3. Return both suggestions
     if suggestion_more_batches or suggestion_relaxed_slots:
         return jsonify({
             'status': 'failure_with_suggestion', 
@@ -308,6 +333,7 @@ def mode_4_planner():
     requested_batches = int(request.form.get('num_batches', 1))
     if not target_mis_set: return jsonify({'error': 'No students found.'}), 400
 
+    # This is correct: it uses all_possible_slots, so it finds Sat *if checked*
     batch_slot_pools = []
     for i in range(requested_batches):
         prefix = f"m4_batch_{i}_"
@@ -371,7 +397,9 @@ def mode_4_planner():
             all_solutions.append({'score': score, 'solution': solution_details})
             
     if not all_solutions:
-        full_availability_map = _get_student_availability_map(target_mis_set, all_possible_slots)
+        # ## --- THIS IS THE FIX --- ##
+        # Fallback suggestion MUST use the NO_SATURDAY list
+        full_availability_map = _get_student_availability_map(target_mis_set, all_possible_slots_NO_SATURDAY)
         suggestion_solutions = _find_balanced_solutions(target_mis_set, requested_batches, full_availability_map)
         
         if suggestion_solutions:
@@ -393,6 +421,7 @@ def mode_5_day_finder():
     required_day = request.form.get('m5_day')
     if not target_mis_set: return jsonify({'error': 'No students found.'}), 400
     
+    # This is correct: it uses all_possible_slots, so it finds Sat *if checked*
     day_specific_pool = [slot for slot in all_possible_slots if slot[0] == required_day]
     if not day_specific_pool:
         if required_day not in DAYS_OPTIONS:
@@ -405,15 +434,19 @@ def mode_5_day_finder():
     if solutions:
         return jsonify({'status': 'success', 'solutions': solutions})
         
-    suggestion_pool = [slot for slot in all_possible_slots if slot[0] != required_day]
+    # ## --- THIS IS THE FIX --- ##
+    # Suggestion Type 1: Mixed-day solutions MUST use the NO_SATURDAY list
+    suggestion_pool = [slot for slot in all_possible_slots_NO_SATURDAY if slot[0] != required_day]
     full_availability_map = _get_student_availability_map(target_mis_set, suggestion_pool)
     suggestion_solutions_mixed = _find_balanced_solutions(target_mis_set, requested_batches, full_availability_map)
     
-    other_days = [day for day in ALL_DAYS_OPTIONS if day != required_day]
+    # ## --- THIS IS THE FIX --- ##
+    # Suggestion Type 2: Other single-day solutions MUST use the NO_SATURDAY list
+    other_days = [day for day in ALL_DAYS_OPTIONS_NO_SATURDAY if day != required_day]
     suggestion_solutions_days = []
     
     for day in other_days:
-        day_pool = [slot for slot in all_possible_slots if slot[0] == day]
+        day_pool = [slot for slot in all_possible_slots_NO_SATURDAY if slot[0] == day]
         if not day_pool: continue
         
         day_map = _get_student_availability_map(target_mis_set, day_pool)
@@ -434,7 +467,6 @@ def mode_5_day_finder():
         
     return jsonify({'status': 'failure_no_solution', 'requested_day': required_day})
 
-# ## --- THIS IS THE MODIFIED DOWNLOAD ROUTE --- ##
 @app.route('/download_list', methods=['POST'])
 def download_list():
     try:
@@ -446,8 +478,7 @@ def download_list():
         # Filter the global dataframe
         df_to_download = students_df_global[students_df_global['MIS'].isin(mis_list)].copy()
         
-        # ## --- THIS IS THE FIX --- ##
-        # 1. Drop duplicates to get the 41 unique students
+        # 1. Drop duplicates to get the unique students
         df_to_download.drop_duplicates(subset=['MIS'], inplace=True)
         
         # 2. Sort by MIS number
@@ -459,17 +490,15 @@ def download_list():
         # Create an in-memory Excel file
         output = io.BytesIO()
 
-        # --- NEW AUTO-SIZING LOGIC ---
+        # --- Auto-sizing logic ---
         with pd.ExcelWriter(output, engine='openpyxl') as writer:
             df_to_download.to_excel(writer, index=False, sheet_name='Students')
             worksheet = writer.sheets['Students']
             
             for column_cells in worksheet.columns:
-                # Add 2 for padding
                 length = max(len(str(cell.value)) for cell in column_cells) + 2
                 column_letter = column_cells[0].column_letter
                 worksheet.column_dimensions[column_letter].width = length
-        # --- END NEW LOGIC ---
         
         output.seek(0)
         
